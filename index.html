@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Odesa School — Gallery</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="brand">
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
+    <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
+  </div>
+  <div class="header-right">
+    <nav class="main-nav">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
+      <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
+      <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button id="btn-en" class="active">EN</button>
+      <button id="btn-ua">UA</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <h2 data-i18n="hero_heading">Ukrainian painting of the 20th century — the Odesa School</h2>
+  <p class="lede" data-i18n="hero_text">
+    A small, privately held collection of Odesa painting — luminous color, free brushwork, and a deep
+    attachment to the city's light and sea. Every work is documented, with provenance and certificates
+    of authenticity.
+  </p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="catalog.html" data-i18n="hero_cta_catalog">View the Catalog</a>
+    <a class="btn btn-outline" href="how-to-buy.html" data-i18n="hero_cta_buy">How to Buy</a>
+  </div>
+  <div class="stats-row">
+    <div>
+      <span class="stat-num" id="stat-artists-num">14</span>
+      <span class="stat-label" data-i18n="stat_artists">Artists</span>
+    </div>
+    <div>
+      <span class="stat-num" id="stat-works-num">91</span>
+      <span class="stat-label" data-i18n="stat_works">Original works</span>
+    </div>
+    <div>
+      <span class="stat-num">$600+</span>
+      <span class="stat-label" data-i18n="stat_price">Starting price</span>
+    </div>
+  </div>
+</section>
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="about_label">About the Collection</h2>
+  <p class="lede" data-i18n="about_text">
+    The Odesa School brought together painters working between the 1930s and 1980s who shaped a distinct
+    southern voice within the art of that period — luminous color, free brushwork, and a deep attachment
+    to the city's light and sea. This gallery presents a small, curated selection of original works from
+    that period, each available for private acquisition.
+  </p>
+</section>
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="featured_label">Featured Paintings</h2>
+  <div class="grid" id="featured-grid"></div>
+  <div class="hero-actions" style="margin-top: 30px;">
+    <a class="btn btn-outline" href="catalog.html" data-i18n="see_full_catalog">See Full Catalog</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span data-i18n="footer_text">© 2026 The Odesa School Gallery. Photographs may differ slightly from the original in color and texture.</span>
+  <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  window.PAGE_I18N = {
+    en: {
+      tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
+      hero_heading: "Ukrainian painting of the 20th century — the Odesa School",
+      hero_text: "A small, privately held collection of Odesa painting — luminous color, free brushwork, and a deep attachment to the city's light and sea. Every work is documented, with provenance and certificates of authenticity.",
+      hero_cta_catalog: "View the Catalog",
+      hero_cta_buy: "How to Buy",
+      about_label: "About the Collection",
+      about_text: "The Odesa School brought together painters working between the 1930s and 1980s who shaped a distinct southern voice within the art of that period — luminous color, free brushwork, and a deep attachment to the city's light and sea. This gallery presents a small, curated selection of original works from that period, each available for private acquisition.",
+      featured_label: "Featured Paintings",
+      see_full_catalog: "See Full Catalog",
+      stat_artists: "Artists",
+      stat_works: "Original works",
+      stat_price: "Starting price"
+    },
+    ua: {
+      tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
+      hero_heading: "Український живопис XX століття — Одеська школа",
+      hero_text: "Невелика приватна колекція одеського живопису — світлоносний колір, вільний мазок і глибока прив'язаність до міського світла й моря. Кожна робота задокументована, з провенансом і сертифікатом автентичності.",
+      hero_cta_catalog: "Переглянути каталог",
+      hero_cta_buy: "Як купити",
+      about_label: "Про колекцію",
+      about_text: "Одеська школа об'єднала художників, які працювали з 1930-х по 1980-ті й сформували самобутній південний голос у мистецтві того часу — світлоносний колір, вільний мазок і глибоку прив'язаність до міського світла й моря. У цій галереї представлена невелика добірка оригінальних робіт того періоду, кожна з яких доступна для приватного придбання.",
+      featured_label: "Обрані картини",
+      see_full_catalog: "Весь каталог",
+      stat_artists: "Художників",
+      stat_works: "Оригінальних робіт",
+      stat_price: "Стартова ціна"
+    }
+  };
+
+  function renderFeatured(lang) {
+    const seenArtists = new Set();
+    const featured = [];
+    for (const p of PAINTINGS) {
+      if (!seenArtists.has(p.artistId)) {
+        seenArtists.add(p.artistId);
+        featured.push(p);
+      }
+      if (featured.length === 3) break;
+    }
+    document.getElementById("stat-works-num").textContent = PAINTINGS.length;
+    document.getElementById("stat-artists-num").textContent = ARTISTS.length;
+    document.getElementById("featured-grid").innerHTML = featured
+      .map((p, i) => paintingCardHtml(p, lang, i))
+      .join("");
+  }
+
+  loadAll().then(() => initLangSwitch(renderFeatured));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalog — The Odesa School</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="catalog">
+
+<header class="site-header">
+  <div class="brand">
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
+    <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
+  </div>
+  <div class="header-right">
+    <nav class="main-nav">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
+      <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
+      <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button id="btn-en" class="active">EN</button>
+      <button id="btn-ua">UA</button>
+    </div>
+  </div>
+</header>
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="catalog_label">Catalog</h2>
+  <p class="lede" data-i18n="catalog_intro">Browse the full collection. Filter by artist, year, or technique.</p>
+
+  <div class="filters">
+    <div class="filter-field">
+      <label for="filter-artist" data-i18n="filter_artist">Artist</label>
+      <select id="filter-artist"></select>
+    </div>
+    <div class="filter-field">
+      <label for="filter-year" data-i18n="filter_year">Year</label>
+      <select id="filter-year"></select>
+    </div>
+    <div class="filter-field">
+      <label for="filter-medium" data-i18n="filter_medium">Technique</label>
+      <select id="filter-medium"></select>
+    </div>
+    <button class="filter-reset" id="filter-reset" data-i18n="filter_reset">Reset filters</button>
+  </div>
+
+  <div class="grid" id="catalog-grid"></div>
+  <p class="empty-state" id="empty-state" style="display:none;" data-i18n="filter_empty">No paintings match these filters.</p>
+</section>
+
+<footer class="site-footer">
+  <span data-i18n="footer_text">© 2026 The Odesa School Gallery. Photographs may differ slightly from the original in color and texture.</span>
+  <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  window.PAGE_I18N = {
+    en: {
+      catalog_label: "Catalog",
+      catalog_intro: "Browse the full collection. Filter by artist, year, or technique.",
+      filter_artist: "Artist",
+      filter_year: "Year",
+      filter_medium: "Technique",
+      filter_reset: "Reset filters",
+      filter_all: "All",
+      filter_empty: "No paintings match these filters."
+    },
+    ua: {
+      catalog_label: "Каталог",
+      catalog_intro: "Перегляньте всю колекцію. Фільтруйте за художником, роком або технікою.",
+      filter_artist: "Художник",
+      filter_year: "Рік",
+      filter_medium: "Техніка",
+      filter_reset: "Скинути фільтри",
+      filter_all: "Усі",
+      filter_empty: "За цими фільтрами картин не знайдено."
+    }
+  };
+
+  let currentLang = "en";
+  let activeFilters = { artist: "", year: "", medium: "" };
+
+  function populateFilters(lang) {
+    const t = Object.assign({}, I18N_COMMON[lang], window.PAGE_I18N[lang]);
+
+    const artistSelect = document.getElementById("filter-artist");
+    const yearSelect = document.getElementById("filter-year");
+    const mediumSelect = document.getElementById("filter-medium");
+
+    const years = [...new Set(PAINTINGS.map(p => p.year).filter(y => y != null))].sort((a, b) => a - b);
+    const mediumKeys = [...new Set(PAINTINGS.map(p => p.medium.en))];
+
+    artistSelect.innerHTML = `<option value="">${t.filter_all}</option>` +
+      ARTISTS.map(a => `<option value="${a.id}" ${activeFilters.artist === a.id ? "selected" : ""}>${a.name[lang]}</option>`).join("");
+
+    yearSelect.innerHTML = `<option value="">${t.filter_all}</option>` +
+      years.map(y => `<option value="${y}" ${String(activeFilters.year) === String(y) ? "selected" : ""}>${y}</option>`).join("");
+
+    mediumSelect.innerHTML = `<option value="">${t.filter_all}</option>` +
+      mediumKeys.map(mEn => {
+        const painting = PAINTINGS.find(p => p.medium.en === mEn);
+        const label = painting.medium[lang];
+        return `<option value="${mEn}" ${activeFilters.medium === mEn ? "selected" : ""}>${label}</option>`;
+      }).join("");
+  }
+
+  function renderCatalog(lang) {
+    currentLang = lang;
+    populateFilters(lang);
+
+    const filtered = PAINTINGS.filter(p => {
+      if (activeFilters.artist && p.artistId !== activeFilters.artist) return false;
+      if (activeFilters.year && String(p.year) !== String(activeFilters.year)) return false;
+      if (activeFilters.medium && p.medium.en !== activeFilters.medium) return false;
+      return true;
+    });
+
+    const grid = document.getElementById("catalog-grid");
+    const empty = document.getElementById("empty-state");
+
+    if (filtered.length === 0) {
+      grid.innerHTML = "";
+      empty.style.display = "block";
+    } else {
+      empty.style.display = "none";
+      grid.innerHTML = filtered.map((p, i) => paintingCardHtml(p, lang, i)).join("");
+    }
+  }
+
+  document.getElementById("filter-artist").addEventListener("change", e => {
+    activeFilters.artist = e.target.value;
+    renderCatalog(currentLang);
+  });
+  document.getElementById("filter-year").addEventListener("change", e => {
+    activeFilters.year = e.target.value;
+    renderCatalog(currentLang);
+  });
+  document.getElementById("filter-medium").addEventListener("change", e => {
+    activeFilters.medium = e.target.value;
+    renderCatalog(currentLang);
+  });
+  document.getElementById("filter-reset").addEventListener("click", () => {
+    activeFilters = { artist: "", year: "", medium: "" };
+    renderCatalog(currentLang);
+  });
+
+  loadAll().then(() => initLangSwitch(renderCatalog));
+</script>
+
+</body>
+</html>

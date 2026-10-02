@@ -1,0 +1,4280 @@
+[
+  {
+    "id": "lomykin-winter-morning",
+    "artistId": "lomykin",
+    "title": {
+      "en": "Winter Morning",
+      "ua": "Зимовий ранок"
+    },
+    "year": 1969,
+    "medium": {
+      "en": "Oil on board",
+      "ua": "Картон, олія"
+    },
+    "size": "50 × 80 cm (19.7 × 31.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lomykin-winter-morning/front.jpg",
+      "framed": "images/paintings/lomykin-winter-morning/framed.jpg",
+      "back": "images/paintings/lomykin-winter-morning/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#8fb3c9",
+      "#dbe6df",
+      "#c9a86b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lomykin-nude",
+    "artistId": "lomykin",
+    "title": {
+      "en": "Nude",
+      "ua": "Оголена"
+    },
+    "year": 1975,
+    "medium": {
+      "en": "Pastel on card",
+      "ua": "Пастель на картоні"
+    },
+    "size": "63 × 49 cm (24.8 × 19.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lomykin-nude/front.jpg",
+      "framed": "images/paintings/lomykin-nude/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#8fb3c9",
+      "#dbe6df",
+      "#c9a86b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lomykin-untitled",
+    "artistId": "lomykin",
+    "title": {
+      "en": "Untitled",
+      "ua": "Без назви"
+    },
+    "year": 1960,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "—",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lomykin-untitled/front.jpg",
+      "framed": "images/paintings/lomykin-untitled/framed.jpg",
+      "back": "images/paintings/lomykin-untitled/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#8fb3c9",
+      "#dbe6df",
+      "#c9a86b"
+    ],
+    "yearNote": {
+      "en": "circa 1960s",
+      "ua": "орієнтовно 1960-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-odesa-the-coast",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Odesa. The Coast",
+      "ua": "Одеса. Берег"
+    },
+    "year": 1969,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "24.3 × 30.8 cm (9.6 × 12.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-odesa-the-coast/front.jpg",
+      "framed": "images/paintings/shelyuto-odesa-the-coast/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-on-the-boulevard",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "On the Boulevard",
+      "ua": "На бульварі"
+    },
+    "year": 1949,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Картон, олія"
+    },
+    "size": "28.5 × 37.5 cm (11.2 × 14.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-on-the-boulevard/front.jpg",
+      "framed": "images/paintings/shelyuto-on-the-boulevard/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-on-the-beach",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "On the Beach",
+      "ua": "На пляжі"
+    },
+    "year": 1954,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "16 × 33 cm (6.3 × 13 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-on-the-beach/front.jpg",
+      "framed": "images/paintings/shelyuto-on-the-beach/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-at-the-pier-in-yalta",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "At the Pier in Yalta",
+      "ua": "На причалі в Ялті"
+    },
+    "year": 1954,
+    "medium": {
+      "en": "Oil on board",
+      "ua": "Картон, олія"
+    },
+    "size": "34 × 47 cm (13.4 × 18.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-at-the-pier-in-yalta/front.jpg",
+      "framed": "images/paintings/shelyuto-at-the-pier-in-yalta/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-still-life-at-the-dacha",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Still Life at the Dacha",
+      "ua": "Натюрморт на дачі"
+    },
+    "year": 1977,
+    "medium": {
+      "en": "Oil on canvas on board",
+      "ua": "Полотно на картоні, олія"
+    },
+    "size": "25 × 35 cm (9.8 × 13.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-still-life-at-the-dacha/front.jpg",
+      "framed": "images/paintings/shelyuto-still-life-at-the-dacha/framed.jpg",
+      "back": "images/paintings/shelyuto-still-life-at-the-dacha/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-above-the-dnipro",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Above the Dnipro",
+      "ua": "Над Дніпром"
+    },
+    "year": 1953,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "23 × 42.5 cm (9.1 × 16.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-above-the-dnipro/front.jpg",
+      "framed": "images/paintings/shelyuto-above-the-dnipro/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-sedniv-in-winter",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Sedniv in Winter",
+      "ua": "Седнів взимку"
+    },
+    "year": 1975,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "35 × 48.5 cm (13.8 × 19.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-sedniv-in-winter/front.jpg",
+      "framed": "images/paintings/shelyuto-sedniv-in-winter/framed.jpg",
+      "back": "images/paintings/shelyuto-sedniv-in-winter/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-autumn-empty-beach",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Autumn. Empty Beach",
+      "ua": "Осінь. Спустілий пляж"
+    },
+    "year": 1974,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "33 × 43.5 cm (13 × 17.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-autumn-empty-beach/front.jpg",
+      "framed": "images/paintings/shelyuto-autumn-empty-beach/framed.jpg",
+      "back": "images/paintings/shelyuto-autumn-empty-beach/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-crimean-stud",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Crimean Study",
+      "ua": "Кримський етюд"
+    },
+    "year": 1949,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "14 × 21.7 cm (5.5 × 8.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-crimean-stud/front.jpg",
+      "framed": "images/paintings/shelyuto-crimean-stud/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-sanatorium-study",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Sanatorium. Study",
+      "ua": "Санаторій. Етюд"
+    },
+    "year": 1950,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "21.7 × 26 cm (8.5 × 10.2 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-sanatorium-study/front.jpg",
+      "framed": "images/paintings/shelyuto-sanatorium-study/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-on-the-threshing-floor",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "On the Threshing Floor",
+      "ua": "На току"
+    },
+    "year": 1948,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "26.5 × 53 cm (10.4 × 20.9 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-on-the-threshing-floor/front.jpg",
+      "framed": "images/paintings/shelyuto-on-the-threshing-floor/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-crimea-spring",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Crimea. Spring",
+      "ua": "Крим. Весна"
+    },
+    "year": 1954,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "18.3 × 23.3 cm (7.2 × 9.2 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-crimea-spring/front.jpg",
+      "framed": "images/paintings/shelyuto-crimea-spring/framed.jpg",
+      "back": "images/paintings/shelyuto-crimea-spring/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-forest-edge",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Forest Edge",
+      "ua": "Узлісся"
+    },
+    "year": 1940,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "13.7 × 22.5 cm (5.4 × 8.9 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-forest-edge/front.jpg",
+      "framed": "images/paintings/shelyuto-forest-edge/framed.jpg",
+      "back": "images/paintings/shelyuto-forest-edge/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-odesa-shores",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Odesa. Shores",
+      "ua": "Одеса. Береги"
+    },
+    "year": 1960,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "35 × 48.5 cm (13.8 × 19.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-odesa-shores/front.jpg",
+      "framed": "images/paintings/shelyuto-odesa-shores/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-sea-odesa",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Sea. Odesa",
+      "ua": "Море. Одеса"
+    },
+    "year": 1941,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "34 × 48 cm (13.4 × 18.9 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-sea-odesa/front.jpg",
+      "framed": "images/paintings/shelyuto-sea-odesa/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-in-the-port-study",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "In the Port. Study",
+      "ua": "В порту. Етюд"
+    },
+    "year": 1960,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "15.5 × 25.5 cm (6.1 × 10.0 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-in-the-port-study/front.jpg",
+      "framed": "images/paintings/shelyuto-in-the-port-study/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-fields",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Fields",
+      "ua": "Поля"
+    },
+    "year": 1952,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "16.5 × 34.5 cm (6.5 × 13.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-fields/front.jpg",
+      "framed": "images/paintings/shelyuto-fields/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-fishermen",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Fishermen",
+      "ua": "Рибалки"
+    },
+    "year": 1957,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "26 × 33.5 cm (10.2 × 13.2 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-fishermen/front.jpg",
+      "framed": "images/paintings/shelyuto-fishermen/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-boats-on-the-shore",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Boats on the Shore",
+      "ua": "Човни на березі"
+    },
+    "year": 1940,
+    "medium": {
+      "en": "Oil on plywood",
+      "ua": "Фанера, олія"
+    },
+    "size": "25 × 29 cm (9.8 × 11.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-boats-on-the-shore/front.jpg",
+      "framed": "images/paintings/shelyuto-boats-on-the-shore/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-autumn-study",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Autumn Study",
+      "ua": "Осінній етюд"
+    },
+    "year": 1946,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "29 × 36 cm (11.4 × 14.2 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-autumn-study/front.jpg",
+      "framed": "images/paintings/shelyuto-autumn-study/framed.jpg",
+      "back": "images/paintings/shelyuto-autumn-study/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-outskirts-of-the-village",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Outskirts of the Village",
+      "ua": "Околиці села"
+    },
+    "year": 1971,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "34.5 × 48.5 cm (13.6 × 19.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-outskirts-of-the-village/front.jpg",
+      "framed": "images/paintings/shelyuto-outskirts-of-the-village/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-sedniv-zymoiu",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Sedniv in Winter",
+      "ua": "Седнів зимою"
+    },
+    "year": 1975,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "35.5 × 47.5 cm (14.0 × 18.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-sedniv-zymoiu/front.jpg",
+      "framed": "images/paintings/shelyuto-sedniv-zymoiu/framed.jpg",
+      "back": "images/paintings/shelyuto-sedniv-zymoiu/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-sedniv-in-winter-2",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Sedniv. In Winter",
+      "ua": "Седнів. Взимку"
+    },
+    "year": 1978,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "34.3 × 48 cm (13.5 × 18.9 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-sedniv-in-winter-2/front.jpg",
+      "framed": "images/paintings/shelyuto-sedniv-in-winter-2/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-huts-in-winter",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Huts in Winter",
+      "ua": "Хати взимку"
+    },
+    "year": 1975,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "17 × 30.5 cm (6.7 × 12.0 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-huts-in-winter/front.jpg",
+      "framed": "images/paintings/shelyuto-huts-in-winter/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-the-grain-is-ripe-sketch-for-a-painting",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "The Grain is Ripe. Sketch for a Painting",
+      "ua": "Хліб визрів. Ескіз до картини"
+    },
+    "year": 1948,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "30 × 44 cm (11.8 × 17.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/front.jpg",
+      "framed": "images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/framed.jpg",
+      "back": "images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-veranda-at-the-dacha",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Veranda at the Dacha",
+      "ua": "Веранда на дачі"
+    },
+    "year": 1966,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "34 × 33.5 cm (13.4 × 13.2 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-veranda-at-the-dacha/front.jpg",
+      "framed": "images/paintings/shelyuto-veranda-at-the-dacha/framed.jpg",
+      "back": "images/paintings/shelyuto-veranda-at-the-dacha/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-old-shores-odesa",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Old Shores. Odesa",
+      "ua": "Старі береги. Одеса"
+    },
+    "year": 1951,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "31 × 46 cm (12.2 × 18.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-old-shores-odesa/front.jpg",
+      "framed": "images/paintings/shelyuto-old-shores-odesa/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-in-autumn",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "In Autumn",
+      "ua": "Восени"
+    },
+    "year": 1940,
+    "medium": {
+      "en": "Oil on plywood",
+      "ua": "Фанера, олія"
+    },
+    "size": "12.2 × 24.7 cm (4.8 × 9.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-in-autumn/front.jpg",
+      "framed": "images/paintings/shelyuto-in-autumn/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-in-dyukivsky-park",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "In Dyukivsky Park",
+      "ua": "В Дюківському парку"
+    },
+    "year": 1948,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "31.5 × 53 cm (12.4 × 20.9 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-in-dyukivsky-park/front.jpg",
+      "framed": "images/paintings/shelyuto-in-dyukivsky-park/framed.jpg",
+      "back": "images/paintings/shelyuto-in-dyukivsky-park/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-twilight",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Twilight",
+      "ua": "Сутінки"
+    },
+    "year": 1953,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "14.5 × 21 cm (5.7 × 8.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-twilight/front.jpg",
+      "framed": "images/paintings/shelyuto-twilight/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-gurzuf-apple-tree",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Gurzuf. Apple Tree",
+      "ua": "Гурзуф. Яблуня"
+    },
+    "year": 1955,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "80.2 × 109.2 cm (31.6 × 43.0 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-gurzuf-apple-tree/front.jpg",
+      "framed": "images/paintings/shelyuto-gurzuf-apple-tree/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-boathouse-study",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Boathouse. Study",
+      "ua": "Човнова станція. Етюд"
+    },
+    "year": 1973,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "50 × 80 cm (19.7 × 31.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-boathouse-study/front.jpg",
+      "framed": "images/paintings/shelyuto-boathouse-study/framed.jpg",
+      "back": "images/paintings/shelyuto-boathouse-study/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-figure-in-the-open-air",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Figure in the Open Air",
+      "ua": "Фігура на пленері"
+    },
+    "year": 1953,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "25.5 × 30 cm (10.0 × 11.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-figure-in-the-open-air/front.jpg",
+      "framed": "images/paintings/shelyuto-figure-in-the-open-air/framed.jpg",
+      "back": "images/paintings/shelyuto-figure-in-the-open-air/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-crimea-shores",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Crimea. Shores",
+      "ua": "Крим. Береги"
+    },
+    "year": 1955,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "18.2 × 23 cm (7.2 × 9.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-crimea-shores/front.jpg",
+      "framed": "images/paintings/shelyuto-crimea-shores/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-museum-courtyard",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Museum Courtyard",
+      "ua": "Двір музею"
+    },
+    "year": 1947,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "44 × 37.5 cm (17.3 × 14.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-museum-courtyard/front.jpg",
+      "framed": "images/paintings/shelyuto-museum-courtyard/framed.jpg",
+      "back": "images/paintings/shelyuto-museum-courtyard/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-woman-in-sunlight-study-for-a-painting",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Woman in Sunlight. Study for a Painting",
+      "ua": "Жінка на сонці. Етюд до картини"
+    },
+    "year": 1954,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "35 × 24.3 cm (13.8 × 9.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/front.jpg",
+      "framed": "images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/framed.jpg",
+      "back": "images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-gate",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Gate",
+      "ua": "Ворота"
+    },
+    "year": 1976,
+    "medium": {
+      "en": "Oil on canvas/cardboard",
+      "ua": "Полотно / картон, олія"
+    },
+    "size": "38 × 50 cm (15.0 × 19.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-gate/front.jpg",
+      "framed": "images/paintings/shelyuto-gate/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-house-with-a-tree",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "House with a Tree",
+      "ua": "Будинок з деревом"
+    },
+    "year": 1950,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "26 × 36.5 cm (10.2 × 14.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-house-with-a-tree/front.jpg",
+      "framed": "images/paintings/shelyuto-house-with-a-tree/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-apricots-in-bloom",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Apricots in Bloom",
+      "ua": "Абрикоси у цвіту"
+    },
+    "year": 1963,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "22.7 × 31.5 cm (8.9 × 12.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-apricots-in-bloom/front.jpg",
+      "framed": "images/paintings/shelyuto-apricots-in-bloom/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-study-for-the-painting-dnipro-distances",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Study for the Painting 'Dnipro Distances'",
+      "ua": "Етюд до картини «Дніпровські далі»"
+    },
+    "year": 1953,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "19.6 × 34.6 cm (7.7 × 13.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-study-for-the-painting-dnipro-distances/front.jpg",
+      "framed": "images/paintings/shelyuto-study-for-the-painting-dnipro-distances/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-still-life-with-roses",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Still Life with Roses",
+      "ua": "Натюрморт з трояндами"
+    },
+    "year": 1979,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "34.5 × 48.5 cm (13.6 × 19.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-still-life-with-roses/front.jpg",
+      "framed": "images/paintings/shelyuto-still-life-with-roses/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-village-of-sledy",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Village of Sledy",
+      "ua": "Село Сліди"
+    },
+    "year": 1948,
+    "medium": {
+      "en": "Oil on canvas/cardboard",
+      "ua": "Полотно / картон, олія"
+    },
+    "size": "32 × 49.8 cm (12.6 × 19.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-village-of-sledy/front.jpg",
+      "framed": "images/paintings/shelyuto-village-of-sledy/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "shelyuto-pine-trees",
+    "artistId": "shelyuto",
+    "title": {
+      "en": "Pine Trees",
+      "ua": "Сосни"
+    },
+    "year": 1963,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "50 × 34.5 cm (19.7 × 13.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/shelyuto-pine-trees/front.jpg",
+      "framed": "images/paintings/shelyuto-pine-trees/framed.jpg",
+      "back": "images/paintings/shelyuto-pine-trees/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c98a4b",
+      "#7c5a3a",
+      "#e8c99b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-station-square-view-from-the-marine-station",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "Station Square. View from the Marine Station",
+      "ua": "Вокзальна площа. Вид з морвокзалу"
+    },
+    "year": 1976,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "50 × 70 cm (19.7 × 27.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/framed.jpg",
+      "back": "images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-winter-landscape-ice-skaters",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "Winter Landscape. Ice Skaters",
+      "ua": "Зимовий пейзаж. Ковзанка"
+    },
+    "year": 1970,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "44 × 37.5 cm (17.3 × 14.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-winter-landscape-ice-skaters/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-winter-landscape-ice-skaters/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "yearNote": {
+      "en": "~1970s",
+      "ua": "~1970-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-the-odesa-opera-and-ballet-theatre",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "The Odesa Opera and Ballet Theatre",
+      "ua": "Одеський оперний театр"
+    },
+    "year": 1980,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "60 × 70 cm (23.6 × 27.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-the-odesa-opera-and-ballet-theatre/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-the-odesa-opera-and-ballet-theatre/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "yearNote": {
+      "en": "~1980s",
+      "ua": "~1980-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-otrada-beach",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "Otrada Beach",
+      "ua": "Пляж Отрада"
+    },
+    "year": 1980,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "90 × 80 cm (35.4 × 31.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-otrada-beach/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-otrada-beach/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "yearNote": {
+      "en": "~1980s",
+      "ua": "~1980-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-puppet-theatre-lutheran-church",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "Puppet Theatre. Lutheran Church",
+      "ua": "Театр ляльок. Лютеранська церква"
+    },
+    "year": 1990,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "40 × 50 cm (15.7 × 19.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/framed.jpg",
+      "back": "images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "yearNote": {
+      "en": "~1990s",
+      "ua": "~1990-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-sedniv",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "Sedniv",
+      "ua": "Седнів"
+    },
+    "year": 1976,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "50 × 70 cm (19.7 × 27.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-sedniv/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-sedniv/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "gavdzinskiy-sedniv-2",
+    "artistId": "gavdzinskiy",
+    "title": {
+      "en": "Sedniv",
+      "ua": "Седнів"
+    },
+    "year": 1970,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "33.5 × 45.5 cm (13.2 × 17.9 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/gavdzinskiy-sedniv-2/front.jpg",
+      "framed": "images/paintings/gavdzinskiy-sedniv-2/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a89078",
+      "#5a4a3a",
+      "#d8c9b0"
+    ],
+    "yearNote": {
+      "en": "~1970s",
+      "ua": "~1970-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "malyshev-winter-at-the-sea",
+    "artistId": "malyshev",
+    "title": {
+      "en": "Winter at the Sea",
+      "ua": "Зима біля моря"
+    },
+    "year": 1953,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "26 × 42.5 cm (10.2 × 16.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/malyshev-winter-at-the-sea/front.jpg",
+      "framed": "images/paintings/malyshev-winter-at-the-sea/framed.jpg",
+      "back": "images/paintings/malyshev-winter-at-the-sea/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#5c7a8a",
+      "#2f4550",
+      "#b7c9a8"
+    ],
+    "yearNote": {
+      "en": "1953 (?)",
+      "ua": "1953 (?)"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "malyshev-autumn-landscape-golden-autumn",
+    "artistId": "malyshev",
+    "title": {
+      "en": "Autumn Landscape (Golden Autumn)",
+      "ua": "Осінній пейзаж (Золота осінь)"
+    },
+    "year": 1960,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "33.5 × 32 cm (13.2 × 12.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/malyshev-autumn-landscape-golden-autumn/front.jpg",
+      "framed": "images/paintings/malyshev-autumn-landscape-golden-autumn/framed.jpg",
+      "back": "images/paintings/malyshev-autumn-landscape-golden-autumn/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#5c7a8a",
+      "#2f4550",
+      "#b7c9a8"
+    ],
+    "yearNote": {
+      "en": "~1960s–70s",
+      "ua": "~1960–70-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "malyshev-winter-has-come",
+    "artistId": "malyshev",
+    "title": {
+      "en": "Winter has come",
+      "ua": "Зима прийшла"
+    },
+    "year": 1955,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "27.5 × 30.8 cm (10.8 × 12.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/malyshev-winter-has-come/front.jpg",
+      "framed": "images/paintings/malyshev-winter-has-come/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#5c7a8a",
+      "#2f4550",
+      "#b7c9a8"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "malyshev-late-autumn-in-crimea",
+    "artistId": "malyshev",
+    "title": {
+      "en": "Late Autumn in Crimea",
+      "ua": "Пізня осінь у Криму"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "34 × 46 cm (13.4 × 18.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/malyshev-late-autumn-in-crimea/front.jpg",
+      "framed": "images/paintings/malyshev-late-autumn-in-crimea/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#5c7a8a",
+      "#2f4550",
+      "#b7c9a8"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-autumn-landscape",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Autumn Landscape",
+      "ua": "Осінній пейзаж"
+    },
+    "year": 2008,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "70 × 80 cm (27.6 × 31.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-autumn-landscape/front.jpg",
+      "framed": "images/paintings/lytvynenko-autumn-landscape/framed.jpg",
+      "back": "images/paintings/lytvynenko-autumn-landscape/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-grecheskaya-square",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Hretska Square",
+      "ua": "Грецька площа"
+    },
+    "year": 1970,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "57 × 75 cm (22.4 × 29.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-grecheskaya-square/front.jpg",
+      "framed": "images/paintings/lytvynenko-grecheskaya-square/framed.jpg",
+      "back": "images/paintings/lytvynenko-grecheskaya-square/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "yearNote": {
+      "en": "~1970s",
+      "ua": "~1970-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-view-of-the-cathedral",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "View of the Cathedral",
+      "ua": "Вид на собор"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "56.5 × 82 cm (22.2 × 32.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-view-of-the-cathedral/front.jpg",
+      "framed": "images/paintings/lytvynenko-view-of-the-cathedral/framed.jpg",
+      "back": "images/paintings/lytvynenko-view-of-the-cathedral/back.jpg",
+      "documents": "images/paintings/lytvynenko-view-of-the-cathedral/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-winter-botanical-garden-alley",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Winter. Botanical Garden Alley",
+      "ua": "Зима. Алея ботанічного саду"
+    },
+    "year": 1994,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "68 × 84 cm (26.8 × 33.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-winter-botanical-garden-alley/front.jpg",
+      "framed": "images/paintings/lytvynenko-winter-botanical-garden-alley/framed.jpg",
+      "back": "images/paintings/lytvynenko-winter-botanical-garden-alley/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-untitled",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Untitled",
+      "ua": "Без назви"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "29 × 51 cm (11.4 × 20.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-untitled/front.jpg",
+      "framed": "images/paintings/lytvynenko-untitled/framed.jpg",
+      "back": null,
+      "documents": "images/paintings/lytvynenko-untitled/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-kolodezny-pereulok",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Kolodiazny Lane",
+      "ua": "Колодязний провулок"
+    },
+    "year": 1958,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "71 × 81.5 cm (28.0 × 32.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-kolodezny-pereulok/front.jpg",
+      "framed": "images/paintings/lytvynenko-kolodezny-pereulok/framed.jpg",
+      "back": "images/paintings/lytvynenko-kolodezny-pereulok/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-autumn",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Autumn",
+      "ua": "Осінь"
+    },
+    "year": 2001,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "32 × 77 cm (12.6 × 30.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-autumn/front.jpg",
+      "framed": "images/paintings/lytvynenko-autumn/framed.jpg",
+      "back": "images/paintings/lytvynenko-autumn/back.jpg",
+      "documents": "images/paintings/lytvynenko-autumn/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-sunny-day-from-the-odesa-staircases-series",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Sunny Day. From the Odesa Staircases Series",
+      "ua": "Сонячний день. З серії одеські сходи"
+    },
+    "year": 2001,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "67.5 × 85 cm (26.6 × 33.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/front.jpg",
+      "framed": "images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/framed.jpg",
+      "back": null,
+      "documents": "images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-the-port-of-odesa",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "The Port of Odesa",
+      "ua": "Одеський порт"
+    },
+    "year": 1953,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "57 × 63 cm (22.4 × 24.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-the-port-of-odesa/front.jpg",
+      "framed": "images/paintings/lytvynenko-the-port-of-odesa/framed.jpg",
+      "back": "images/paintings/lytvynenko-the-port-of-odesa/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-winter-landscape-with-chickens",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Winter Landscape with Chickens",
+      "ua": "Зимовий пейзаж з птахами"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "52 × 61 cm (20.5 × 24 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-winter-landscape-with-chickens/front.jpg",
+      "framed": "images/paintings/lytvynenko-winter-landscape-with-chickens/framed.jpg",
+      "back": "images/paintings/lytvynenko-winter-landscape-with-chickens/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-untitled-2",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Untitled",
+      "ua": "Без назви"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "39 × 49 cm (15.4 × 19.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-untitled-2/front.jpg",
+      "framed": "images/paintings/lytvynenko-untitled-2/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-study",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Study",
+      "ua": "Етюд"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "30 × 36 cm (11.8 × 14.2 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-study/front.jpg",
+      "framed": "images/paintings/lytvynenko-study/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-summer-in-odesa",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Summer in Odesa",
+      "ua": "Літо в Одесі"
+    },
+    "year": 2007,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "68 × 84 cm (26.8 × 33.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-summer-in-odesa/front.jpg",
+      "framed": "images/paintings/lytvynenko-summer-in-odesa/framed.jpg",
+      "back": "images/paintings/lytvynenko-summer-in-odesa/back.jpg",
+      "documents": "images/paintings/lytvynenko-summer-in-odesa/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lytvynenko-lermontovsky-sanatorium",
+    "artistId": "lytvynenko",
+    "title": {
+      "en": "Lermontovsky Sanatorium",
+      "ua": "Лермонтовський санаторій"
+    },
+    "year": 2005,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "73 × 98 cm (28.7 × 38.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lytvynenko-lermontovsky-sanatorium/front.jpg",
+      "framed": "images/paintings/lytvynenko-lermontovsky-sanatorium/framed.jpg",
+      "back": "images/paintings/lytvynenko-lermontovsky-sanatorium/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#6f93a8",
+      "#c7d9df",
+      "#33505e"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "kryzhevskiy-crimea-in-october",
+    "artistId": "kryzhevskiy",
+    "title": {
+      "en": "Crimea in October",
+      "ua": "Крим. Жовтень"
+    },
+    "year": 1962,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "50 × 70 cm (19.7 × 27.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/kryzhevskiy-crimea-in-october/front.jpg",
+      "framed": "images/paintings/kryzhevskiy-crimea-in-october/framed.jpg",
+      "back": "images/paintings/kryzhevskiy-crimea-in-october/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#7a9b8e",
+      "#3d5148",
+      "#c3d9cc"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "kryzhevskiy-gurzuf-red-boat",
+    "artistId": "kryzhevskiy",
+    "title": {
+      "en": "Gurzuf. Red Boat",
+      "ua": "Гурзуф. Червоний човен"
+    },
+    "year": 1956,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "25 × 34.5 cm (9.8 × 13.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/kryzhevskiy-gurzuf-red-boat/front.jpg",
+      "framed": "images/paintings/kryzhevskiy-gurzuf-red-boat/framed.jpg",
+      "back": "images/paintings/kryzhevskiy-gurzuf-red-boat/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#7a9b8e",
+      "#3d5148",
+      "#c3d9cc"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "mezhberg-port-street-odesa",
+    "artistId": "mezhberg",
+    "title": {
+      "en": "Port Street (Odesa)",
+      "ua": "Портова вулиця (Одеса)"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "23 × 18 cm (9.1 × 7.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/mezhberg-port-street-odesa/front.jpg",
+      "framed": "images/paintings/mezhberg-port-street-odesa/framed.jpg",
+      "back": "images/paintings/mezhberg-port-street-odesa/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#e0a05b",
+      "#f2d9a7",
+      "#7a4a2b"
+    ],
+    "yearNote": {
+      "en": "~late 1960s",
+      "ua": "~кінець 1960-х"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "mezhberg-untitled-seashore-with-figures",
+    "artistId": "mezhberg",
+    "title": {
+      "en": "Untitled (Seashore with Figures)",
+      "ua": "Без назви (Берег моря з фігурами)"
+    },
+    "year": 1957,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "33.5 × 23.5 cm (13.2 × 9.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/mezhberg-untitled-seashore-with-figures/front.jpg",
+      "framed": "images/paintings/mezhberg-untitled-seashore-with-figures/framed.jpg",
+      "back": "images/paintings/mezhberg-untitled-seashore-with-figures/back.jpg",
+      "documents": "images/paintings/mezhberg-untitled-seashore-with-figures/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#e0a05b",
+      "#f2d9a7",
+      "#7a4a2b"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "mezhberg-steppe-landscape-with-figures",
+    "artistId": "mezhberg",
+    "title": {
+      "en": "Steppe Landscape with Figures",
+      "ua": "Степовий пейзаж з фігурами"
+    },
+    "year": 1960,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "13 × 18.5 cm (5.1 × 7.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/mezhberg-steppe-landscape-with-figures/front.jpg",
+      "framed": "images/paintings/mezhberg-steppe-landscape-with-figures/framed.jpg",
+      "back": "images/paintings/mezhberg-steppe-landscape-with-figures/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#e0a05b",
+      "#f2d9a7",
+      "#7a4a2b"
+    ],
+    "yearNote": {
+      "en": "~1960s",
+      "ua": "~1960-і"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "mezhberg-study-urban-landscape",
+    "artistId": "mezhberg",
+    "title": {
+      "en": "Study. Urban Landscape",
+      "ua": "Етюд. Міський пейзаж"
+    },
+    "year": 1955,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "23 × 16 cm (9.1 × 6.3 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/mezhberg-study-urban-landscape/front.jpg",
+      "framed": "images/paintings/mezhberg-study-urban-landscape/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#e0a05b",
+      "#f2d9a7",
+      "#7a4a2b"
+    ],
+    "yearNote": {
+      "en": "(~1955–65)",
+      "ua": "(~1955–65)"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "atsmanchuk-on-the-massif",
+    "artistId": "atsmanchuk",
+    "title": {
+      "en": "On the Massif",
+      "ua": "На масиві"
+    },
+    "year": 1952,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "25 × 34 cm (9.8 × 13.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/atsmanchuk-on-the-massif/front.jpg",
+      "framed": "images/paintings/atsmanchuk-on-the-massif/framed.jpg",
+      "back": "images/paintings/atsmanchuk-on-the-massif/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c9a0a0",
+      "#6b3f3f",
+      "#e8cccc"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "atsmanchuk-boats",
+    "artistId": "atsmanchuk",
+    "title": {
+      "en": "Boats",
+      "ua": "Човни"
+    },
+    "year": 1950,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "21 × 29 cm (8.3 × 11.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/atsmanchuk-boats/front.jpg",
+      "framed": "images/paintings/atsmanchuk-boats/framed.jpg",
+      "back": "images/paintings/atsmanchuk-boats/back.jpg",
+      "documents": "images/paintings/atsmanchuk-boats/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#c9a0a0",
+      "#6b3f3f",
+      "#e8cccc"
+    ],
+    "yearNote": {
+      "en": "1950s (per certificate)",
+      "ua": "1950-і (за сертифікатом)"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "atsmanchuk-boat-on-the-shore-of-the-estuary",
+    "artistId": "atsmanchuk",
+    "title": {
+      "en": "Boat on the Shore of the Estuary",
+      "ua": "Човен на березі лиману"
+    },
+    "year": 1952,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "25 × 34 cm (9.8 × 13.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/front.jpg",
+      "framed": "images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/framed.jpg",
+      "back": null,
+      "documents": "images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/documents.jpg",
+      "signature": null
+    },
+    "hue": [
+      "#c9a0a0",
+      "#6b3f3f",
+      "#e8cccc"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pavliuk-at-the-dacha",
+    "artistId": "pavliuk",
+    "title": {
+      "en": "At the Dacha",
+      "ua": "На дачі"
+    },
+    "year": 1978,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "50 × 50 cm (19.7 × 19.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pavliuk-at-the-dacha/front.jpg",
+      "framed": "images/paintings/pavliuk-at-the-dacha/framed.jpg",
+      "back": "images/paintings/pavliuk-at-the-dacha/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#9fb08f",
+      "#4c5a40",
+      "#dce6d0"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pavliuk-young-poplars",
+    "artistId": "pavliuk",
+    "title": {
+      "en": "Young Poplars",
+      "ua": "Молоді тополі"
+    },
+    "year": 1980,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "50 × 35 cm (19.7 × 13.8 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pavliuk-young-poplars/front.jpg",
+      "framed": "images/paintings/pavliuk-young-poplars/framed.jpg",
+      "back": "images/paintings/pavliuk-young-poplars/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#9fb08f",
+      "#4c5a40",
+      "#dce6d0"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pliss-untitled",
+    "artistId": "pliss",
+    "title": {
+      "en": "Untitled",
+      "ua": "Без назви"
+    },
+    "year": 2008,
+    "medium": {
+      "en": "Oil on wood",
+      "ua": "Дерево, олія"
+    },
+    "size": "25 × 95 cm (9.8 × 37.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pliss-untitled/front.jpg",
+      "framed": "images/paintings/pliss-untitled/framed.jpg",
+      "back": "images/paintings/pliss-untitled/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#b08968",
+      "#4a3c31",
+      "#d9c7a3"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pliss-fontanka",
+    "artistId": "pliss",
+    "title": {
+      "en": "Fontanka",
+      "ua": "Фонтанка"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on wood",
+      "ua": "Дерево, олія"
+    },
+    "size": "23.5 × 37 cm (9.3 × 14.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pliss-fontanka/front.jpg",
+      "framed": "images/paintings/pliss-fontanka/framed.jpg",
+      "back": "images/paintings/pliss-fontanka/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#b08968",
+      "#4a3c31",
+      "#d9c7a3"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pliss-the-return",
+    "artistId": "pliss",
+    "title": {
+      "en": "The Return",
+      "ua": "Повернення"
+    },
+    "year": 2004,
+    "medium": {
+      "en": "Oil on wood",
+      "ua": "Дерево, олія"
+    },
+    "size": "22 × 78 cm (8.7 × 30.7 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pliss-the-return/front.jpg",
+      "framed": "images/paintings/pliss-the-return/framed.jpg",
+      "back": "images/paintings/pliss-the-return/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#b08968",
+      "#4a3c31",
+      "#d9c7a3"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pliss-on-sketches",
+    "artistId": "pliss",
+    "title": {
+      "en": "On Sketches",
+      "ua": "На етюдах"
+    },
+    "year": 2002,
+    "medium": {
+      "en": "Oil on wood",
+      "ua": "Дерево, олія"
+    },
+    "size": "24 × 53.5 cm (9.4 × 21.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pliss-on-sketches/front.jpg",
+      "framed": "images/paintings/pliss-on-sketches/framed.jpg",
+      "back": "images/paintings/pliss-on-sketches/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#b08968",
+      "#4a3c31",
+      "#d9c7a3"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "pliss-nude-weston",
+    "artistId": "pliss",
+    "title": {
+      "en": "Nude. Weston",
+      "ua": "Оголена. Вестон"
+    },
+    "year": 2009,
+    "medium": {
+      "en": "Oil on wood",
+      "ua": "Дерево, олія"
+    },
+    "size": "27 × 47 cm (10.6 × 18.5 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/pliss-nude-weston/front.jpg",
+      "framed": "images/paintings/pliss-nude-weston/framed.jpg",
+      "back": "images/paintings/pliss-nude-weston/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#b08968",
+      "#4a3c31",
+      "#d9c7a3"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "freidin-arcadia",
+    "artistId": "freidin",
+    "title": {
+      "en": "Arcadia",
+      "ua": "Аркадія"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "42.2 × 34.0 cm (16.6 × 13.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/freidin-arcadia/front.jpg",
+      "framed": "images/paintings/freidin-arcadia/framed.jpg",
+      "back": "images/paintings/freidin-arcadia/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#d0a85c",
+      "#7a5c2a",
+      "#f0dcae"
+    ],
+    "yearNote": {
+      "en": "?",
+      "ua": "?"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "popov-winter-city-landscape",
+    "artistId": "popov",
+    "title": {
+      "en": "Winter City Landscape",
+      "ua": "Зимовий міський пейзаж"
+    },
+    "year": 1935,
+    "medium": {
+      "en": "Oil on cardboard",
+      "ua": "Картон, олія"
+    },
+    "size": "31.5 × 39.5 cm (12.4 × 15.6 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/popov-winter-city-landscape/front.jpg",
+      "framed": "images/paintings/popov-winter-city-landscape/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#8797b0",
+      "#3f4a5c",
+      "#d4dbe6"
+    ],
+    "yearNote": {
+      "en": "1935 (artist's signature)",
+      "ua": "1935 (авторський підпис)"
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "zhurakivskiy-bather",
+    "artistId": "zhurakivskiy",
+    "title": {
+      "en": "Bather",
+      "ua": "Купальниця"
+    },
+    "year": 1992,
+    "medium": {
+      "en": "Oil on canvas",
+      "ua": "Полотно, олія"
+    },
+    "size": "118 × 90 cm (46.5 × 35.4 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/zhurakivskiy-bather/front.jpg",
+      "framed": "images/paintings/zhurakivskiy-bather/framed.jpg",
+      "back": null,
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#c78a6b",
+      "#623d2a",
+      "#ecd2bf"
+    ],
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  },
+  {
+    "id": "lyubimov-peasant-women-gossiping",
+    "artistId": "lyubimov",
+    "title": {
+      "en": "Peasant Women Gossiping",
+      "ua": "Селянки-пліткарки"
+    },
+    "year": null,
+    "medium": {
+      "en": "Oil on panel",
+      "ua": "Дошка, олія"
+    },
+    "size": "20 × 15.5 cm (7.9 × 6.1 in)",
+    "status": "available",
+    "description": {
+      "en": "",
+      "ua": ""
+    },
+    "photos": {
+      "front": "images/paintings/lyubimov-peasant-women-gossiping/front.jpg",
+      "framed": "images/paintings/lyubimov-peasant-women-gossiping/framed.jpg",
+      "back": "images/paintings/lyubimov-peasant-women-gossiping/back.jpg",
+      "documents": null,
+      "signature": null
+    },
+    "hue": [
+      "#a3a37a",
+      "#54543a",
+      "#dedec0"
+    ],
+    "yearNote": {
+      "en": "early 20th century",
+      "ua": "початок XX ст."
+    },
+    "signature": {
+      "en": "",
+      "ua": ""
+    },
+    "inscription": {
+      "en": "",
+      "ua": ""
+    },
+    "condition": {
+      "en": "",
+      "ua": ""
+    },
+    "provenance": [],
+    "documents": [],
+    "details": []
+  }
+]

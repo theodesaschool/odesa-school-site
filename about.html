@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — The Odesa School</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="about">
+
+<header class="site-header">
+  <div class="brand">
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
+    <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
+  </div>
+  <div class="header-right">
+    <nav class="main-nav">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
+      <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
+      <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button id="btn-en" class="active">EN</button>
+      <button id="btn-ua">UA</button>
+    </div>
+  </div>
+</header>
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="about_label">About Us</h2>
+  <p class="lede" data-i18n="about_p1">
+    The Odesa School gallery presents a privately held collection of paintings from the Odesa school,
+    active between the 1930s and 1980s. Every work in the collection has been personally selected,
+    researched, and documented by its owner.
+  </p>
+  <p class="lede" data-i18n="about_p2">
+    Each painting is accompanied by supporting documentation — certificates of authenticity, provenance
+    records, and, where available, the artist's own signature and archival material — so that collectors
+    can acquire with confidence.
+  </p>
+  <p class="lede" data-i18n="about_p3">
+    This site mirrors our Instagram, where new acquisitions and details from the collection are shared
+    first: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a>.
+  </p>
+  <div class="stats-row">
+    <div>
+      <span class="stat-num" id="stat-artists-num">14</span>
+      <span class="stat-label" data-i18n="stat_artists">Artists</span>
+    </div>
+    <div>
+      <span class="stat-num" id="stat-works-num">91</span>
+      <span class="stat-label" data-i18n="stat_works">Original works</span>
+    </div>
+    <div>
+      <span class="stat-num">$600+</span>
+      <span class="stat-label" data-i18n="stat_price">Starting price</span>
+    </div>
+  </div>
+</section>
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="whatyouget_label">What You Get</h2>
+  <p class="lede" data-i18n="whatyouget_intro">What every purchase includes.</p>
+  <ul class="checklist" id="checklist"></ul>
+  <div class="callout-box">
+    <p data-i18n="callout_text">Every painting comes with documents and guarantees.</p>
+    <p class="callout-meta" data-i18n="callout_meta">From $500 · Worldwide delivery</p>
+  </div>
+</section>
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="places_label">Odesa in Paintings</h2>
+  <p class="lede" data-i18n="places_subtitle">The familiar city through the eyes of its painters</p>
+  <div class="places-grid" id="places-grid"></div>
+  <div class="place-panel" id="place-panel">
+    <h3 class="place-panel-title" id="place-panel-title"></h3>
+    <div class="place-panel-grid" id="place-panel-grid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <span data-i18n="footer_text">© 2026 The Odesa School Gallery. Photographs may differ slightly from the original in color and texture.</span>
+  <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  window.PAGE_I18N = {
+    en: {
+      tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
+      about_label: "About Us",
+      about_p1: "The Odesa School gallery presents a privately held collection of paintings from the Odesa school, active between the 1930s and 1980s. Every work in the collection has been personally selected, researched, and documented by its owner.",
+      about_p2: "Each painting is accompanied by supporting documentation — certificates of authenticity, provenance records, and, where available, the artist's own signature and archival material — so that collectors can acquire with confidence.",
+      about_p3: "This site mirrors our Instagram, where new acquisitions and details from the collection are shared first: <a href=\"https://instagram.com/theodesaschool\" target=\"_blank\" rel=\"noopener\">@theodesaschool</a>.",
+      stat_artists: "Artists",
+      stat_works: "Original works",
+      stat_price: "Starting price",
+      whatyouget_label: "What You Get",
+      whatyouget_intro: "What every purchase includes.",
+      check1: "Original work — not a reproduction",
+      check2: "Artist's original signature (verified)",
+      check3: "Certificate of Authenticity",
+      check4: "Photographs before shipment",
+      check5: "Shipment tracking number",
+      check6: "Post-delivery support",
+      callout_text: "Every painting comes with documents and guarantees.",
+      callout_meta: "From $600 · Worldwide delivery"
+    },
+    ua: {
+      tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
+      about_label: "Про нас",
+      about_p1: "Галерея «The Odesa School» представляє приватну колекцію картин одеської школи, що діяла з 1930-х по 1980-ті роки. Кожна робота в колекції особисто відібрана, досліджена та задокументована власником.",
+      about_p2: "Кожна картина супроводжується підтвердними документами — сертифікатом автентичності, провенансом та, за наявності, підписом художника й архівними матеріалами — щоб колекціонери могли придбати з упевненістю.",
+      about_p3: "Цей сайт дублює наш Instagram, де нові надходження та деталі колекції публікуються першими: <a href=\"https://instagram.com/theodesaschool\" target=\"_blank\" rel=\"noopener\">@theodesaschool</a>.",
+      stat_artists: "Художників",
+      stat_works: "Оригінальних робіт",
+      stat_price: "Стартова ціна",
+      whatyouget_label: "Що ви отримуєте",
+      whatyouget_intro: "Що включає кожна покупка.",
+      check1: "Оригінальна робота — не репродукція",
+      check2: "Авторський підпис (перевірено)",
+      check3: "Сертифікат автентичності",
+      check4: "Фото пакування — до відправки",
+      check5: "Номер відстеження відправлення",
+      check6: "Підтримка після отримання",
+      callout_text: "Кожна картина — з документами і гарантіями.",
+      callout_meta: "Від $600 · Доставка по всьому світу"
+    }
+  };
+
+  function renderChecklist(lang) {
+    const t = Object.assign({}, I18N_COMMON[lang], window.PAGE_I18N[lang]);
+    const items = [t.check1, t.check2, t.check3, t.check4, t.check5, t.check6];
+    document.getElementById("checklist").innerHTML = items.map(i => `<li>${i}</li>`).join("");
+    document.getElementById("stat-works-num").textContent = PAINTINGS.length;
+    document.getElementById("stat-artists-num").textContent = ARTISTS.length;
+    renderPlaces(lang);
+  }
+
+  let PLACES = [];
+  let activePlaceId = null;
+
+  const placeHues = ["#8fb3c9", "#dbe6df", "#c9a86b"];
+
+  function placePhotoHtml(place, seed) {
+    if (place.photo) {
+      return `<img src="${place.photo}" alt="${place.name.en}" loading="lazy" onerror="this.outerHTML = placeFallbackSvg(${seed})">`;
+    }
+    return brushSvg(placeHues, seed);
+  }
+
+  function placeFallbackSvg(seed) {
+    return brushSvg(placeHues, seed);
+  }
+  window.placeFallbackSvg = placeFallbackSvg;
+
+  function renderPlaceCard(place, lang, seed) {
+    const hasPaintings = (place.paintingIds || []).length > 0;
+    const isActive = place.id === activePlaceId;
+    const inner = `
+        <div class="place-photo">
+          ${placePhotoHtml(place, seed)}
+          <span class="place-name-overlay">${place.name[lang]}</span>
+        </div>
+        ${place.photoCredit ? `<div class="place-credit">${place.photoCredit}</div>` : ""}
+    `;
+    if (!hasPaintings) {
+      return `<div class="place-card place-card-static">${inner}</div>`;
+    }
+    return `
+      <button class="place-card${isActive ? " active" : ""}" type="button" data-place="${place.id}" aria-expanded="${isActive}">
+        ${inner}
+      </button>
+    `;
+  }
+
+  function renderPlacePanel(lang) {
+    const t = Object.assign({}, I18N_COMMON[lang]);
+    const panel = document.getElementById("place-panel");
+    const place = PLACES.find(p => p.id === activePlaceId);
+    if (!place) { panel.classList.remove("open"); return; }
+
+    const paintings = (place.paintingIds || []).map(id => getPaintingById(id)).filter(Boolean);
+    document.getElementById("place-panel-title").textContent = place.name[lang];
+    document.getElementById("place-panel-grid").innerHTML = paintings.map((p, i) => {
+      const artist = getArtist(p.artistId);
+      const frontPhoto = p.photos && p.photos.front;
+      const media = frontPhoto
+        ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy">`
+        : brushSvg(p.hue, i);
+      return `
+        <a class="place-panel-item" href="painting.html?id=${p.id}">
+          <div class="place-panel-photo">${media}</div>
+          <div class="place-panel-info">
+            <p class="ppi-title">${p.title[lang]}, ${yearLabel(p, lang)}</p>
+            <p class="ppi-meta">${artist.name[lang]}</p>
+          </div>
+        </a>
+      `;
+    }).join("");
+    panel.classList.add("open");
+  }
+
+  function renderPlaces(lang) {
+    const grid = document.getElementById("places-grid");
+    grid.innerHTML = PLACES.map((place, i) => renderPlaceCard(place, lang, i)).join("");
+    grid.querySelectorAll("button.place-card").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const id = btn.getAttribute("data-place");
+        activePlaceId = activePlaceId === id ? null : id;
+        renderPlaces(lang);
+        if (activePlaceId) {
+          renderPlacePanel(lang);
+          document.getElementById("place-panel").scrollIntoView({ behavior: "smooth", block: "nearest" });
+        } else {
+          document.getElementById("place-panel").classList.remove("open");
+        }
+      });
+    });
+    if (activePlaceId) renderPlacePanel(lang);
+  }
+
+  loadAll()
+    .then(() => fetchJson("places.json"))
+    .then(places => { PLACES = places; })
+    .then(() => initLangSwitch(renderChecklist));
+</script>
+
+</body>
+</html>
