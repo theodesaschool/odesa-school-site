@@ -104,8 +104,8 @@ function yearLabel(p, lang) {
 function paintingCardHtml(p, lang, seed) {
   const t = Object.assign({}, I18N_COMMON[lang]);
   const artist = getArtist(p.artistId);
-  const artistHref = `artist.html?artist=${p.artistId}`;
-  const paintingHref = `painting.html?id=${p.id}`;
+  const artistHref = `artist/${p.artistId}.html`;
+  const paintingHref = `painting/${p.id}.html`;
   const yearText = yearLabel(p, lang);
   const [gA, , gC] = p.hue;
   const gradientStyle = `background: linear-gradient(135deg, ${gA}, ${gC});`;
@@ -144,7 +144,7 @@ function paintingThumbHtml(p, lang, seed) {
     ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">`
     : brushSvg(p.hue, seed);
   return `
-    <a class="thumb-item" href="painting.html?id=${p.id}" style="background: linear-gradient(135deg, ${gA}, ${gC});">
+    <a class="thumb-item" href="painting/${p.id}.html" style="background: linear-gradient(135deg, ${gA}, ${gC});">
       ${media}
       <span class="thumb-title">${p.title[lang]}, ${yearLabel(p, lang)}</span>
     </a>
@@ -186,3 +186,48 @@ function applyLang(lang, onChange) {
   setActiveNav();
   if (typeof onChange === "function") onChange(lang, dict);
 }
+
+/* Scroll-reveal: fades in painting cards / thumbs as they enter the viewport.
+   Watches the whole page so it works on cards rendered later (after fetch, after language switch). */
+(function () {
+  const REVEAL_SELECTOR = ".painting-card, .thumb-item";
+  let observer = null;
+
+  function getObserver() {
+    if (observer || !("IntersectionObserver" in window)) return observer;
+    observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -60px 0px" });
+    return observer;
+  }
+
+  function watch(el) {
+    if (el.classList.contains("is-visible")) return;
+    const obs = getObserver();
+    if (!obs) { el.classList.add("is-visible"); return; }
+    obs.observe(el);
+  }
+
+  function scan(root) {
+    if (!root.querySelectorAll) return;
+    root.querySelectorAll(REVEAL_SELECTOR).forEach(watch);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    scan(document);
+    new MutationObserver(mutations => {
+      mutations.forEach(m => {
+        m.addedNodes.forEach(node => {
+          if (node.nodeType !== 1) return;
+          if (node.matches && node.matches(REVEAL_SELECTOR)) watch(node);
+          scan(node);
+        });
+      });
+    }).observe(document.body, { childList: true, subtree: true });
+  });
+})();

@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Odesa School — Gallery</title>
 <link rel="stylesheet" href="css/style.css">
+<!-- seo:start -->
+<meta name="description" content="A small, privately held collection of original Odesa School paintings, 1930s–1980s: luminous color, free brushwork, the light and sea of Odesa.">
+<link rel="canonical" href="https://theodesaschool.com/">
+<meta property="og:site_name" content="The Odesa School">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="uk_UA">
+<meta property="og:title" content="The Odesa School — Gallery">
+<meta property="og:description" content="A small, privately held collection of original Odesa School paintings, 1930s–1980s: luminous color, free brushwork, the light and sea of Odesa.">
+<meta property="og:url" content="https://theodesaschool.com/">
+<meta property="og:image" content="https://theodesaschool.com/images/hero-odesa-opera.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- seo:end -->
 </head>
 <body data-page="home">
 
@@ -18,8 +32,8 @@
       <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
       <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
       <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
-      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
     </nav>
     <div class="lang-switch">
@@ -30,28 +44,29 @@
 </header>
 
 <section class="hero">
-  <h2 data-i18n="hero_heading">Ukrainian painting of the 20th century — the Odesa School</h2>
-  <p class="lede" data-i18n="hero_text">
-    A small, privately held collection of Odesa painting — luminous color, free brushwork, and a deep
-    attachment to the city's light and sea. Every work is documented, with provenance and certificates
-    of authenticity.
-  </p>
-  <div class="hero-actions">
-    <a class="btn btn-primary" href="catalog.html" data-i18n="hero_cta_catalog">View the Catalog</a>
-    <a class="btn btn-outline" href="how-to-buy.html" data-i18n="hero_cta_buy">How to Buy</a>
+  <div class="hero-bg">
+    <img src="images/hero-odesa-opera.jpg" alt="Odesa Opera House, watercolor illustration" loading="eager">
   </div>
-  <div class="stats-row">
-    <div>
-      <span class="stat-num" id="stat-artists-num">14</span>
-      <span class="stat-label" data-i18n="stat_artists">Artists</span>
+  <div class="hero-content">
+    <h2 data-i18n="hero_heading">Ukrainian painting of the 20th century — the Odesa School</h2>
+    <p class="lede" data-i18n="hero_text">
+      A small, privately held collection of Odesa painting — luminous color, free brushwork, and a deep
+      attachment to the city's light and sea. Every work is documented, with provenance and certificates
+      of authenticity.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="catalog.html" data-i18n="hero_cta_catalog">View the Catalog</a>
+      <a class="btn btn-outline" href="how-to-buy.html" data-i18n="hero_cta_buy">How to Buy</a>
     </div>
-    <div>
-      <span class="stat-num" id="stat-works-num">91</span>
-      <span class="stat-label" data-i18n="stat_works">Original works</span>
-    </div>
-    <div>
-      <span class="stat-num">$600+</span>
-      <span class="stat-label" data-i18n="stat_price">Starting price</span>
+    <div class="stats-row">
+      <div>
+        <span class="stat-num" id="stat-artists-num">14</span>
+        <span class="stat-label" data-i18n="stat_artists">Artists</span>
+      </div>
+      <div>
+        <span class="stat-num" id="stat-works-num">91</span>
+        <span class="stat-label" data-i18n="stat_works">Original works</span>
+      </div>
     </div>
   </div>
 </section>
@@ -95,7 +110,6 @@
       see_full_catalog: "See Full Catalog",
       stat_artists: "Artists",
       stat_works: "Original works",
-      stat_price: "Starting price"
     },
     ua: {
       tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
@@ -109,7 +123,6 @@
       see_full_catalog: "Весь каталог",
       stat_artists: "Художників",
       stat_works: "Оригінальних робіт",
-      stat_price: "Стартова ціна"
     }
   };
 

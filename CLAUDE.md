@@ -21,7 +21,7 @@ python3 -m http.server 8400 --bind 127.0.0.1
 - `js/data.js` — только общие переводы интерфейса `I18N_COMMON` (`en`/`ua`). Тексты, нужные одной странице, лежат в её `window.PAGE_I18N`.
 - `js/main.js` — общие функции: `loadAll()` загружает `artists.json` и `paintings.json` в глобальные `ARTISTS`/`PAINTINGS`; `getArtist`, `getPaintingById`, `getPaintingsByArtist`; шаблоны `paintingCardHtml` / `paintingThumbHtml`; переключение языка.
 - Язык: элементы с `data-i18n="ключ"` заменяются через `innerHTML` из словаря; выбор хранится в `localStorage("lang")`. `initLangSwitch(onChange)` перерисовывает динамический контент через колбэк — новые страницы должны рендерить данные внутри этого колбэка.
-- Страницы деталей берут ID из URL: `painting.html?id=<painting.id>`, `artist.html?artist=<artist.id>`.
+- Страницы деталей: `painting/<painting.id>.html` и `artist/<artist.id>.html`. Их **генерирует** `python3 tools/build_seo.py` из шаблонов `painting.html` / `artist.html` (шаблоны сами закрыты от индексации через `noindex`; ID берётся из `window.PAINTING_ID` / `window.ARTIST_ID`, запасной вариант — `?id=` / `?artist=`). Не править сгенерированные файлы вручную.
 - `about.html` дополнительно грузит `places.json` (места Одессы ↔ картины через `paintingIds`).
 - `contact.html` и `how-to-buy.html` — только текст и переводы, без данных.
 - Шапка и навигация продублированы в каждом HTML вручную — при изменении меню править все 8 страниц. Активный пункт определяется по `<body data-page>` ↔ `data-nav`.
@@ -29,7 +29,7 @@ python3 -m http.server 8400 --bind 127.0.0.1
 
 ## Данные
 
-Новая картина или художник добавляются только правкой JSON — HTML/JS менять не нужно.
+Новая картина или художник добавляются правкой JSON — HTML/JS менять не нужно, **но после правки JSON обязательно запустить `python3 tools/build_seo.py`**: он создаёт страницы `painting/<id>.html` / `artist/<id>.html`, `sitemap.xml`, `robots.txt` и мета-теги. Без этого ссылки на новую картину дадут 404.
 
 Связи: `painting.artistId` → `artist.id`; `places.json → paintingIds[]` → `painting.id`. ID — латинский slug `<фамилия>-<название>`, он же имя папки с фото.
 
@@ -80,6 +80,15 @@ python3 -m http.server 8400 --bind 127.0.0.1
 2. Если длинная сторона больше 2400 px — уменьшить до 2400 px, пропорции не менять. Меньшие фото не увеличивать.
 3. Сохранить JPEG с качеством около 85 через Pillow (`quality=85, optimize=True, progressive=True`), сохранив `icc_profile` и `exif`. Не через `sips`: на этих фото он даёт файл больше оригинала.
 4. Имя файла не менять. Если результат не меньше оригинала — оставить оригинал.
+
+## SEO
+
+- Адрес сайта лежит в `tools/seo.config.json` (`site_url`). Пока там заглушка `https://YOUR-DOMAIN.example` — перед публикацией вписать реальный домен и перезапустить скрипт.
+- Скрипт также вставляет блок `<!-- seo:start --> … <!-- seo:end -->` в `<head>` статических страниц (description, Open Graph, canonical, favicon). Текст описаний задан в `tools/build_seo.py` (`STATIC_PAGES`); не править блок руками.
+- Сгенерированные страницы используют `<base href="/">`, поэтому сайт должен лежать в корне домена (не в подпапке вроде `user.github.io/repo/`).
+- Описание картины для поисковиков берётся из `description.en`; если пусто — собирается из названия, техники и размера. Цены в эти тексты не попадают (скрипт предупреждает, если видит валюту).
+- Публикация: `python3 tools/make_publish.py` собирает чистую папку `~/Desktop/my-site-publish` (только файлы сайта, без `CLAUDE.md`, `.claude`, `tools`, бэкапов и `.git`) и проверяет, что нет цен, заглушки домена и пропавших фото. На хостинг (Cloudflare Pages, домен `theodesaschool.com`) загружается именно эта папка. Перед каждой публикацией: `build_seo.py` → `make_publish.py`.
+- Сгенерированные файлы (`painting/`, `artist/`, `sitemap.xml`, `robots.txt`) коммитятся в git, это часть статического сайта.
 
 ## Приватные данные и рабочие материалы
 

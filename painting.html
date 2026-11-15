@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Painting — The Odesa School</title>
 <link rel="stylesheet" href="css/style.css">
+<!-- seo:start -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- seo:end -->
 </head>
 <body data-page="catalog">
 
@@ -18,8 +22,8 @@
       <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
       <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
       <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
-      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
     </nav>
     <div class="lang-switch">
@@ -111,7 +115,7 @@
     }
   };
 
-  const paintingId = new URLSearchParams(window.location.search).get("id");
+  const paintingId = window.PAINTING_ID || new URLSearchParams(window.location.search).get("id");
   let currentPainting = null;
   let photoList = [];      // [{ key, src, captionKey }]
   let currentIndex = 0;
@@ -193,7 +197,7 @@
     const t = Object.assign({}, I18N_COMMON[lang], window.PAGE_I18N[lang]);
     const artist = getArtist(p.artistId);
 
-    document.title = `${p.title[lang]} — The Odesa School`;
+    document.title = `${p.title[lang]} — ${artist.name[lang]} — The Odesa School`;
 
     photoList = buildPhotoList(p);
     if (currentIndex >= photoList.length) currentIndex = 0;
@@ -204,7 +208,7 @@
     document.getElementById("pg-title").textContent = `${p.title[lang]}, ${yearLabel(p, lang)}`;
     const artistLink = document.getElementById("pg-artist-link");
     artistLink.textContent = artist.name[lang];
-    artistLink.href = `artist.html?artist=${p.artistId}`;
+    artistLink.href = `artist/${p.artistId}.html`;
     document.getElementById("pg-artist-years").textContent = artist.years || "";
 
     document.getElementById("pg-status").textContent = statusLabel(p.status, t);
@@ -255,15 +259,16 @@
       blocks.push({
         label: t.about_artist_label,
         html: bioParas.map(x => `<p>${x}</p>`).join("") +
-          `<p><a href="artist.html?artist=${p.artistId}">${t.read_more} →</a></p>`
+          `<p><a href="artist/${p.artistId}.html">${t.read_more} →</a></p>`
       });
     }
 
-    if (condition || documents.length) {
-      let html = "";
-      if (condition) html += `<p>${condition}</p>`;
-      if (documents.length) html += `<ul>${documents.map(x => `<li>${x}</li>`).join("")}</ul>`;
-      blocks.push({ label: t.condition_docs_label, html });
+    if (condition) {
+      blocks.push({ label: t.condition_label, html: `<p>${condition}</p>` });
+    }
+
+    if (documents.length) {
+      blocks.push({ label: t.documents_label, html: `<ul>${documents.map(x => `<li>${x}</li>`).join("")}</ul>` });
     }
 
     blocks.push({

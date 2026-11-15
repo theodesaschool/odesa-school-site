@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Artist — The Odesa School</title>
 <link rel="stylesheet" href="css/style.css">
+<!-- seo:start -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- seo:end -->
 </head>
 <body data-page="artists">
 
@@ -18,8 +22,8 @@
       <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
       <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
       <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
-      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
     </nav>
     <div class="lang-switch">
@@ -85,7 +89,7 @@
     }
   };
 
-  const artistId = new URLSearchParams(window.location.search).get("artist");
+  const artistId = window.ARTIST_ID || new URLSearchParams(window.location.search).get("artist");
   let currentArtist = null;
 
   function renderArtistPage(lang) {

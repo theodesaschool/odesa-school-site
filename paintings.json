@@ -22,7 +22,7 @@
       "framed": "images/paintings/lomykin-winter-morning/framed.jpg",
       "back": "images/paintings/lomykin-winter-morning/back.jpg",
       "documents": null,
-      "signature": null
+      "signature": "images/paintings/lomykin-winter-morning/signature.jpg"
     },
     "hue": [
       "#8fb3c9",
@@ -34,16 +34,41 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «Зимнее утро», 1969, 50×80, «Одесса, Ломыкин К.М.»; numbers 355 and 355В; an illegible stamp. On the frame: label of the Museum of Modern Art of Odesa — «Выставка «Одесская классика» 2011. Ломыкин К.М. Зимнее утро. 1969. 50×80, к.м.»",
+      "ua": "Зворот: олівцем «Зимнее утро», 1969, 50×80, «Одесса, Ломыкин К.М.»; номери 355 і 355В; нерозбірливий штамп. На рамі — етикетка Музею сучасного мистецтва Одеси: «Выставка «Одесская классика» 2011. Ломыкин К.М. Зимнее утро. 1969. 50×80, к.м.»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
-    "details": []
+    "provenance": [
+      {
+        "en": "Exhibited: «Odesa Classics», Museum of Modern Art of Odesa, 2011",
+        "ua": "Виставка «Одеська класика», Музей сучасного мистецтва Одеси, 2011"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
+    "details": [
+      {
+        "src": "images/paintings/lomykin-winter-morning/detail-1.jpg",
+        "caption": {
+          "en": "Brushwork detail",
+          "ua": "Фрагмент, мазки"
+        }
+      },
+      {
+        "src": "images/paintings/lomykin-winter-morning/detail-2.jpg",
+        "caption": {
+          "en": "Brushwork detail",
+          "ua": "Фрагмент, мазки"
+        }
+      }
+    ]
   },
   {
     "id": "lomykin-nude",
@@ -126,19 +151,24 @@
       "ua": "орієнтовно 1960-і"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse (pencil)",
+      "ua": "Підпис олівцем на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil signature «Ломыкин»",
+      "ua": "Зворот: підпис олівцем «Ломыкин»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -360,15 +390,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 453 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Натюрморт на даче», х на к/м 25×35, г. исп. 1977",
+      "ua": "Зворот: № 453 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Натюрморт на даче», х на к/м 25×35, г. исп. 1977"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -452,15 +487,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 816 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Зимой в Седневе», к/м 35×48,5, 1975 г.",
+      "ua": "Зворот: № 816 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Зимой в Седневе», к/м 35×48,5, 1975 г."
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -498,15 +542,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 449 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Осень. Опустевший пляж», к/м 33×43,5, г. исп. 1974",
+      "ua": "Зворот: № 449 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Осень. Опустевший пляж», к/м 33×43,5, г. исп. 1974"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -662,8 +715,8 @@
     "size": "18.3 × 23.3 cm (7.2 × 9.2 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A spring Crimean landscape in a small format, in a soft, delicate palette.",
+      "ua": "Весняний кримський краєвид у камерному форматі, у м'якій, ніжній палітрі."
     },
     "photos": {
       "front": "images/paintings/shelyuto-crimea-spring/front.jpg",
@@ -678,19 +731,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Крым. Весна», к/м 18,3×23,3, г. исп. 1954",
+      "ua": "Зворот: «Крым. Весна», к/м 18,3×23,3, г. исп. 1954"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -708,8 +775,8 @@
     "size": "13.7 × 22.5 cm (5.4 × 8.9 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A small landscape of 1940: the edge of a wood, the boundary between open space and woodland.",
+      "ua": "Невеликий пейзаж 1940 року: узлісся — межа між відкритим простором і лісом."
     },
     "photos": {
       "front": "images/paintings/shelyuto-forest-edge/front.jpg",
@@ -724,19 +791,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Опушка», к/м 13,7×22,5, г. исп. 1940",
+      "ua": "Зворот: «Опушка», к/м 13,7×22,5, г. исп. 1940"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -754,8 +835,8 @@
     "size": "35 × 48.5 cm (13.8 × 19.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa's coastline seen from above: a cliff, a sandy beach, bathers and the blue sea. A lively, sunny scene with figures.",
+      "ua": "Одеське узбережжя з висоти: обрив, піщаний берег, купальники, морська синь. Жвава, сонячна сцена з фігурами."
     },
     "photos": {
       "front": "images/paintings/shelyuto-odesa-shores/front.jpg",
@@ -770,8 +851,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -781,8 +862,18 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -800,8 +891,8 @@
     "size": "34 × 48 cm (13.4 × 18.9 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa's rocky shores, 1941: ochre-grey cliffs and a restless sea.",
+      "ua": "Скелясті береги Одеси, 1941 рік: охристо-сірі скелі й неспокійне море."
     },
     "photos": {
       "front": "images/paintings/shelyuto-sea-odesa/front.jpg",
@@ -816,19 +907,29 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Inscription on the frame: «Шелюто М.А. 1906–1984. Море. Одеса. 1941»",
+      "ua": "Напис на рамі: «Шелюто М.А. 1906–1984. Море. Одеса. 1941»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -846,8 +947,8 @@
     "size": "15.5 × 25.5 cm (6.1 × 10.0 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A study in the port: a quick, lively notation of an impression.",
+      "ua": "Етюд у порту: швидкий, живий запис враження."
     },
     "photos": {
       "front": "images/paintings/shelyuto-in-the-port-study/front.jpg",
@@ -862,19 +963,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "The city, Odesa, is noted on the reverse",
+      "ua": "На звороті вказано місто: Одеса"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -892,8 +1007,8 @@
     "size": "16.5 × 34.5 cm (6.5 × 13.6 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A horizontal panorama of fields in an elongated format: broad open space and restrained colour.",
+      "ua": "Горизонтальна панорама полів у видовженому форматі: широкий відкритий простір, стриманий колір."
     },
     "photos": {
       "front": "images/paintings/shelyuto-fields/front.jpg",
@@ -908,8 +1023,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -919,8 +1034,22 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -938,8 +1067,8 @@
     "size": "26 × 33.5 cm (10.2 × 13.2 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A coastal scene: several fishermen against a sparkling sea, painted in broad impasto strokes.",
+      "ua": "Прибережна сцена: кілька постатей рибалок на тлі іскристого моря, широкий пастозний мазок."
     },
     "photos": {
       "front": "images/paintings/shelyuto-fishermen/front.jpg",
@@ -954,19 +1083,29 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Inscription on the frame: «Рибаки. 1957»",
+      "ua": "Напис на рамі: «Рибаки. 1957»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -984,8 +1123,8 @@
     "size": "25 × 29 cm (9.8 × 11.4 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A shore scene with boats in a restrained grey-brown palette, painted on plywood in 1940.",
+      "ua": "Берегова сцена з човнами у стриманій сіро-коричневій гамі; фанера, 1940 рік."
     },
     "photos": {
       "front": "images/paintings/shelyuto-boats-on-the-shore/front.jpg",
@@ -1000,8 +1139,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -1011,8 +1150,22 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1030,8 +1183,8 @@
     "size": "29 × 36 cm (11.4 × 14.2 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "An autumn landscape of 1946, painted in a warm ochre palette with lively brushwork.",
+      "ua": "Осінній пейзаж 1946 року в теплій охристій гамі, живий мазок."
     },
     "photos": {
       "front": "images/paintings/shelyuto-autumn-study/front.jpg",
@@ -1046,19 +1199,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Осенний этюд», х/м 29×36, г. исп. 1946",
+      "ua": "Зворот: «Осенний этюд», х/м 29×36, г. исп. 1946"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1076,8 +1243,8 @@
     "size": "34.5 × 48.5 cm (13.6 × 19.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A summer village landscape with a telegraph pole: rich greenery, an open ochre field and a wide sky.",
+      "ua": "Літній сільський пейзаж із телеграфним стовпом: соковита зелень, відкрите охристе поле, вільне небо."
     },
     "photos": {
       "front": "images/paintings/shelyuto-outskirts-of-the-village/front.jpg",
@@ -1092,8 +1259,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -1103,8 +1270,18 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -1122,8 +1299,8 @@
     "size": "35.5 × 47.5 cm (14.0 × 18.7 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Sedniv is an ancient town in the Chernihiv region, a favourite haunt of artists. A winter view of slopes, snow and buildings.",
+      "ua": "Седнів — старовинне містечко на Чернігівщині, улюблене місце художників. Зимовий вид: схили, сніг, будівлі."
     },
     "photos": {
       "front": "images/paintings/shelyuto-sedniv-zymoiu/front.jpg",
@@ -1138,19 +1315,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Седнев зимой», х/м 35,5×47,5, г. исп. 1975; позначка «г. Одесса»",
+      "ua": "Зворот: «Седнев зимой», х/м 35,5×47,5, г. исп. 1975; позначка «г. Одесса»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1168,8 +1359,8 @@
     "size": "34.3 × 48 cm (13.5 × 18.9 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A second winter scene of Sedniv: a woman with a child on the street, snow-covered buildings and a church. A warm, gentle palette despite the winter theme.",
+      "ua": "Друга зимова сцена Седніва: жінка з дитиною на вулиці, засніжені будівлі, церква. Тепла, ніжна гама попри зимову тему."
     },
     "photos": {
       "front": "images/paintings/shelyuto-sedniv-in-winter-2/front.jpg",
@@ -1184,8 +1375,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -1195,8 +1386,18 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -1214,8 +1415,8 @@
     "size": "17 × 30.5 cm (6.7 × 12.0 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "An elongated miniature winter landscape: snow-covered huts, trees and a quiet village space, in a restrained grey-white palette with an impasto sky.",
+      "ua": "Видовжений мініатюрний зимовий пейзаж: хати в снігу, дерева, тихий сільський простір; стримана сіро-біла гама, пастозне небо."
     },
     "photos": {
       "front": "images/paintings/shelyuto-huts-in-winter/front.jpg",
@@ -1230,8 +1431,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -1241,8 +1442,18 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -1260,8 +1471,8 @@
     "size": "30 × 44 cm (11.8 × 17.3 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A preparatory sketch for a larger painting, 1948.",
+      "ua": "Підготовчий ескіз до більшої картини, 1948 рік."
     },
     "photos": {
       "front": "images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/front.jpg",
@@ -1276,19 +1487,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Хлеб созрел. Эскиз к картине», х.м. 30×44, г. исп. 1948",
+      "ua": "Зворот: «Хлеб созрел. Эскиз к картине», х.м. 30×44, г. исп. 1948"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1306,8 +1531,8 @@
     "size": "34 × 33.5 cm (13.4 × 13.2 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A summer dacha in a square format: flowers, greenery and shade.",
+      "ua": "Літня дача в квадратному форматі: квіти, зелень, тінь."
     },
     "photos": {
       "front": "images/paintings/shelyuto-veranda-at-the-dacha/front.jpg",
@@ -1322,19 +1547,33 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Веранда на даче», к.м. 34×33,5, г. исп. 1966",
+      "ua": "Зворот: «Веранда на даче», к.м. 34×33,5, г. исп. 1966"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1352,8 +1591,8 @@
     "size": "31 × 46 cm (12.2 × 18.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "An Odesa storm: red-brown rocks, white wave crests and a turbulent sea.",
+      "ua": "Одеська буря: червоно-коричневі скелі, білі гребені хвиль, неспокійне море."
     },
     "photos": {
       "front": "images/paintings/shelyuto-old-shores-odesa/front.jpg",
@@ -1368,8 +1607,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -1379,8 +1618,18 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -1398,8 +1647,8 @@
     "size": "12.2 × 24.7 cm (4.8 × 9.7 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A miniature autumn panorama on plywood: a deserted floodplain landscape in an ochre-grey palette.",
+      "ua": "Мініатюрна осіння панорама на фанері: безлюдний заплавний краєвид в охристо-сірій гамі."
     },
     "photos": {
       "front": "images/paintings/shelyuto-in-autumn/front.jpg",
@@ -1414,8 +1663,8 @@
       "#e8c99b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -1425,8 +1674,18 @@
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Private collection",
+        "ua": "Приватна колекція"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -1464,15 +1723,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 652 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «В Дюковском парке», х., м. 31,5×53, г. исп. 1948",
+      "ua": "Зворот: № 652 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «В Дюковском парке», х., м. 31,5×53, г. исп. 1948"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1602,15 +1870,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 611 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Лодочная станция. Этюд», к/м 50×80, г. исп. 1973",
+      "ua": "Зворот: № 611 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Лодочная станция. Этюд», к/м 50×80, г. исп. 1973"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1648,15 +1925,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 778 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Фигура на пленере», этюд к картине, х/м 25,5×30, 1953 г.",
+      "ua": "Зворот: № 778 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Фигура на пленере», этюд к картине, х/м 25,5×30, 1953 г."
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1740,15 +2026,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 797 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Двор музея», х., м. 44×37,5, г. исп. 1947. On the stretcher: «Подрамник сделан автором» (the stretcher was made by the artist)",
+      "ua": "Зворот: № 797 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Двор музея», х., м. 44×37,5, г. исп. 1947. На підрамнику: «Подрамник сделан автором» (підрамник виготовив сам автор)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -1786,15 +2081,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: № 1.095 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Женщина на солнце. Этюд к картине», к., м. 35×24,3, 1954 г.",
+      "ua": "Зворот: № 1.095 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Женщина на солнце. Этюд к картине», к., м. 35×24,3, 1954 г."
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -2108,15 +2412,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «г. Одесса»; № 697 (circled); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Сосны», к/м 50×34,5, г. исп. 1963",
+      "ua": "Зворот: «г. Одесса»; № 697 (в колі); «Шелюто Николай Андреевич, 22.II.1906 – 06.II.1984»; «Сосны», к/м 50×34,5, г. исп. 1963"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's son (inscription and signature on the reverse)",
+        "ua": "Авторство підтверджено сином художника (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -2154,15 +2467,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil notes — «Привокзальная площадь», «Гавдзинский», «Одесса», «Вид с морвокзала», dimensions 49×38 and 38×41, «к/м»; a year «1971» is crossed out",
+      "ua": "Зворот: олівцем — «Привокзальная площадь», «Гавдзинский», «Одесса», «Вид с морвокзала», розміри 49×38 та 38×41, «к/м»; рік «1971» закреслено"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2350,19 +2668,24 @@
       "ua": "~1990-і"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse",
+      "ua": "Підпис на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Кукольный театр (лютеранская церковь)»",
+      "ua": "Зворот: «Кукольный театр (лютеранская церковь)»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2476,8 +2799,8 @@
     "size": "26 × 42.5 cm (10.2 × 16.7 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Winter at the sea: two figures on a cliff above the grey Black Sea.",
+      "ua": "Зима біля моря: двоє людей на скелі над сірим Чорним морем."
     },
     "photos": {
       "front": "images/paintings/malyshev-winter-at-the-sea/front.jpg",
@@ -2496,8 +2819,8 @@
       "ua": "1953 (?)"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed «Геннадій» in the artist's own hand on the reverse",
+      "ua": "Підпис «Геннадій» рукою художника на звороті"
     },
     "inscription": {
       "en": "",
@@ -2508,7 +2831,16 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's daughter",
+        "ua": "Авторство підтверджено дочкою художника"
+      }
+    ],
     "details": []
   },
   {
@@ -2526,8 +2858,8 @@
     "size": "33.5 × 32 cm (13.2 × 12.6 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Autumn: burning orange and yellow foliage.",
+      "ua": "Осінь: оранжеве й жовте полум'я листя."
     },
     "photos": {
       "front": "images/paintings/malyshev-autumn-landscape-golden-autumn/front.jpg",
@@ -2546,8 +2878,8 @@
       "ua": "~1960–70-і"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front",
+      "ua": "Авторський підпис на лицьовій стороні"
     },
     "inscription": {
       "en": "",
@@ -2558,7 +2890,16 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authorship confirmed by the artist's daughter",
+        "ua": "Авторство підтверджено дочкою художника"
+      }
+    ],
     "details": []
   },
   {
@@ -2576,8 +2917,8 @@
     "size": "27.5 × 30.8 cm (10.8 × 12.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Winter has come, 1955 — the year the artist graduated from the Odesa Art School.",
+      "ua": "Зима прийшла, 1955 рік — рік закінчення художником Одеського художнього училища."
     },
     "photos": {
       "front": "images/paintings/malyshev-winter-has-come/front.jpg",
@@ -2592,8 +2933,8 @@
       "#b7c9a8"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front",
+      "ua": "Авторський підпис на лицьовій стороні"
     },
     "inscription": {
       "en": "",
@@ -2604,7 +2945,12 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2622,8 +2968,8 @@
     "size": "34 × 46 cm (13.4 × 18.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Crimea in late autumn: a bare tree against the mountains.",
+      "ua": "Крим пізньої осені: голе дерево на тлі гір."
     },
     "photos": {
       "front": "images/paintings/malyshev-late-autumn-in-crimea/front.jpg",
@@ -2642,8 +2988,8 @@
       "ua": "?"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front",
+      "ua": "Авторський підпис на лицьовій стороні"
     },
     "inscription": {
       "en": "",
@@ -2654,7 +3000,12 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2672,8 +3023,8 @@
     "size": "70 × 80 cm (27.6 × 31.5 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa. Autumn trees in bright turquoise and pink tones.",
+      "ua": "Одеса. Осінні дерева в яскравих бірюзово-рожевих тонах."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-autumn-landscape/front.jpg",
@@ -2688,19 +3039,24 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front and on the reverse",
+      "ua": "Авторський підпис на лицьовій стороні та на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Литвиненко В.Ч. Осенний пейзаж»",
+      "ua": "Зворот: «Литвиненко В.Ч. Осенний пейзаж»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2718,8 +3074,8 @@
     "size": "57 × 75 cm (22.4 × 29.5 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa. Hretska Square in a blue-grey winter palette.",
+      "ua": "Одеса. Грецька площа в сизо-синій зимовій гамі."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-grecheskaya-square/front.jpg",
@@ -2738,19 +3094,24 @@
       "ua": "~1970-і"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front and on the reverse",
+      "ua": "Авторський підпис на лицьовій стороні та на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Одесса Литвиненко В.Н. Греческая площадь»",
+      "ua": "Зворот: «Одесса Литвиненко В.Н. Греческая площадь»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2768,8 +3129,8 @@
     "size": "56.5 × 82 cm (22.2 × 32.3 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa. A street with a cathedral dome on a pink spring day, with a lone figure.",
+      "ua": "Одеса. Вулиця з куполом собору рожевого весняного дня, самотня постать."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-view-of-the-cathedral/front.jpg",
@@ -2788,19 +3149,24 @@
       "ua": "?"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front and on the reverse",
+      "ua": "Авторський підпис на лицьовій стороні та на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Одесса Литвиненко В.Н. Вид на собор»",
+      "ua": "Зворот: «Одесса Литвиненко В.Н. Вид на собор»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2818,8 +3184,8 @@
     "size": "68 × 84 cm (26.8 × 33.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa, 1994. Winter in the alley of the Botanical Garden: between the trunks, through the snow, a sail.",
+      "ua": "Одеса, 1994. Зима, алея ботанічного саду: між стовбурами, крізь сніг — вітрило."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-winter-botanical-garden-alley/front.jpg",
@@ -2834,19 +3200,24 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front and on the reverse",
+      "ua": "Авторський підпис на лицьовій стороні та на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Литвиненко В.Н. Одесса Аллея ботанического сада Зима х/м 68×84 1994» (напис і стікер)",
+      "ua": "Зворот: «Литвиненко В.Н. Одесса Аллея ботанического сада Зима х/м 68×84 1994» (напис і стікер)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2864,8 +3235,8 @@
     "size": "29 × 51 cm (11.4 × 20.1 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa. A square, a market and a dome.",
+      "ua": "Одеса. Площа, базар, купол."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-untitled/front.jpg",
@@ -2884,8 +3255,8 @@
       "ua": "?"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -2896,7 +3267,12 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of NT-Art Gallery (Odesa)",
+        "ua": "Сертифікат галереї NT-Art (Одеса)"
+      }
+    ],
     "details": []
   },
   {
@@ -2930,19 +3306,24 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse",
+      "ua": "Підпис на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse (on the canvas): «Литвиненко В.Н. «Колодезный пер.» 1958 г.»; below, a further line ending «…ННОСТЬ» with the artist's signature (partly illegible)",
+      "ua": "Зворот (на полотні): «Литвиненко В.Н. «Колодезный пер.» 1958 г.»; нижче ще один рядок із закінченням «…ННОСТЬ» і підпис автора (частково нерозбірливо)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -2960,8 +3341,8 @@
     "size": "32 × 77 cm (12.6 × 30.3 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Autumn, a river and a solitary figure on the bank.",
+      "ua": "Осінь, річка й самотня постать на березі."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-autumn/front.jpg",
@@ -2976,8 +3357,8 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front",
+      "ua": "Авторський підпис на лицьовій стороні"
     },
     "inscription": {
       "en": "",
@@ -2988,7 +3369,12 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3006,8 +3392,8 @@
     "size": "67.5 × 85 cm (26.6 × 33.5 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa. The staircases: people, parasols and the shade of acacias. From the «Odesa Staircases» series.",
+      "ua": "Одеса. Сходи: люди, парасолі, тінь акацій. З серії «Одеські сходи»."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/front.jpg",
@@ -3022,8 +3408,8 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
       "en": "",
@@ -3034,7 +3420,12 @@
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of NT-Art Gallery (Odesa)",
+        "ua": "Сертифікат галереї NT-Art (Одеса)"
+      }
+    ],
     "details": []
   },
   {
@@ -3052,8 +3443,8 @@
     "size": "57 × 63 cm (22.4 × 24.8 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa. The port: crane masts and a liner in the dock.",
+      "ua": "Одеса. Порт: щогли кранів, лайнер у доці."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-the-port-of-odesa/front.jpg",
@@ -3068,19 +3459,24 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front and on the stretcher bar",
+      "ua": "Авторський підпис на лицьовій стороні та на планці підрамника"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "On the stretcher bar: «Литвиненко Владимир Николаевич 1930 Одесский порт 57×63 х.м»",
+      "ua": "На планці підрамника: «Литвиненко Владимир Николаевич 1930 Одесский порт 57×63 х.м»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3098,8 +3494,8 @@
     "size": "52 × 61 cm (20.5 × 24 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "A winter landscape with chickens.",
+      "ua": "Зимовий пейзаж із птахами."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-winter-landscape-with-chickens/front.jpg",
@@ -3118,19 +3514,29 @@
       "ua": "?"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist",
+      "ua": "Авторський підпис"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Автор Литвиненко В.Н. Подарок сім'ї Ломикіних, Котеліна, ~1986 р.»",
+      "ua": "Зворот: «Автор Литвиненко В.Н. Подарок сім'ї Ломикіних, Котеліна, ~1986 р.»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Gift from the artist to the family of K. Lomykin, c. 1986",
+        "ua": "Подарунок художника родині К. Ломикіна, ~1986"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3268,15 +3674,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Литвиненко Владимир Николаевич, «Лето в Одессе», х/м 68×84, 2007 г.и.». On the stretcher: «Цветы» (pencil), 68×84. Printed label: «33. Литвиненко В. «Літо в Одесі», 2007 р., полотно, олія, 68×84 см» with a stamp dated 12.10.2008",
+      "ua": "Зворот: «Литвиненко Владимир Николаевич, «Лето в Одессе», х/м 68×84, 2007 г.и.». На підрамнику: «Цветы» (олівцем), 68×84. Друкована етикетка: «33. Литвиненко В. «Літо в Одесі», 2007 р., полотно, олія, 68×84 см» зі штампом від 12.10.2008"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3294,8 +3705,8 @@
     "size": "73 × 98 cm (28.7 × 38.6 in)",
     "status": "available",
     "description": {
-      "en": "",
-      "ua": ""
+      "en": "Odesa, 2005. The Lermontovsky Sanatorium: old trees and a pink facade.",
+      "ua": "Одеса, 2005. Лермонтовський санаторій: віковічні дерева, рожевий фасад."
     },
     "photos": {
       "front": "images/paintings/lytvynenko-lermontovsky-sanatorium/front.jpg",
@@ -3310,19 +3721,24 @@
       "#33505e"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist on the front and on the reverse",
+      "ua": "Авторський підпис на лицьовій стороні та на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Литвиненко В.Н. Лермонтовский санаторий х/м 73×98 2005»",
+      "ua": "Зворот: «Литвиненко В.Н. Лермонтовский санаторий х/м 73×98 2005»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3360,15 +3776,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Крижевский Григорий Зиновьевич (1918–1992), Одесса»; «Крым. Октябрь», 1962; 50×70. Label: work passport of the Exhibition Hall of the Art Fund of the Ukrainian SSR (Union of Artists of Ukraine)",
+      "ua": "Зворот: «Крижевский Григорий Зиновьевич (1918–1992), Одесса»; «Крым. Октябрь», 1962; 50×70. Етикетка: паспорт твору Виставкового залу Художнього фонду УРСР (Спілка художників України)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Work passport of the Exhibition Hall of the Art Fund of the Ukrainian SSR (label on the reverse)",
+        "ua": "Паспорт твору Виставкового залу Художнього фонду УРСР (етикетка на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -3402,19 +3827,24 @@
       "#c3d9cc"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed by the artist, lower left",
+      "ua": "Авторський підпис унизу ліворуч"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Крижевский Григорий, 1918, Одесса»; «Гурзуф. Красная лодка», …56 г.; 25×34,5; pencil «№ 584»",
+      "ua": "Зворот: «Крижевский Григорий, 1918, Одесса»; «Гурзуф. Красная лодка», …56 г.; 25×34,5; олівцем «№ 584»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3456,15 +3886,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «Межберг»; a note in red marker dated 4.03.2011 by another hand (partly legible)",
+      "ua": "Зворот: олівцем «Межберг»; запис червоним маркером від 4.03.2011, зроблений іншою рукою (частково розбірливо)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3498,19 +3933,24 @@
       "#7a4a2b"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse (pencil)",
+      "ua": "Підпис олівцем на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «Лев Межберг» and signature «Л. Межберг»",
+      "ua": "Зворот: олівцем «Лев Межберг» і підпис «Л. Межберг»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3552,15 +3992,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: glued-on newspaper sheet from the Soviet period with a handwritten note «…Межберг» (partly legible)",
+      "ua": "Зворот: наклеєний аркуш радянської газети з рукописним записом «…Межберг» (частково розбірливо)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3648,15 +4093,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse (on a paper patch, pencil): «Ацманчук А. К.», «1952 г.», «На массиве» (partly legible)",
+      "ua": "Зворот (на паперовій вставці, олівцем): «Ацманчук А. К.», «1952 г.», «На массиве» (частково розбірливо)"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3671,7 +4121,7 @@
       "en": "Oil on cardboard",
       "ua": "Картон, олія"
     },
-    "size": "21 × 29 cm (8.3 × 11.4 in)",
+    "size": "22 × 30.5 cm (8.7 × 12.0 in)",
     "status": "available",
     "description": {
       "en": "",
@@ -3694,19 +4144,28 @@
       "ua": "1950-і (за сертифікатом)"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse (pencil)",
+      "ua": "Підпис олівцем на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: a small pencil signature «Ацм…» on a paper patch",
+      "ua": "Зворот: невеликий підпис олівцем «Ацм…» на паперовій вставці"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Certificate of authenticity of NT-Art Gallery (Odesa): «Лодки», cardboard, oil, 1950s, 22×30.5 cm",
+        "ua": "Сертифікат автентичності галереї NT-Art (Одеса): «Лодки», картон, олія, 1950-ті, 22×30,5 см"
+      }
+    ],
     "details": []
   },
   {
@@ -3790,15 +4249,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Засл. художник Украины Георгий Павлюк, 1925–1987 г. «На даче» 1978 г., х.к./м.»",
+      "ua": "Зворот: «Засл. художник Украины Георгий Павлюк, 1925–1987 г. «На даче» 1978 г., х.к./м.»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authenticity confirmed by the artist's daughter, 24 August 2011 (inscription and signature on the reverse)",
+        "ua": "Автентичність підтверджено дочкою художника, 24 серпня 2011 (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -3836,15 +4304,24 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Засл. художник Украины Павлюк Г., 1925–1987. «Молодые тополи» 1980, к.х.м. 50×35»",
+      "ua": "Зворот: «Засл. художник Украины Павлюк Г., 1925–1987. «Молодые тополи» 1980, к.х.м. 50×35»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      },
+      {
+        "en": "Authenticity guaranteed by the artist's daughter, 24 August 2011 (inscription and signature on the reverse)",
+        "ua": "Автентичність гарантовано дочкою художника, 24 серпня 2011 (напис і підпис на звороті)"
+      }
+    ],
     "details": []
   },
   {
@@ -3878,19 +4355,29 @@
       "#d9c7a3"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse",
+      "ua": "Підпис на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: a dedication from the artist dated 15.11.2010, signed",
+      "ua": "Зворот: присвята автора від 15.11.2010 з підписом"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Dedication inscribed by the artist, 15 November 2010",
+        "ua": "Присвята, написана автором, 15 листопада 2010"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3928,19 +4415,24 @@
       "ua": "?"
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse (pencil)",
+      "ua": "Підпис олівцем на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «Фонтанка» and the artist's signature; the reverse of the panel is painted over in red and blue",
+      "ua": "Зворот: олівцем «Фонтанка» і підпис автора; зворот дошки зафарбований червоним і синім"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -3974,27 +4466,37 @@
       "#d9c7a3"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse",
+      "ua": "Підпис на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: «Юрий Плисс, «Возвращение», древ. м., 2004 г.»; a separate dedication dated 14.10.10",
+      "ua": "Зворот: «Юрий Плисс, «Возвращение», древ. м., 2004 г.»; окрема присвята від 14.10.10"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
-    "provenance": [],
-    "documents": [],
+    "provenance": [
+      {
+        "en": "Dedication inscribed by the artist, 14 October 2010",
+        "ua": "Присвята, написана автором, 14 жовтня 2010"
+      }
+    ],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
     "id": "pliss-on-sketches",
     "artistId": "pliss",
     "title": {
-      "en": "On Sketches",
-      "ua": "На етюдах"
+      "en": "After a Study",
+      "ua": "За етюдом"
     },
     "year": 2002,
     "medium": {
@@ -4020,19 +4522,24 @@
       "#d9c7a3"
     ],
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Signed on the reverse, 2002",
+      "ua": "Підпис на звороті, 2002"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «Юрий Плисс 2002 г., «По этюду»»; signature in red «Юрий Плисс 2002 г.»",
+      "ua": "Зворот: олівцем «Юрий Плисс 2002 г., «По этюду»»; підпис червоним «Юрий Плисс 2002 г.»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -4070,15 +4577,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: a nameplate «Юрий Плисс, «Ню „Weston“», авп. м.»; the reverse of the board carries a second painted image — a female nude on a black ground",
+      "ua": "Зворот: табличка «Юрий Плисс, «Ню „Weston“», авп. м.»; на звороті дошки — друге живописне зображення: жіноча натура на чорному тлі"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -4120,15 +4632,20 @@
       "ua": ""
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «Arkadiji» (in Latin letters), 42,2 × 34,0, «26»",
+      "ua": "Зворот: олівцем «Arkadiji» (латиницею), 42,2 × 34,0, «26»"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   },
   {
@@ -4262,19 +4779,24 @@
       "ua": "початок XX ст."
     },
     "signature": {
-      "en": "",
-      "ua": ""
+      "en": "Name inscribed on the reverse (pencil)",
+      "ua": "Ім'я олівцем на звороті"
     },
     "inscription": {
-      "en": "",
-      "ua": ""
+      "en": "Reverse: pencil «А. Любимов»; label of the auction house MacDougall's, no. 441152-11",
+      "ua": "Зворот: олівцем «А. Любимов»; етикетка аукціонного дому MacDougall's, № 441152-11"
     },
     "condition": {
       "en": "",
       "ua": ""
     },
     "provenance": [],
-    "documents": [],
+    "documents": [
+      {
+        "en": "Certificate of authenticity included",
+        "ua": "Сертифікат автентичності додається"
+      }
+    ],
     "details": []
   }
 ]

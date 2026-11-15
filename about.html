@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About — The Odesa School</title>
 <link rel="stylesheet" href="css/style.css">
+<!-- seo:start -->
+<meta name="description" content="The Odesa School gallery: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
+<link rel="canonical" href="https://theodesaschool.com/about.html">
+<meta property="og:site_name" content="The Odesa School">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="uk_UA">
+<meta property="og:title" content="About — The Odesa School">
+<meta property="og:description" content="The Odesa School gallery: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
+<meta property="og:url" content="https://theodesaschool.com/about.html">
+<meta property="og:image" content="https://theodesaschool.com/images/hero-odesa-opera.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- seo:end -->
 </head>
 <body data-page="about">
 
@@ -18,8 +32,8 @@
       <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
       <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
       <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
-      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
       <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
     </nav>
     <div class="lang-switch">
@@ -54,10 +68,6 @@
       <span class="stat-num" id="stat-works-num">91</span>
       <span class="stat-label" data-i18n="stat_works">Original works</span>
     </div>
-    <div>
-      <span class="stat-num">$600+</span>
-      <span class="stat-label" data-i18n="stat_price">Starting price</span>
-    </div>
   </div>
 </section>
 
@@ -67,10 +77,11 @@
   <ul class="checklist" id="checklist"></ul>
   <div class="callout-box">
     <p data-i18n="callout_text">Every painting comes with documents and guarantees.</p>
-    <p class="callout-meta" data-i18n="callout_meta">From $500 · Worldwide delivery</p>
+    <p class="callout-meta" data-i18n="callout_meta">Worldwide delivery</p>
   </div>
 </section>
 
+<!-- Раздел "Одесса в картинках" временно убран с сайта по просьбе владельца (может понадобиться в будущем).
 <section class="bordered">
   <h2 class="section-label" data-i18n="places_label">Odesa in Paintings</h2>
   <p class="lede" data-i18n="places_subtitle">The familiar city through the eyes of its painters</p>
@@ -80,6 +91,7 @@
     <div class="place-panel-grid" id="place-panel-grid"></div>
   </div>
 </section>
+-->
 
 <footer class="site-footer">
   <span data-i18n="footer_text">© 2026 The Odesa School Gallery. Photographs may differ slightly from the original in color and texture.</span>
@@ -98,7 +110,6 @@
       about_p3: "This site mirrors our Instagram, where new acquisitions and details from the collection are shared first: <a href=\"https://instagram.com/theodesaschool\" target=\"_blank\" rel=\"noopener\">@theodesaschool</a>.",
       stat_artists: "Artists",
       stat_works: "Original works",
-      stat_price: "Starting price",
       whatyouget_label: "What You Get",
       whatyouget_intro: "What every purchase includes.",
       check1: "Original work — not a reproduction",
@@ -108,7 +119,7 @@
       check5: "Shipment tracking number",
       check6: "Post-delivery support",
       callout_text: "Every painting comes with documents and guarantees.",
-      callout_meta: "From $600 · Worldwide delivery"
+      callout_meta: "Worldwide delivery"
     },
     ua: {
       tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
@@ -118,7 +129,6 @@
       about_p3: "Цей сайт дублює наш Instagram, де нові надходження та деталі колекції публікуються першими: <a href=\"https://instagram.com/theodesaschool\" target=\"_blank\" rel=\"noopener\">@theodesaschool</a>.",
       stat_artists: "Художників",
       stat_works: "Оригінальних робіт",
-      stat_price: "Стартова ціна",
       whatyouget_label: "Що ви отримуєте",
       whatyouget_intro: "Що включає кожна покупка.",
       check1: "Оригінальна робота — не репродукція",
@@ -128,7 +138,7 @@
       check5: "Номер відстеження відправлення",
       check6: "Підтримка після отримання",
       callout_text: "Кожна картина — з документами і гарантіями.",
-      callout_meta: "Від $600 · Доставка по всьому світу"
+      callout_meta: "Доставка по всьому світу"
     }
   };
 
@@ -193,7 +203,7 @@
         ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy">`
         : brushSvg(p.hue, i);
       return `
-        <a class="place-panel-item" href="painting.html?id=${p.id}">
+        <a class="place-panel-item" href="painting/${p.id}.html">
           <div class="place-panel-photo">${media}</div>
           <div class="place-panel-info">
             <p class="ppi-title">${p.title[lang]}, ${yearLabel(p, lang)}</p>
@@ -207,6 +217,7 @@
 
   function renderPlaces(lang) {
     const grid = document.getElementById("places-grid");
+    if (!grid) return;
     grid.innerHTML = PLACES.map((place, i) => renderPlaceCard(place, lang, i)).join("");
     grid.querySelectorAll("button.place-card").forEach(btn => {
       btn.addEventListener("click", () => {
