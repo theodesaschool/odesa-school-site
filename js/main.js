@@ -37,6 +37,15 @@ function showFetchErrorBanner() {
   document.body.appendChild(banner);
 }
 
+const GALLERY_EMAIL = "nataliiavas.uk@gmail.com";
+
+function inquireMailtoHref(p, lang) {
+  const artist = getArtist(p.artistId);
+  const subject = `Inquiry: ${p.title[lang]} (${p.id})`;
+  const body = `Hello,\n\nI'm interested in "${p.title[lang]}" by ${artist.name[lang]}.\nhttps://theodesaschool.com/painting/${p.id}.html\n\n`;
+  return `mailto:${GALLERY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 function getArtist(id) {
   return ARTISTS.find(a => a.id === id) || {
     id: id,
@@ -131,7 +140,7 @@ function paintingCardHtml(p, lang, seed) {
         <div class="meta-row"><span>${t.medium_field}</span><span>${p.medium[lang]}</span></div>
         <div class="meta-row"><span>${t.size_field}</span><span>${p.size}</span></div>
         <div class="meta-row"><span>${t.price_field}</span><span>${t.price_on_request}</span></div>
-        <button class="inquire-btn" title="${p.id}" onclick="window.open('https://instagram.com/theodesaschool', '_blank')">${t.inquire}</button>
+        <a class="inquire-btn" title="${p.id}" href="${inquireMailtoHref(p, lang)}">${t.inquire}</a>
       </div>
     </article>
   `;

@@ -342,6 +342,8 @@ section.bordered { border-bottom: 1px solid var(--line); }
 .meta-row span:first-child { color: #a89f8f; }
 
 .inquire-btn {
+  display: inline-block;
+  text-decoration: none;
   margin-top: 18px;
   padding: 12px 18px;
   background: var(--sea);

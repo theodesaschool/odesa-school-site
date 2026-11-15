@@ -83,7 +83,7 @@
       <h2 id="pg-title"></h2>
       <div class="pg-status-badge" id="pg-status"></div>
       <div class="pg-meta" id="pg-meta"></div>
-      <button class="inquire-btn" id="pg-inquire"></button>
+      <a class="inquire-btn" id="pg-inquire"></a>
       <div class="pg-reassurance" id="pg-reassurance"></div>
 
       <div id="pg-accordions"></div>
@@ -255,7 +255,7 @@
 
     const inquireBtn = document.getElementById("pg-inquire");
     inquireBtn.textContent = t.inquire;
-    inquireBtn.onclick = () => window.open("https://instagram.com/theodesaschool", "_blank");
+    inquireBtn.href = inquireMailtoHref(p, lang);
     document.getElementById("pg-reassurance").textContent = t.enquire_reassurance;
 
     renderAccordions(p, artist, lang, t);
