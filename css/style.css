@@ -709,6 +709,14 @@ section.bordered { border-bottom: 1px solid var(--line); }
   margin-top: 10px;
 }
 
+.inquire-email-hint {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-top: 6px;
+}
+
+.inquire-email-hint a { color: inherit; }
+
 .pg-description {
   font-size: 1.05rem;
   color: #3a3630;

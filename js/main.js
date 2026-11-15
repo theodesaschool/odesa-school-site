@@ -46,6 +46,10 @@ function inquireMailtoHref(p, lang) {
   return `mailto:${GALLERY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
+function inquireEmailHintHtml(t) {
+  return `<p class="inquire-email-hint">${t.enquire_email_hint} <a href="mailto:${GALLERY_EMAIL}">${GALLERY_EMAIL}</a></p>`;
+}
+
 function getArtist(id) {
   return ARTISTS.find(a => a.id === id) || {
     id: id,
@@ -141,6 +145,7 @@ function paintingCardHtml(p, lang, seed) {
         <div class="meta-row"><span>${t.size_field}</span><span>${p.size}</span></div>
         <div class="meta-row"><span>${t.price_field}</span><span>${t.price_on_request}</span></div>
         <a class="inquire-btn" title="${p.id}" href="${inquireMailtoHref(p, lang)}">${t.inquire}</a>
+        ${inquireEmailHintHtml(t)}
       </div>
     </article>
   `;

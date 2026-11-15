@@ -91,6 +91,7 @@
       <div class="pg-meta" id="pg-meta"></div>
       <a class="inquire-btn" id="pg-inquire"></a>
       <div class="pg-reassurance" id="pg-reassurance"></div>
+      <p class="inquire-email-hint" id="pg-email-hint"></p>
 
       <div id="pg-accordions"></div>
 
@@ -262,6 +263,8 @@
     const inquireBtn = document.getElementById("pg-inquire");
     inquireBtn.textContent = t.inquire;
     inquireBtn.href = inquireMailtoHref(p, lang);
+    document.getElementById("pg-email-hint").innerHTML =
+      `${t.enquire_email_hint} <a href="mailto:${GALLERY_EMAIL}">${GALLERY_EMAIL}</a>`;
     document.getElementById("pg-reassurance").textContent = t.enquire_reassurance;
 
     renderAccordions(p, artist, lang, t);
