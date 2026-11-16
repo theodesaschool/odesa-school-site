@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## О проекте
 
-Статический двуязычный (EN/UA) сайт галереи «The Odesa School» — одесская живопись XX века. Без сборки, без npm, без фреймворков: HTML + CSS + чистый JS. Тестов и линтера нет.
+Статический двуязычный (EN/UA) сайт галереи «Odesa Art School» — одесская живопись XX века. Без сборки, без npm, без фреймворков: HTML + CSS + чистый JS. Тестов и линтера нет.
 
 ## Запуск локально
 

@@ -9,7 +9,7 @@
 */
 const I18N_COMMON = {
   en: {
-    site_title: "The Odesa School",
+    site_title: "Odesa Art School",
     nav_home: "Home",
     nav_catalog: "Catalog",
     nav_artists: "Artists",
@@ -34,7 +34,7 @@ const I18N_COMMON = {
     photo_signature: "Signature",
     photo_detail: "Detail",
     description_label: "Description",
-    footer_text: "© 2026 The Odesa School Gallery. Photographs may differ slightly from the original in color and texture.",
+    footer_text: "© 2026 Odesa Art School Gallery. Photographs may differ slightly from the original in color and texture.",
     footer_instagram: "Also on Instagram",
     signature_field: "Signature",
     inscription_field: "Inscription",
@@ -60,7 +60,7 @@ const I18N_COMMON = {
     places_close: "Close"
   },
   ua: {
-    site_title: "The Odesa School",
+    site_title: "Odesa Art School",
     nav_home: "Головна",
     nav_catalog: "Каталог",
     nav_artists: "Художники",
@@ -85,7 +85,7 @@ const I18N_COMMON = {
     photo_signature: "Підпис",
     photo_detail: "Деталь",
     description_label: "Опис",
-    footer_text: "© 2026 Галерея «Одеська школа». Фотографії можуть незначно відрізнятися від оригіналу кольором і фактурою.",
+    footer_text: "© 2026 Галерея «Odesa Art School». Фотографії можуть незначно відрізнятися від оригіналу кольором і фактурою.",
     footer_instagram: "Також в Instagram",
     signature_field: "Підпис",
     inscription_field: "Напис",

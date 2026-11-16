@@ -22,7 +22,7 @@ from urllib.parse import quote
 
 START, END = "<!-- seo:start -->", "<!-- seo:end -->"
 PLACEHOLDER = "https://YOUR-DOMAIN.example"
-SITE_NAME = "The Odesa School"
+SITE_NAME = "Odesa Art School"
 CSS_LINK = '<link rel="stylesheet" href="css/style.css">'
 PRICE_RX = re.compile(r"[$€₴£]|грн|\b(USD|EUR|UAH|GBP)\b|\bprice\b", re.I)
 
@@ -30,9 +30,9 @@ STATIC_PAGES = {
     "index.html": ("/", None),
     "catalog.html": ("catalog.html", "Browse {n} original paintings of the Odesa School, 1930s–1980s. Every work is documented, with provenance. Price on request."),
     "artists.html": ("artists.html", "{a} Odesa School painters, 1930s–1980s: biographies and their works in the collection."),
-    "how-to-buy.html": ("how-to-buy.html", "How to buy a painting from The Odesa School: six steps from enquiry to delivery, with payment and shipping options."),
-    "about.html": ("about.html", "The Odesa School gallery: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner."),
-    "contact.html": ("contact.html", "Contact The Odesa School gallery: Instagram, email and phone. We reply within 2 hours."),
+    "how-to-buy.html": ("how-to-buy.html", "How to buy a painting from Odesa Art School: six steps from enquiry to delivery, with payment and shipping options."),
+    "about.html": ("about.html", "Odesa Art School gallery: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner."),
+    "contact.html": ("contact.html", "Contact Odesa Art School gallery: Instagram, email and phone. We reply within 2 hours."),
 }
 INDEX_DESC = ("A small, privately held collection of original Odesa School paintings, 1930s–1980s: "
               "luminous color, free brushwork, the light and sea of Odesa.")
