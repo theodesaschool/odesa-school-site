@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Forest Edge — Mykola Shelyuto — Odesa Art School</title>
+<title>Forest Edge — Mykola Shelyuto — The Odesa School</title>
 <link rel="stylesheet" href="css/style.css">
 <!-- seo:start -->
 <meta name="description" content="A small landscape of 1940: the edge of a wood, the boundary between open space and woodland.">
 <link rel="canonical" href="https://theodesaschool.com/painting/shelyuto-forest-edge.html">
-<meta property="og:site_name" content="Odesa Art School">
+<meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="uk_UA">
-<meta property="og:title" content="Forest Edge — Mykola Shelyuto — Odesa Art School">
+<meta property="og:title" content="Forest Edge — Mykola Shelyuto — The Odesa School">
 <meta property="og:description" content="A small landscape of 1940: the edge of a wood, the boundary between open space and woodland.">
 <meta property="og:url" content="https://theodesaschool.com/painting/shelyuto-forest-edge.html">
 <meta property="og:image" content="https://theodesaschool.com/images/paintings/shelyuto-forest-edge/front.jpg">
@@ -26,9 +26,10 @@
 </head>
 <body data-page="catalog">
 
+<!-- header:start -->
 <header class="site-header">
   <div class="brand">
-    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">Odesa Art School</h1></a>
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
     <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
   </div>
   <div class="header-right">
@@ -46,6 +47,7 @@
     </div>
   </div>
 </header>
+<!-- header:end -->
 
 <main id="seo-static" class="bordered">
   <h2>Forest Edge, 1940</h2>
@@ -64,7 +66,7 @@
   <ul>
     <li>Private collection</li>
   </ul>
-  <p><a href="catalog.html">← Back to Catalog</a> · <a href="https://instagram.com/theodesaschool">Inquire on Instagram</a></p>
+  <p><a href="catalog.html">← Back to Catalog</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Forest%20Edge">Enquire by email</a></p>
 </main>
 
 <div id="not-found" class="artist-not-found" style="display:none;">
@@ -119,10 +121,12 @@
   </section>
 </div>
 
+<!-- footer:start -->
 <footer class="site-footer">
-  <span data-i18n="footer_text">© 2026 Odesa Art School Gallery. Photographs may differ slightly from the original in color and texture.</span>
+  <span data-i18n="footer_text">© 2026 The Odesa School. Photographs may differ slightly from the original in color and texture.</span>
   <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
 </footer>
+<!-- footer:end -->
 
 <div class="lightbox-overlay" id="lightbox">
   <button class="lightbox-close" id="lb-close" aria-label="Close">&times;</button>
@@ -138,13 +142,11 @@
 <script>
   window.PAGE_I18N = {
     en: {
-      tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
       back_to_catalog: "← Back to Catalog",
       not_found_label: "Painting Not Found",
       not_found_text: "We couldn't find this painting. It may have been renamed or removed."
     },
     ua: {
-      tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
       back_to_catalog: "← Назад до каталогу",
       not_found_label: "Картину не знайдено",
       not_found_text: "Не вдалося знайти цю картину. Можливо, її перейменували або видалили."
@@ -233,7 +235,7 @@
     const t = Object.assign({}, I18N_COMMON[lang], window.PAGE_I18N[lang]);
     const artist = getArtist(p.artistId);
 
-    document.title = `${p.title[lang]} — ${artist.name[lang]} — Odesa Art School`;
+    document.title = `${p.title[lang]} — ${artist.name[lang]} — ${SITE_NAME}`;
 
     photoList = buildPhotoList(p);
     if (currentIndex >= photoList.length) currentIndex = 0;

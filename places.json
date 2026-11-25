@@ -2,43 +2,37 @@
   {
     "id": "opera-theatre",
     "name": { "en": "Odesa Opera and Ballet Theatre", "ua": "Одеський оперний театр" },
-    "photo": "images/places/opera-theatre.jpeg",
-    "photoCredit": "© Odesa Art School",
+    "photo": "images/places/opera-theatre.jpg",
     "paintingIds": ["gavdzinskiy-the-odesa-opera-and-ballet-theatre"]
   },
   {
     "id": "hretska-square",
     "name": { "en": "Hretska Square", "ua": "Грецька площа" },
-    "photo": "images/places/grecheskaya-square.jpeg",
-    "photoCredit": "© Odesa Art School",
+    "photo": "images/places/grecheskaya-square.jpg",
     "paintingIds": ["lytvynenko-grecheskaya-square"]
   },
   {
     "id": "view-of-the-cathedral",
     "name": { "en": "View of the Cathedral", "ua": "Вид на собор" },
-    "photo": "images/places/view-on-the-cathedral.jpeg",
-    "photoCredit": "© Odesa Art School",
+    "photo": "images/places/view-on-the-cathedral.jpg",
     "paintingIds": ["lytvynenko-view-of-the-cathedral"]
   },
   {
     "id": "station-square",
     "name": { "en": "Station Square", "ua": "Вокзальна площа" },
-    "photo": "images/places/station.jpeg",
-    "photoCredit": "© Odesa Art School",
+    "photo": "images/places/station.jpg",
     "paintingIds": ["gavdzinskiy-station-square-view-from-the-marine-station"]
   },
   {
     "id": "on-the-boulevard",
     "name": { "en": "On the Boulevard", "ua": "На бульварі" },
-    "photo": "images/places/on -the- boulevard.jpeg",
-    "photoCredit": "© Odesa Art School",
+    "photo": "images/places/on-the-boulevard.jpg",
     "paintingIds": ["shelyuto-on-the-boulevard"]
   },
   {
     "id": "kolodiazny-lane",
     "name": { "en": "Kolodiazny Lane", "ua": "Колодязний провулок" },
-    "photo": "images/places/kolodiazny-lane.jpeg",
-    "photoCredit": "© Odesa Art School",
+    "photo": "images/places/kolodiazny-lane.jpg",
     "paintingIds": ["lytvynenko-kolodezny-pereulok"]
   }
 ]

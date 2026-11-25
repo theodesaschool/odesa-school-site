@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hennadiy Malyshev — Odesa Art School</title>
+<title>Hennadiy Malyshev — The Odesa School</title>
 <link rel="stylesheet" href="css/style.css">
 <!-- seo:start -->
 <meta name="description" content="Hennadiy Iosypovych Malyshev painted the sea as though it breathed. Rich brushwork, Black Sea light — sixty years of work that, until recently, remained…">
 <link rel="canonical" href="https://theodesaschool.com/artist/malyshev.html">
-<meta property="og:site_name" content="Odesa Art School">
+<meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="uk_UA">
-<meta property="og:title" content="Hennadiy Malyshev — Odesa Art School">
+<meta property="og:title" content="Hennadiy Malyshev — The Odesa School">
 <meta property="og:description" content="Hennadiy Iosypovych Malyshev painted the sea as though it breathed. Rich brushwork, Black Sea light — sixty years of work that, until recently, remained…">
 <meta property="og:url" content="https://theodesaschool.com/artist/malyshev.html">
 <meta property="og:image" content="https://theodesaschool.com/images/paintings/malyshev-winter-at-the-sea/front.jpg">
@@ -26,9 +26,10 @@
 </head>
 <body data-page="artists">
 
+<!-- header:start -->
 <header class="site-header">
   <div class="brand">
-    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">Odesa Art School</h1></a>
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
     <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
   </div>
   <div class="header-right">
@@ -46,6 +47,7 @@
     </div>
   </div>
 </header>
+<!-- header:end -->
 
 <main id="seo-static" class="bordered">
   <h2>Hennadiy Malyshev</h2>
@@ -89,10 +91,12 @@
   </section>
 </div>
 
+<!-- footer:start -->
 <footer class="site-footer">
-  <span data-i18n="footer_text">© 2026 Odesa Art School Gallery. Photographs may differ slightly from the original in color and texture.</span>
+  <span data-i18n="footer_text">© 2026 The Odesa School. Photographs may differ slightly from the original in color and texture.</span>
   <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
 </footer>
+<!-- footer:end -->
 
 <script>window.ARTIST_ID="malyshev";</script>
 <script src="js/data.js"></script>
@@ -100,7 +104,6 @@
 <script>
   window.PAGE_I18N = {
     en: {
-      tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
       bio_label: "Biography",
       works_label: "Works in the Collection",
       back_to_catalog: "← Back to Catalog",
@@ -109,7 +112,6 @@
       sources_label: "Sources"
     },
     ua: {
-      tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
       bio_label: "Біографія",
       works_label: "Роботи в колекції",
       back_to_catalog: "← Назад до каталогу",
@@ -127,7 +129,7 @@
     const a = currentArtist;
     const t = Object.assign({}, I18N_COMMON[lang], window.PAGE_I18N[lang]);
 
-    document.title = `${a.name[lang]} — Odesa Art School`;
+    document.title = `${a.name[lang]} — ${SITE_NAME}`;
 
     const titleLine = a.title && a.title[lang]
       ? `<p class="artist-title">${a.title[lang]}</p>`

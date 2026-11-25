@@ -14,3 +14,9 @@
 
 # Локальные настройки
 /.claude/
+
+# Тесты: локальное окружение Python и снимки экрана
+.venv/
+tests/screenshots/
+__pycache__/
+.pytest_cache/

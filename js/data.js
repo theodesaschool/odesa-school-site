@@ -7,9 +7,14 @@
   See js/main.js's loadPaintings() / loadArtists(). Add a new painting or
   artist by editing those JSON files only — no HTML or JS changes needed.
 */
+/* site:start — создаётся tools/build_seo.py из tools/seo.config.json, не править вручную */
+const SITE_NAME = "The Odesa School";
+/* site:end */
+
 const I18N_COMMON = {
   en: {
-    site_title: "Odesa Art School",
+    site_title: SITE_NAME,
+    tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
     nav_home: "Home",
     nav_catalog: "Catalog",
     nav_artists: "Artists",
@@ -34,7 +39,7 @@ const I18N_COMMON = {
     photo_signature: "Signature",
     photo_detail: "Detail",
     description_label: "Description",
-    footer_text: "© 2026 Odesa Art School Gallery. Photographs may differ slightly from the original in color and texture.",
+    footer_text: "© 2026 " + SITE_NAME + ". Photographs may differ slightly from the original in color and texture.",
     footer_instagram: "Also on Instagram",
     signature_field: "Signature",
     inscription_field: "Inscription",
@@ -60,7 +65,8 @@ const I18N_COMMON = {
     places_close: "Close"
   },
   ua: {
-    site_title: "Odesa Art School",
+    site_title: SITE_NAME,
+    tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
     nav_home: "Головна",
     nav_catalog: "Каталог",
     nav_artists: "Художники",
@@ -85,7 +91,7 @@ const I18N_COMMON = {
     photo_signature: "Підпис",
     photo_detail: "Деталь",
     description_label: "Опис",
-    footer_text: "© 2026 Галерея «Odesa Art School». Фотографії можуть незначно відрізнятися від оригіналу кольором і фактурою.",
+    footer_text: "© 2026 " + SITE_NAME + ". Фотографії можуть незначно відрізнятися від оригіналу кольором і фактурою.",
     footer_instagram: "Також в Instagram",
     signature_field: "Підпис",
     inscription_field: "Напис",

@@ -4,12 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## О проекте
 
-Статический двуязычный (EN/UA) сайт галереи «Odesa Art School» — одесская живопись XX века. Без сборки, без npm, без фреймворков: HTML + CSS + чистый JS. Тестов и линтера нет.
+Статический двуязычный (EN/UA) сайт «The Odesa School» — частная коллекция одесской живописи 1930–1980-х. Без npm и фреймворков: HTML + CSS + чистый JS, плюс Python-скрипты в `tools/` и тесты в `tests/`.
+
+Название сайта задаётся **только** в `tools/seo.config.json` (`site_name`); `build_seo.py` подставляет его в шапку, подвал, заголовки, мета-теги и `js/data.js` (`SITE_NAME`). «Odesa Art School» в биографиях художников — это настоящее училище, его не заменять.
 
 ## Запуск локально
 
 ```bash
-python3 -m http.server 8400 --bind 127.0.0.1
+python3 serve.py
 # http://localhost:8400
 ```
 
@@ -24,8 +26,9 @@ python3 -m http.server 8400 --bind 127.0.0.1
 - Страницы деталей: `painting/<painting.id>.html` и `artist/<artist.id>.html`. Их **генерирует** `python3 tools/build_seo.py` из шаблонов `painting.html` / `artist.html` (шаблоны сами закрыты от индексации через `noindex`; ID берётся из `window.PAINTING_ID` / `window.ARTIST_ID`, запасной вариант — `?id=` / `?artist=`). Не править сгенерированные файлы вручную.
 - `about.html` дополнительно грузит `places.json` (места Одессы ↔ картины через `paintingIds`).
 - `contact.html` и `how-to-buy.html` — только текст и переводы, без данных.
-- Шапка и навигация продублированы в каждом HTML вручную — при изменении меню править все 8 страниц. Активный пункт определяется по `<body data-page>` ↔ `data-nav`.
-- Кнопка «Inquire» ведёт в Instagram `theodesaschool`; цены на сайте не показываются («Price on request»).
+- Шапка и подвал общие: образцы в `tools/partials/header.html` и `footer.html` (`{site_name}` — место для названия). `build_seo.py` вставляет их во все 8 страниц между метками `<!-- header:start -->…<!-- header:end -->` и `<!-- footer:start -->…<!-- footer:end -->`. Меню и подвал правятся только в `tools/partials/`, затем запускается скрипт. Активный пункт меню определяется по `<body data-page>` ↔ `data-nav`.
+- Подзаголовок (`tagline`), `site_title`, `footer_text` — в общем словаре `I18N_COMMON` (`js/data.js`).
+- Кнопка «Enquire» открывает письмо на почту галереи (`GALLERY_EMAIL` в `js/main.js`, `CONTACT_EMAIL` в `tools/build_seo.py`); цены на сайте не показываются («Price on request»).
 
 ## Данные
 
@@ -88,8 +91,20 @@ python3 -m http.server 8400 --bind 127.0.0.1
 - Сгенерированные страницы используют `<base href="/">`, поэтому сайт должен лежать в корне домена (не в подпапке вроде `user.github.io/repo/`).
 - Описание картины для поисковиков берётся из `description.en`; если пусто — собирается из названия, техники и размера. Цены в эти тексты не попадают (скрипт предупреждает, если видит валюту).
 - Хостинг — **GitHub Pages** (репозиторий `theodesaschool/odesa-school-site`, ветка `main`, папка `/root`). Домен `theodesaschool.com` подключён через файл `CNAME` в корне репозитория + DNS-записи в Cloudflare (4 A-записи на IP GitHub Pages для `@`, CNAME `www` → `theodesaschool.github.io`, обе без прокси — «DNS only»).
-- Публикация = обычный git push в `main`: GitHub Pages сам пересобирает и выкладывает сайт за одну-две минуты. Перед пушем: `build_seo.py`, затем можно прогнать `tools/make_publish.py` как дополнительную проверку на цены/заглушки/пропавшие фото (он просто сканирует файлы, без выгрузки; саму копию в `~/Desktop/my-site-publish` для публикации использовать не нужно).
+- Публикация = обычный git push в `main`: GitHub Pages сам пересобирает и выкладывает сайт за одну-две минуты. Перед пушем: `python3 tools/build_seo.py` → `python3 tools/check_site.py` (только читает файлы: цены, пропавшие фото, старые названия, лишние страницы) → тесты.
 - Сгенерированные файлы (`painting/`, `artist/`, `sitemap.xml`, `robots.txt`) коммитятся в git, это часть статического сайта.
+
+## Тесты
+
+Подробно — `tests/README.md`. Окружение Python с Playwright лежит в `.venv/` (не в git).
+
+```bash
+.venv/bin/pytest tests -q                    # ~2–3 минуты: все страницы, меню, языки, каталог, каждая картина и художник, телефон, цены, название, доступность
+.venv/bin/python tests/visual.py baseline    # снимки «до» изменений
+.venv/bin/python tests/visual.py compare     # снимки «после» и отличия в tests/screenshots/diff/
+```
+
+После любых изменений вёрстки, скриптов или JSON — прогнать тесты.
 
 ## Приватные данные и рабочие материалы
 

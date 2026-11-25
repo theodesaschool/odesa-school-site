@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Odesa Art School</title>
+<title>About — The Odesa School</title>
 <link rel="stylesheet" href="css/style.css">
 <!-- seo:start -->
-<meta name="description" content="Odesa Art School gallery: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
+<meta name="description" content="The Odesa School: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
 <link rel="canonical" href="https://theodesaschool.com/about.html">
-<meta property="og:site_name" content="Odesa Art School">
+<meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="uk_UA">
-<meta property="og:title" content="About — Odesa Art School">
-<meta property="og:description" content="Odesa Art School gallery: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
+<meta property="og:title" content="About — The Odesa School">
+<meta property="og:description" content="The Odesa School: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
 <meta property="og:url" content="https://theodesaschool.com/about.html">
 <meta property="og:image" content="https://theodesaschool.com/images/hero-odesa-opera.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -22,9 +22,10 @@
 </head>
 <body data-page="about">
 
+<!-- header:start -->
 <header class="site-header">
   <div class="brand">
-    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">Odesa Art School</h1></a>
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
     <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
   </div>
   <div class="header-right">
@@ -42,11 +43,12 @@
     </div>
   </div>
 </header>
+<!-- header:end -->
 
 <section class="bordered">
   <h2 class="section-label" data-i18n="about_label">About Us</h2>
   <p class="lede" data-i18n="about_p1">
-    Odesa Art School gallery presents a privately held collection of paintings from the Odesa school,
+    The Odesa School presents a privately held collection of paintings from the Odesa school,
     active between the 1930s and 1980s. Every work in the collection has been personally selected,
     researched, and documented by its owner.
   </p>
@@ -93,19 +95,20 @@
 </section>
 -->
 
+<!-- footer:start -->
 <footer class="site-footer">
-  <span data-i18n="footer_text">© 2026 Odesa Art School Gallery. Photographs may differ slightly from the original in color and texture.</span>
+  <span data-i18n="footer_text">© 2026 The Odesa School. Photographs may differ slightly from the original in color and texture.</span>
   <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
 </footer>
+<!-- footer:end -->
 
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
 <script>
   window.PAGE_I18N = {
     en: {
-      tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
       about_label: "About Us",
-      about_p1: "Odesa Art School gallery presents a privately held collection of paintings from the Odesa school, active between the 1930s and 1980s. Every work in the collection has been personally selected, researched, and documented by its owner.",
+      about_p1: SITE_NAME + " presents a privately held collection of paintings from the Odesa school, active between the 1930s and 1980s. Every work in the collection has been personally selected, researched, and documented by its owner.",
       about_p2: "Each painting is accompanied by supporting documentation — certificates of authenticity, provenance records, and, where available, the artist's own signature and archival material — so that collectors can acquire with confidence.",
       about_p3: "This site mirrors our Instagram, where new acquisitions and details from the collection are shared first: <a href=\"https://instagram.com/theodesaschool\" target=\"_blank\" rel=\"noopener\">@theodesaschool</a>.",
       stat_artists: "Artists",
@@ -122,9 +125,8 @@
       callout_meta: "Worldwide delivery"
     },
     ua: {
-      tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
       about_label: "Про нас",
-      about_p1: "Галерея «Odesa Art School» представляє приватну колекцію картин одеської школи, що діяла з 1930-х по 1980-ті роки. Кожна робота в колекції особисто відібрана, досліджена та задокументована власником.",
+      about_p1: SITE_NAME + " представляє приватну колекцію картин одеської школи, що діяла з 1930-х по 1980-ті роки. Кожна робота в колекції особисто відібрана, досліджена та задокументована власником.",
       about_p2: "Кожна картина супроводжується підтвердними документами — сертифікатом автентичності, провенансом та, за наявності, підписом художника й архівними матеріалами — щоб колекціонери могли придбати з упевненістю.",
       about_p3: "Цей сайт дублює наш Instagram, де нові надходження та деталі колекції публікуються першими: <a href=\"https://instagram.com/theodesaschool\" target=\"_blank\" rel=\"noopener\">@theodesaschool</a>.",
       stat_artists: "Художників",
@@ -176,7 +178,7 @@
           ${placePhotoHtml(place, seed)}
           <span class="place-name-overlay">${place.name[lang]}</span>
         </div>
-        ${place.photoCredit ? `<div class="place-credit">${place.photoCredit}</div>` : ""}
+        <div class="place-credit">${place.photoCredit || "© " + SITE_NAME}</div>
     `;
     if (!hasPaintings) {
       return `<div class="place-card place-card-static">${inner}</div>`;
