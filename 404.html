@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page not found — The Odesa School</title>
+<link rel="stylesheet" href="css/style.css">
+<!-- seo:start -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!-- seo:end -->
+</head>
+<body data-page="404">
+
+<!-- header:start -->
+<header class="site-header">
+  <div class="brand">
+    <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
+    <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
+  </div>
+  <div class="header-right">
+    <nav class="main-nav">
+      <a href="index.html" data-nav="home" data-i18n="nav_home">Home</a>
+      <a href="catalog.html" data-nav="catalog" data-i18n="nav_catalog">Catalog</a>
+      <a href="artists.html" data-nav="artists" data-i18n="nav_artists">Artists</a>
+      <a href="how-to-buy.html" data-nav="howtobuy" data-i18n="nav_howtobuy">How to Buy</a>
+      <a href="about.html" data-nav="about" data-i18n="nav_about">About</a>
+      <a href="contact.html" data-nav="contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="lang-switch">
+      <button id="btn-en" class="active">EN</button>
+      <button id="btn-ua">UA</button>
+    </div>
+  </div>
+</header>
+<!-- header:end -->
+
+<section class="bordered">
+  <h2 class="section-label" data-i18n="notfound_label">Page not found</h2>
+  <p class="lede" data-i18n="notfound_text">This page doesn't exist or has moved. You can find every painting in the catalog.</p>
+  <div class="hero-actions" style="margin-top: 26px;">
+    <a class="btn btn-primary" href="catalog.html" data-i18n="notfound_catalog">View the Catalog</a>
+    <a class="btn btn-outline" href="index.html" data-i18n="notfound_home">Home page</a>
+  </div>
+</section>
+
+<!-- footer:start -->
+<footer class="site-footer">
+  <span data-i18n="footer_text">© 2026 The Odesa School. Photographs may differ slightly from the original in color and texture.</span>
+  <span><span data-i18n="footer_instagram">Also on Instagram</span>: <a href="https://instagram.com/theodesaschool" target="_blank" rel="noopener">@theodesaschool</a></span>
+</footer>
+<!-- footer:end -->
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>
+  window.PAGE_I18N = {
+    en: {
+      notfound_label: "Page not found",
+      notfound_text: "This page doesn't exist or has moved. You can find every painting in the catalog.",
+      notfound_catalog: "View the Catalog",
+      notfound_home: "Home page"
+    },
+    ua: {
+      notfound_label: "Сторінку не знайдено",
+      notfound_text: "Такої сторінки немає або її перенесено. Усі картини можна знайти в каталозі.",
+      notfound_catalog: "Переглянути каталог",
+      notfound_home: "На головну"
+    }
+  };
+
+  initLangSwitch();
+</script>
+
+</body>
+</html>

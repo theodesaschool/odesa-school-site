@@ -22,7 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_DIRS = ["css", "js", "images", "painting", "artist"]
 DATA_FILES = ["paintings.json", "artists.json", "places.json"]
 TEMPLATES = ["index.html", "catalog.html", "artists.html", "artist.html", "painting.html",
-             "about.html", "contact.html", "how-to-buy.html"]
+             "about.html", "contact.html", "how-to-buy.html", "404.html"]
 OLD_SITE_NAMES = ["Odesa Art Gallery", "Odesa Art School"]  # «Odesa Art School» в биографиях — училище, это нормально
 PRIVATE_NAME_RX = re.compile(r"invoice|инвойс|цен[ыа]|price|\.pdf$|\.pages$|копия|backup", re.I)
 PRICE_RX = re.compile(r"[$€₴£]\s?\d|\d\s?(грн|USD|EUR|UAH|GBP)\b", re.I)

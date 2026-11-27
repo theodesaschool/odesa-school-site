@@ -57,6 +57,7 @@ PAGE_TITLES = {
     "contact.html": "Contact",
     "painting.html": "Painting",
     "artist.html": "Artist",
+    "404.html": "Page not found",
 }
 # Название сайта для кода страниц (js/data.js), между метками
 SITE_JS_START = "/* site:start — создаётся tools/build_seo.py из tools/seo.config.json, не править вручную */"
@@ -178,8 +179,8 @@ class Builder:
             title = re.search(r"<title>(.*?)</title>", text, re.S).group(1)
             d = INDEX_DESC if desc is None else desc.format(n=n, a=a, site=SITE_NAME)
             write(fp, self.inject(text, self.head_block(title, d, path)))
-        # Шаблоны painting.html / artist.html: сами не индексируем (канонические — страницы в painting/ и artist/)
-        for fname in ("painting.html", "artist.html"):
+        # Шаблоны painting.html / artist.html и страницу 404 не индексируем (канонические — страницы в painting/ и artist/)
+        for fname in ("painting.html", "artist.html", "404.html"):
             fp = os.path.join(self.root, fname)
             write(fp, self.inject(read(fp), self.head_block("", "", "", noindex=True)))
 
