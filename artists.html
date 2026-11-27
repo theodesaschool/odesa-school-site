@@ -87,7 +87,7 @@
       const yearsLine = a.years ? `<p class="artist-dir-years">${a.years}</p>` : "";
       return `
         <a class="artist-dir-card" href="artist/${a.id}.html">
-          <div class="artist-dir-portrait">${brushSvg(a.hue, i)}</div>
+          <div class="artist-dir-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}" loading="lazy">` : brushSvg(a.hue, i)}</div>
           <div class="artist-dir-body">
             <h3 class="artist-dir-name">${a.name[lang]}</h3>
             ${yearsLine}

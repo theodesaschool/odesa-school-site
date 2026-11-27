@@ -178,7 +178,7 @@
     const yearsLine = a.years ? `<p class="artist-years">${a.years}</p>` : "";
 
     document.getElementById("artist-hero").innerHTML = `
-      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}" style="width:100%;height:100%;object-fit:cover;">` : brushSvg(a.hue, 2)}</div>
+      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}">` : brushSvg(a.hue, 2)}</div>
       <div class="artist-info">
         <h2>${a.name[lang]}</h2>
         ${yearsLine}
