@@ -10,7 +10,7 @@
       "en": "Honoured Figure of Arts of Ukraine",
       "ua": "Заслужений діяч мистецтв України"
     },
-    "photo": null,
+    "photo": "images/artists/shelyuto.jpg",
     "hue": [
       "#c98a4b",
       "#7c5a3a",
@@ -26,8 +26,8 @@
         "ua": "У 1925–1931 роках навчався в Одеському художньому інституті у Павла Волокидіна, Теофіла Фраєрмана та Михайла Жука. Брав участь у виставках з 1936 року, у 1938 році вступив до Спілки художників. Під час Другої світової війни брав участь в обороні Одеси, повернувся до міста в 1944 році."
       },
       {
-        "en": "For many years he taught painting and drawing at the Odesa Art School. His pupils included Kostiantyn Lomykin, Oleksandr Atsmanchuk and Volodymyr Lytvynenko, who later married his daughter Tamara. All three are represented in this collection. His son Oleksandr catalogued nearly 2,000 of his paintings.",
-        "ua": "Багато років викладав живопис і рисунок в Одеському художньому училищі. Серед його учнів — Костянтин Ломикін, Олександр Ацманчук і Володимир Литвиненко, який згодом одружився з його донькою Тамарою. Усі троє представлені в цій колекції. Син художника Олександр склав каталог майже 2000 його картин."
+        "en": "For many years he taught painting and drawing at the Odesa Art School. His pupils included Kostiantyn Lomykin, Oleksandr Atsmanchuk, Lev Mezhberg and Volodymyr Lytvynenko, who later married his daughter Tamara. All four are represented in this collection. His son Oleksandr catalogued nearly 2,000 of his paintings.",
+        "ua": "Багато років викладав живопис і рисунок в Одеському художньому училищі. Серед його учнів — Костянтин Ломикін, Олександр Ацманчук, Лев Межберг і Володимир Литвиненко, який згодом одружився з його донькою Тамарою. Усі четверо представлені в цій колекції. Син художника Олександр склав каталог майже 2000 його картин."
       },
       {
         "en": "He painted Odesa and its coast, Crimea and the Ukrainian countryside. In the words of art historian Tetiana Basanets, for fifty years he remained \"a faithful continuer of the traditions of the South Russian school of painting\". Ukrainian museums in Kyiv, Lviv, Odesa and Alushta hold more than 80 of his works. The Odesa Art Museum marked his centenary with a retrospective in 2006.",
@@ -49,8 +49,11 @@
       "ua": "Костянтин Ломикін"
     },
     "years": "1924–1993",
-    "title": null,
-    "photo": null,
+    "title": {
+      "en": "People's Artist of the Ukrainian SSR",
+      "ua": "Народний художник УРСР"
+    },
+    "photo": "images/artists/lomykin.jpg",
     "hue": [
       "#8fb3c9",
       "#dbe6df",
@@ -58,21 +61,27 @@
     ],
     "bio": [
       {
-        "en": "His works are held in museums in Kyiv and Odesa. Lomykin painted people — alive, warm, real.",
-        "ua": "Його роботи зберігаються в музеях Києва та Одеси. Ломикін писав людей — живих, теплих, справжніх."
+        "en": "Kostiantyn Lomykin (1924–1993) was an Odesa painter of portraits, landscapes, still lifes and thematic pictures, and a People's Artist of the Ukrainian SSR. He was born on 19 August 1924 in Hlukhiv (now Sumy region) and served in the Second World War. He died in Odesa on 9 July 1993.",
+        "ua": "Костянтин Ломикін (1924–1993) — одеський живописець, автор портретів, пейзажів, натюрмортів і тематичних картин, народний художник УРСР. Народився 19 серпня 1924 року в Глухові (нині Сумська область), учасник Другої світової війни. Помер в Одесі 9 липня 1993 року."
       },
       {
-        "en": "Between 1946 and 1951 he studied at the Odesa Art School under Leonid Muchnyk, Mykola Shelyuto and Mykola Pavliuk — the same masters who trained Lytvynenko.",
-        "ua": "У 1946–1951 роках навчався в Одеському художньому училищі у Леоніда Мучника, Миколи Шелюта та Миколи Павлюка — тих самих майстрів, що виховали Литвиненка."
+        "en": "From 1946 to 1951 he studied at the Odesa Art School under Leonid Muchnyk, Mykola Pavliuk and Mykola Shelyuto; Shelyuto is also represented in this collection. He exhibited from 1951 and joined the Union of Artists in 1953. From 1972 to 1976 he chaired its Odesa branch. He was named Honoured Art Worker of the Ukrainian SSR in 1971 and People's Artist of the Ukrainian SSR in 1984.",
+        "ua": "У 1946–1951 роках навчався в Одеському художньому училищі у Леоніда Мучника, Миколи Павлюка та Миколи Шелюта, який також представлений у цій колекції. Брав участь у виставках з 1951 року, у 1953 році вступив до Спілки художників, у 1972–1976 роках очолював її Одеську організацію. Заслужений діяч мистецтв УРСР (1971), народний художник УРСР (1984)."
       },
       {
-        "en": "His work is held by the Odesa Art Museum and the National Art Museum of Ukraine, and in private collections in Japan, France, and Italy.",
-        "ua": "Роботи Ломикіна зберігаються в Одеському художньому музеї, Національному художньому музеї України та приватних колекціях Японії, Франції, Італії."
+        "en": "He worked mainly in oil and pastel and painted much in the open air. His subjects included ballet scenes, flowers and a series of women's portraits. Snow was one of his main motifs, and he often travelled to the artists' retreat at Sedniv to paint winter landscapes. Art historian Anna Nosenko describes his style as a combination of decorative qualities with the observation of light and air in open-air painting.",
+        "ua": "Працював переважно олією та пастеллю, багато писав на пленері; серед його тем — балет, квіти, серія жіночих портретів. Сніг був одним із головних його мотивів: художник неодноразово їздив до Будинку творчості в Седневі писати зимові пейзажі. Мистецтвознавиця Анна Носенко визначає його стиль як поєднання декоративності з пленерним світлоповітряним живописом."
+      },
+      {
+        "en": "He had solo exhibitions in Odesa, Kharkiv and Kyiv, and in Tokyo in 1981; a posthumous exhibition was held in Amsterdam in 2001. His works are held by the Odesa Art Museum, the National Art Museum of Ukraine and the State Tretyakov Gallery in Moscow.",
+        "ua": "Персональні виставки відбулися в Одесі, Харкові, Києві, а в 1981 році — у Токіо; посмертна виставка пройшла в Амстердамі у 2001 році. Його твори зберігаються в Одеському художньому музеї, Національному художньому музеї України та Державній Третьяковській галереї в Москві."
       }
     ],
     "sources": [
+      "esu.com.ua",
       "uk.wikipedia.org",
-      "esu.com.ua"
+      "artstudies.pdpu.edu.ua",
+      "nt-art.net"
     ]
   },
   {
@@ -86,7 +95,7 @@
       "en": "People's Artist of Ukraine",
       "ua": "Народний художник України"
     },
-    "photo": null,
+    "photo": "images/artists/gavdzinskiy.jpg",
     "hue": [
       "#a89078",
       "#5a4a3a",
@@ -126,9 +135,9 @@
     "years": "1922–1999",
     "title": {
       "en": "Landscape and still-life painter",
-      "ua": "Художник пейзажу і натюрморту"
+      "ua": "Живописець, майстер пейзажу й натюрморту"
     },
-    "photo": null,
+    "photo": "images/artists/malyshev.jpg",
     "hue": [
       "#5c7a8a",
       "#2f4550",
@@ -136,16 +145,26 @@
     ],
     "bio": [
       {
-        "en": "Hennadiy Iosypovych Malyshev painted the sea as though it breathed. Rich brushwork, Black Sea light — sixty years of work that, until recently, remained in a private collection.",
-        "ua": "Геннадій Йосипович Малишев писав море так, ніби воно дихає. Соковитий мазок, чорноморське світло — 60 років роботи, що донедавна залишалася у приватній колекції."
+        "en": "Hennadiy Malyshev (1922–1999) was an Odesa painter and graphic artist who worked mainly in landscape and still life. He was born on 6 March 1922 in the village of Aksai, now in the Volgograd region of Russia, and died in Odesa on 19 April 1999. He fought in the Second World War and received combat awards.",
+        "ua": "Геннадій Малишев (1922–1999) — одеський живописець і графік, який працював переважно в жанрах пейзажу й натюрморту. Народився 6 березня 1922 року в селі Аксай (нині Волгоградська область, Росія), помер в Одесі 19 квітня 1999 року. Учасник Другої світової війни, мав бойові нагороди."
       },
       {
-        "en": "He lived through the war as a combatant, decorated with the Order of the Patriotic War. He found art afterward: in 1955 he graduated from the Odesa Art School, where he studied under Leonid Muchnyk — the same teacher who trained Lomykin.",
-        "ua": "Пройшов війну — учасник бойових дій, нагороджений орденом Вітчизняної війни. Мистецтво знайшов після неї: у 1955 закінчив Одеське художнє училище, навчаючись у Леоніда Мучника, того самого вчителя, що й Ломикін."
+        "en": "He settled in Odesa in 1946, where he first worked as a club manager. In 1955 he graduated from the Odesa Art School, where he studied under Mykhailo Zhuk, Moisei Mutselmakher, Leonid Muchnyk and Dina Frumina. He exhibited from 1957 and joined the Union of Artists in 1962. From 1965 until his death he worked for the Odesa branch of the Art Fund of Ukraine.",
+        "ua": "З 1946 року жив в Одесі, спершу працював завідувачем клубу. У 1955 році закінчив Одеське художнє училище, де навчався у Михайла Жука, Мойсея Муцельмахера, Леоніда Мучника та Діни Фруміної. Брав участь у виставках з 1957 року, член Спілки художників з 1962 року. Від 1965 року і до кінця життя працював в Одеському відділенні Художнього фонду України."
+      },
+      {
+        "en": "The Encyclopedia of Modern Ukraine places his lyrical landscapes and still lifes in the tradition of the South Russian school of painting. His recurring subjects were the coast at Velykyi Fontan, the countryside around Odesa, the port of Illichivsk, the Dniester and Crimea, and his series \"Studies at Velykyi Fontan\" spans 1964 to 1998. He also illustrated books, including Russian folk tales (1980). His daughter, Larysa Malysheva, is also an artist.",
+        "ua": "«Енциклопедія Сучасної України» відносить його ліричні пейзажі й натюрморти до традицій південноросійської школи живопису. Постійними мотивами були узбережжя Великого Фонтану, околиці Одеси, порт Іллічівськ, Дністер і Крим, а серія «Етюди на Великому Фонтані» охоплює 1964–1998 роки. Ілюстрував також книжки, зокрема російські народні казки (1980). Його донька Лариса Малишева також художниця."
+      },
+      {
+        "en": "His works are held by the Odesa and Mykolaiv art museums. A posthumous solo exhibition was held in Odesa in 2000.",
+        "ua": "Його роботи зберігаються в Одеському та Миколаївському художніх музеях. У 2000 році в Одесі відбулася посмертна персональна виставка."
       }
     ],
     "sources": [
-      "uk.wikipedia.org"
+      "esu.com.ua",
+      "uk.wikipedia.org",
+      "nt-art.net"
     ]
   },
   {
@@ -159,7 +178,7 @@
       "en": "Honoured Artist of Ukraine",
       "ua": "Заслужений художник України"
     },
-    "photo": null,
+    "photo": "images/artists/lytvynenko.jpg",
     "hue": [
       "#6f93a8",
       "#c7d9df",
@@ -201,7 +220,7 @@
       "en": "Honoured Artist of Ukraine",
       "ua": "Заслужений художник України"
     },
-    "photo": null,
+    "photo": "images/artists/kryzhevskiy.jpg",
     "hue": [
       "#7a9b8e",
       "#3d5148",
@@ -209,24 +228,27 @@
     ],
     "bio": [
       {
-        "en": "Represented in the collection with Crimean views, including scenes from Gurzuf.",
-        "ua": "У колекції представлений кримськими краєвидами, зокрема сценами з Гурзуфа."
+        "en": "Hryhorii Kryzhevskyi (1918–1992) was a painter of landscapes, still lifes, portraits and thematic pictures, and an Honoured Artist of Ukraine. He was born in Kharkiv on 15 December 1918 and died in Odesa on 9 September 1992.",
+        "ua": "Григорій Крижевський (1918–1992) — живописець, автор пейзажів, натюрмортів, портретів і тематичних картин, заслужений художник України. Народився в Харкові 15 грудня 1918 року, помер в Одесі 9 вересня 1992 року."
       },
       {
-        "en": "Born in Kharkiv in 1918, he served in World War II and was decorated for combat. In 1951 he graduated from the Kharkiv Art Institute, studying under S. Besiedin, H. Bondarenko, and M. Derehus.",
-        "ua": "Народився у Харкові 1918 року. Пройшов Другу світову війну — має бойові нагороди. У 1951 закінчив Харківський художній інститут, навчаючись у С. Бесєдіна, Г. Бондаренка, М. Дерегуса."
+        "en": "He studied at the Kharkiv art college. He served in the army from 1939 to 1946, fought in the Second World War as a tank crewman and received combat awards. In 1951 he graduated from the Kharkiv Art Institute, where his teachers were Semen Besiedin, Hryhorii Bondarenko and Mykhailo Derehus.",
+        "ua": "Навчався в Харківському художньому училищі. У 1939–1946 роках служив в армії, воював у Другій світовій війні танкістом, мав бойові нагороди. У 1951 році закінчив Харківський художній інститут, де його викладачами були Семен Бесєдін, Григорій Бондаренко та Михайло Дерегус."
       },
       {
-        "en": "He went on to teach at the Odesa Art School, where his students included Volodymyr Lytvynenko, also featured in this collection. His daughter Svitlana became a painter and art historian; his granddaughter Natalia Harmyder is an artist too.",
-        "ua": "Викладав в Одеському художньому училищі — серед його учнів Володимир Литвиненко, представлений у нашій колекції. Донька Світлана стала художницею і мистецтвознавицею, онука Наталія Гармидер — теж художниця."
+        "en": "In 1951 he moved to Odesa, where until 1958 he taught at the Odesa Art School and served as its director. His pupils included Volodymyr Lytvynenko, also represented in this collection. He exhibited from 1951, joined the Union of Artists in 1954 and was named Honoured Artist in 1974. He had solo exhibitions in Odesa, Chișinău, Kakhovka, Kyiv and Kherson between 1962 and 1989; a posthumous exhibition was held in Kyiv in 2000.",
+        "ua": "У 1951 році переїхав до Одеси, де до 1958 року викладав в Одеському художньому училищі та був його директором. Серед його учнів — Володимир Литвиненко, також представлений у цій колекції. Брав участь у виставках з 1951 року, у 1954 році вступив до Спілки художників, у 1974 році отримав звання заслуженого художника. Персональні виставки відбулися в Одесі, Кишиневі, Каховці, Києві та Херсоні (1962–1989); посмертна виставка пройшла в Києві у 2000 році."
       },
       {
-        "en": "Honoured Artist of Ukraine (1974) and a member of the Artists' Union since 1954, he held solo exhibitions in Odesa, Kyiv, Chișinău, Kakhovka, and Kherson between 1962 and 2000. He painted his final work, \"The Last Still Life,\" in 1992, the year he died.",
-        "ua": "Заслужений художник України (1974), член Спілки художників з 1954 року. Персональні виставки — Одеса, Київ, Кишинів, Каховка, Херсон (1962–2000). Останню картину, «Останній натюрморт», написав у рік смерті, 1992."
+        "en": "His works include \"Yachts on the Shore\" (1962), \"Crimea. Young Vineyards\" (1978) and \"Odesa Estuaries\" (1986), and end with \"The Last Still Life\" (1992). Memorial plaques to him have been installed in Odesa and Kharkiv. His daughter Svitlana Kryzhevska and granddaughter Natalia Harmyder are also painters.",
+        "ua": "Серед його творів — «Яхти на березі» (1962), «Крим. Молоді виноградники» (1978), «Одеські лимани» (1986), а завершує їх «Останній натюрморт» (1992). На його честь в Одесі та Харкові встановлено меморіальні дошки. Його донька Світлана Крижевська та онука Наталія Гармидер також художниці."
       }
     ],
     "sources": [
-      "esu.com.ua"
+      "esu.com.ua",
+      "uk.wikipedia.org",
+      "ru.wikipedia.org",
+      "nt-art.net"
     ]
   },
   {
@@ -238,9 +260,9 @@
     "years": "1933–2007",
     "title": {
       "en": "Painter",
-      "ua": "Художник"
+      "ua": "Живописець"
     },
-    "photo": null,
+    "photo": "images/artists/mezhberg.jpg",
     "hue": [
       "#e0a05b",
       "#f2d9a7",
@@ -248,26 +270,28 @@
     ],
     "bio": [
       {
-        "en": "An artist who understood the value of silence. Mezhberg painted Odesa like a memory — courtyards, streets, sea air. Soft colour, deep lyricism.",
-        "ua": "Художник, що знав ціну тиші. Межберг писав Одесу як спогад — дворики, вулиці, морське повітря. М'який колір, глибока ліричність."
+        "en": "Lev Mezhberg (1933–2007), known in the United States as Lev Meshberg, was a painter born in Odesa on 24 August 1933. He died on 17 July 2007 in Carrara, Italy, and is buried in Darien, Connecticut.",
+        "ua": "Лев Межберг (1933–2007), у США відомий як Lev Meshberg, — живописець, який народився в Одесі 24 серпня 1933 року. Помер 17 липня 2007 року в італійському місті Каррара, похований у місті Дарієн (штат Коннектикут, США)."
       },
       {
-        "en": "In 1958 he studied at the Odesa Art School (known as \"Grekovka\") under Teofil Fraerman and Dina Frumina — and it is to Frumina that he owed his creative individuality. \"I freed myself from wordiness,\" the artist said of her influence.",
-        "ua": "У 1958 році навчався в Одеському художньому училищі («Грековці») у Теофіла Фраєрмана та Діни Фруміної. Саме Фруміній завдячує своєю творчою своєрідністю. «Я звільнився від багатослів'я», — казав художник про її вплив."
+        "en": "In 1958 he graduated from the Odesa Art School, where his teachers included Dina Frumina, Liubov Tokareva-Aleksandrovych and Mykola Shelyuto, who is also represented in this collection. From 1960 to 1973 he worked at the Odesa art-production workshops. He exhibited from 1960 and joined the Union of Artists in 1962. His series of the 1960s were devoted to Odesa and its outskirts, Vylkove, Klaipėda, and Samarkand and Bukhara. He had solo exhibitions in Odesa in 1967 and 1972.",
+        "ua": "У 1958 році закінчив Одеське художнє училище, де серед його викладачів були Діна Фруміна, Любов Токарева-Александрович і Микола Шелюто, роботи якого також є в цій колекції. У 1960–1973 роках працював в Одеському художньо-виробничому комбінаті. Брав участь у виставках з 1960 року, член Спілки художників з 1962 року. Його серії 1960-х років присвячені Одесі та її околицям, Вилковому, Клайпеді, Самарканду й Бухарі. Персональні виставки відбулися в Одесі у 1967 і 1972 роках."
       },
       {
-        "en": "Mikhail Shemyakin called him \"the best colourist in contemporary painting.\"",
-        "ua": "Михайло Шемякін називав його «найкращим колористом у сучасному живописі»."
+        "en": "In 1973 he emigrated with his family to the United States and settled in Darien, Connecticut, near New York, where he also taught. He had solo exhibitions in Washington (1979–1980), San Francisco (1984–1987) and New York (1990s). He lived in Paris from 1991 to 1994 and in Carrara from 2001. According to the Encyclopedia of Modern Ukraine, he moved from a post-impressionist manner towards abstraction. Odesa remained a subject in his later work, as in the 1990s series \"Memories of Odesa\".",
+        "ua": "У 1973 році разом із родиною емігрував до США й оселився в Дарієні (штат Коннектикут) поблизу Нью-Йорка, де також викладав. Мав персональні виставки у Вашингтоні (1979–1980), Сан-Франциско (1984–1987) та Нью-Йорку (1990-ті роки). У 1991–1994 роках жив у Парижі, з 2001 року — у Каррарі. За «Енциклопедією Сучасної України», від постімпресіоністичної манери він перейшов до абстрактного мистецтва. Одеса залишалася темою його пізніх робіт, зокрема серії 1990-х років «Спогади про Одесу»."
       },
       {
-        "en": "His work is held by the Tretyakov Gallery, the Russian Museum, and museums in Kyiv and Odesa. His whole life, wherever he lived abroad, he kept painting Odesa.",
-        "ua": "Роботи Межберга зберігаються в Третьяковській галереї, Руському музеї, музеях Києва та Одеси. Все життя, живучи за кордоном, він писав Одесу."
+        "en": "His works are held by the State Tretyakov Gallery in Moscow, the National Art Museum of Ukraine in Kyiv, the Odesa, Kharkiv and Simferopol art museums, the Zimmerli Art Museum at Rutgers University (USA) and other collections. His widow, Asya Mezhberg, donated 50 of his works to the Odesa Fine Arts Museum.",
+        "ua": "Його роботи зберігаються в Державній Третьяковській галереї в Москві, Національному художньому музеї України в Києві, Одеському, Харківському та Сімферопольському художніх музеях, Художньому музеї Зіммерлі при Ратґерському університеті (США) та інших зібраннях. Вдова художника Ася Межберг передала 50 його робіт Одеському художньому музею."
       }
     ],
     "sources": [
+      "esu.com.ua",
+      "uk.wikipedia.org",
       "ru.wikipedia.org",
-      "runyweb.com",
-      "odessa-memory.info"
+      "nt-art.net",
+      "zimmerli.emuseum.com"
     ]
   },
   {
@@ -278,7 +302,7 @@
     },
     "years": "1923–1974",
     "title": null,
-    "photo": null,
+    "photo": "images/artists/atsmanchuk.jpg",
     "hue": [
       "#c9a0a0",
       "#6b3f3f",
@@ -286,15 +310,30 @@
     ],
     "bio": [
       {
-        "en": "Represented in the collection with coastal studies of boats and estuary shores.",
-        "ua": "У колекції представлений прибережними етюдами з човнами та берегами лиману."
+        "en": "Oleksandr Atsmanchuk (1923–1974) was an Odesa painter of portraits, landscapes and thematic pictures, and a teacher. He was born in Odesa on 8 September 1923 and died there on 7 October 1974.",
+        "ua": "Олександр Ацманчук (1923–1974) — одеський живописець, майстер портрета, пейзажу й тематичної картини, педагог. Народився в Одесі 8 вересня 1923 року, там само й помер 7 жовтня 1974 року."
       },
       {
-        "en": "Oleksandr Pavlovych Atsmanchuk was born 8 September 1923 in Odesa and died in October 1974 in Odesa. He studied at the Odesa Art School in 1947 (class of L. Muchnyk) and at the Repin Institute in 1953 (studio of Avilov); member of the Union of Artists of the Ukrainian SSR from 1954. He held no honorary titles in his lifetime — his first solo exhibition was held posthumously.",
-        "ua": "Олександр Павлович Ацманчук народився 8.09.1923 в Одесі, помер у жовтні 1974 в Одесі. Навчався в Одеському художньому училищі 1947 року (клас Л. Мучника) та в Інституті ім. Рєпіна 1953 року (майстерня Авілова); член Спілки художників УРСР з 1954 року. Почесних звань за життя не мав — перша персональна виставка відбулася посмертно."
+        "en": "He graduated from the Odesa Art School in 1947, where he studied under Leonid Muchnyk and Mykola Shelyuto, and from the Repin Institute in Leningrad in 1953, in the studio of Mykhailo Avilov. He exhibited from 1947 and joined the Union of Artists in 1954. In the 1950s he taught at the Odesa Art School. After graduating, Oleksandr Freidin, also represented in this collection, worked and studied in his studio for several years; Atsmanchuk painted his portrait in 1962.",
+        "ua": "У 1947 році закінчив Одеське художнє училище, де навчався у Леоніда Мучника та Миколи Шелюта, а в 1953 році — Ленінградський інститут імені Рєпіна (майстерня Михайла Авілова). Брав участь у виставках з 1947 року, у 1954 році вступив до Спілки художників. У 1950-х роках викладав в Одеському художньому училищі. Після закінчення училища в його майстерні кілька років працював і навчався Олександр Фрейдін, також представлений у цій колекції; у 1962 році Ацманчук написав його портрет."
+      },
+      {
+        "en": "Art historian Tetiana Basanets connects his name with the romantic style of the 1960s generation. In the late 1960s he turned to the legacy of the Renaissance and experimented with portrait painting; he was known as a fine draughtsman. His works include \"Order Given…\" (1957), \"Flight\" (1960–1967) and the unfinished \"The Drummer\" (1970–1974), as well as a series of Odesa landscapes painted from 1947 into the 1960s.",
+        "ua": "Мистецтвознавиця Тетяна Басанець пов'язує його ім'я з романтичним стилем доби шістдесятників. Наприкінці 1960-х років він звертався до надбань Ренесансу й експериментував у портретному живописі; був відомий як добрий рисувальник. Серед його творів — «Дано наказ…» (1957), «Політ» (1960–1967), незавершений «Барабанщик» (1970–1974), а також серія пейзажів Одеси (з 1947 до 1960-х років)."
+      },
+      {
+        "en": "He received no honorary titles during his lifetime, and his first solo exhibition was held only after his death. The Odesa Art Museum marked his 90th anniversary with an exhibition in 2013. His works are held by the Odesa Art Museum, the National Art Museum of Ukraine and the Museum of the Russian Academy of Arts in St Petersburg.",
+        "ua": "Почесних звань за життя не мав, а перша персональна виставка відбулася лише після його смерті. У 2013 році Одеський художній музей відзначив його 90-річчя виставкою. Твори зберігаються в Одеському художньому музеї, Національному художньому музеї України та Музеї Російської академії мистецтв у Санкт-Петербурзі."
       }
     ],
-    "sources": []
+    "sources": [
+      "esu.com.ua",
+      "uk.wikipedia.org",
+      "odesa-memory.info",
+      "grad.ua",
+      "nt-art.net",
+      "dodge.zimmerli.rutgers.edu"
+    ]
   },
   {
     "id": "pavliuk",
@@ -303,8 +342,11 @@
       "ua": "Георгій Павлюк"
     },
     "years": "1925–1987",
-    "title": null,
-    "photo": null,
+    "title": {
+      "en": "Honoured Artist of the Ukrainian SSR",
+      "ua": "Заслужений художник УРСР"
+    },
+    "photo": "images/artists/pavliuk.jpg",
     "hue": [
       "#9fb08f",
       "#4c5a40",
@@ -312,11 +354,22 @@
     ],
     "bio": [
       {
-        "en": "Represented in the collection with dacha and countryside scenes.",
-        "ua": "У колекції представлений дачними та сільськими сюжетами."
+        "en": "Heorhiy Pavliuk (1925–1987) was an Odesa painter and an Honoured Artist of the Ukrainian SSR (1973). He was born in Odesa on 20 November 1925 and died there on 14 November 1987. He was the son of the painter Mykola Pavliuk, who taught Albin Gavdzinskiy and Volodymyr Lytvynenko, both represented in this collection. His wife, Yevheniia Pavliuk-Sudina, and his daughter, Halyna Pavliuk, are also artists.",
+        "ua": "Георгій Павлюк (1925–1987) — одеський живописець, заслужений художник УРСР (1973). Народився в Одесі 20 листопада 1925 року, там само помер 14 листопада 1987 року. Син живописця Миколи Павлюка, учителя Альбіна Гавдзинського та Володимира Литвиненка, які також представлені в цій колекції. Його дружина Євгенія Павлюк-Судьїна та донька Галина Павлюк — також художниці."
+      },
+      {
+        "en": "In 1953 he graduated from the Kyiv Art Institute, where he studied under Serhiy Hryhoriev. Back in Odesa, he taught at the art school (1953–1966, with breaks) and at the Engineering-Construction Institute (1972–1975), and worked at the art-production combine. He joined the Union of Artists in 1953.",
+        "ua": "У 1953 році закінчив Київський художній інститут, де навчався в Сергія Григор'єва. В Одесі викладав у художньому училищі (1953–1966, з перервами) та в інженерно-будівельному інституті (1972–1975), працював на художньо-виробничому комбінаті. Член Спілки художників з 1953 року."
+      },
+      {
+        "en": "He worked mainly on thematic paintings with historical and contemporary subjects, such as Golden Wedding (1957), In the Blast-Furnace Shop (1960), Taras Shevchenko and Children (1969) and Sails of Our Youth (1981). He also painted portraits and landscapes. He exhibited from 1951 and had a solo exhibition in Odesa in 1968. His works are held by the National Art Museum of Ukraine, the Odesa Art Museum and art museums in Ivano-Frankivsk, Sumy, Khmelnytskyi and Chernihiv.",
+        "ua": "Працював переважно в тематичній картині на історичні й сучасні сюжети: «Золоте весілля» (1957), «У доменному цеху» (1960), «Т. Шевченко і діти» (1969), «Вітрила нашої юності» (1981). Писав також портрети й пейзажі. Брав участь у виставках з 1951 року, персональна виставка відбулася в Одесі 1968 року. Твори зберігаються в Національному художньому музеї України, Одеському художньому музеї та в художніх музеях Івано-Франківська, Сум, Хмельницького й Чернігова."
       }
     ],
-    "sources": []
+    "sources": [
+      "esu.com.ua",
+      "xoxm.art"
+    ]
   },
   {
     "id": "pliss",
@@ -324,12 +377,12 @@
       "en": "Yuriy Pliss",
       "ua": "Юрій Плісс"
     },
-    "years": "b. 1954",
+    "years": "1954–2026",
     "title": {
-      "en": "Contemporary Odesa artist",
-      "ua": "Сучасний одеський художник"
+      "en": "Odesa avant-garde painter",
+      "ua": "Одеський художник-авангардист"
     },
-    "photo": null,
+    "photo": "images/artists/pliss.jpg",
     "hue": [
       "#b08968",
       "#4a3c31",
@@ -337,11 +390,30 @@
     ],
     "bio": [
       {
-        "en": "A contemporary Odesa artist. He works in oil on wood, painting panoramic seascapes in a style of meditative minimalism.",
-        "ua": "Сучасний одеський художник. Працює олією на дереві, пише панорамні морські пейзажі в стилі медитативного мінімалізму."
+        "en": "Yuriy Pliss (1954–2026) was an Odesa avant-garde painter, graphic artist, photographer and puppet-theatre designer. He was born in Odesa in 1954, lived there all his life and died there in October 2026.",
+        "ua": "Юрій Плісс (1954–2026) — одеський художник-авангардист, графік, фотограф і художник театру ляльок. Народився в Одесі в 1954 році, усе життя прожив у рідному місті й помер там у жовтні 2026 року."
+      },
+      {
+        "en": "In 1981 he graduated from the Odesa Theatre and Art School as a puppet-theatre designer. His work was shaped by the Odesa modernists of the 1960s and 1970s, Valentyn Khrushch and Stanislav Sychov. From 1989 to 1994 he worked with the Moscow group Belyaevo. In 1989 he had his first solo exhibition, \"The Garden\", in Moscow, and with the group he showed in Moscow and in Gothenburg, Sweden.",
+        "ua": "У 1981 році закінчив Одеське театрально-художнє училище за фахом «художник театру ляльок». На його творчість вплинули одеські модерністи 1960–1970-х років Валентин Хрущ і Станіслав Сичов. У 1989–1994 роках працював із московською групою «Бєляєво». У 1989 році провів першу персональну виставку «Сад» у Москві, разом із групою експонувався в Москві та шведському Гетеборзі."
+      },
+      {
+        "en": "In 1994–1995 he took part in the Odesa project \"Forum – Art Laboratory\". In 1997–1998 the Odesa Museum of Western and Oriental Art held his solo exhibition \"Line – Horizon\", followed by solo shows in Püttlingen, Germany (1998) and Odesa (1999). His work was also shown in Austria, Switzerland, Finland, Lithuania and Spain. He painted on canvas and on wooden panels, plywood and fibreboard, and the sea and Odesa were constant subjects. The works in this collection are painted in oil on wood; the dated ones are from 2002 to 2009.",
+        "ua": "У 1994–1995 роках брав участь в одеському проєкті «Форум — арт-лабораторія». У 1997–1998 роках Одеський музей західного і східного мистецтва показав його персональну виставку «Лінія — горизонт», далі були персональні виставки в німецькому Пютлінгені (1998) та Одесі (1999). Його роботи також експонувалися в Австрії, Швейцарії, Фінляндії, Литві та Іспанії. Писав на полотні, дерев'яних дошках, фанері й ДВП, постійними темами були море та Одеса. Роботи в цій колекції написані олією на дереві; датовані — 2002–2009 років."
+      },
+      {
+        "en": "His works are held by the State Tretyakov Gallery in Moscow, the Nordico Museum in Linz, Galerie Rus in Helsinki, the Odesa National Art Museum and the Museum of Odesa Modern Art, and by private collections in Europe, North America and Australia.",
+        "ua": "Його роботи зберігаються в Державній Третьяковській галереї в Москві, музеї «Нордіко» в Лінці, галереї «Русь» у Гельсінкі, Одеському національному художньому музеї та Музеї сучасного мистецтва Одеси, а також у приватних колекціях Європи, Північної Америки й Австралії."
       }
     ],
-    "sources": []
+    "sources": [
+      "suspilne.media",
+      "zn.ua",
+      "viknaodessa.od.ua",
+      "dumskaya.net",
+      "gallerynika.com",
+      "onlinecollection.msio.com.ua"
+    ]
   },
   {
     "id": "freidin",
@@ -351,10 +423,10 @@
     },
     "years": "1926–1984",
     "title": {
-      "en": "Landscape painter of the \"severe style\"",
-      "ua": "Пейзажист «сурового стилю»"
+      "en": "Painter of the Odesa \"severe style\"",
+      "ua": "Живописець одеського «суворого стилю»"
     },
-    "photo": null,
+    "photo": "images/artists/freidin.jpg",
     "hue": [
       "#d0a85c",
       "#7a5c2a",
@@ -362,37 +434,42 @@
     ],
     "bio": [
       {
-        "en": "Represented in the collection with a view of Arcadia, Odesa.",
-        "ua": "У колекції представлений видом Аркадії в Одесі."
+        "en": "Oleksandr Freidin (1926–1984) was an Odesa painter of genre scenes, landscapes and portraits. He was born in Odesa on 29 September 1926. His father, Borys Freidin, a party official, was arrested in January 1938 and shot later that year. During the war Freidin was evacuated with his mother to Buguruslan, where he worked as a fitter and diesel mechanic; they returned to Odesa in 1948.",
+        "ua": "Олександр Фрейдін (1926–1984) — одеський живописець, автор жанрових картин, пейзажів і портретів. Народився в Одесі 29 вересня 1926 року. Його батька, партійного працівника Бориса Фрейдіна, заарештували в січні 1938 року й того ж року розстріляли. Під час війни разом із матір'ю був в евакуації в Бугуруслані, працював слюсарем і дизелістом; 1948 року вони повернулися до Одеси."
       },
       {
-        "en": "Born in Odesa in 1926. In 1937 his father was shot as an \"enemy of the people\" and the family was exiled. He returned to Odesa after the war and studied at the Art School under Dina Frumina (1948–1951).",
-        "ua": "Народився в Одесі 1926 року. 1937-го батька розстріляли як «ворога народу», родину вислали. До Одеси повернувся після війни, навчався в художньому училищі у Діни Фруміної (1948–1951)."
+        "en": "From 1948 to 1951 he studied at the Odesa Art School, where his teachers included Liubov Tokareva-Aleksandrovych and Dina Frumina; he left in 1951 without completing the course. He then worked as a painter at the Odesa art-production combine and spent several years in the studio of Oleksandr Atsmanchuk, who painted his portrait in 1962. He exhibited from 1956 and joined the Union of Artists in 1964. In 1962 he showed the landscape Shore of Arcadia at the republican exhibition of marine painting.",
+        "ua": "У 1948–1951 роках навчався в Одеському художньому училищі, серед його викладачів були Любов Токарева-Александрович і Діна Фрумина; 1951 року залишив училище, не закінчивши курсу. Потім працював живописцем на Одеському художньо-виробничому комбінаті й кілька років — у майстерні Олександра Ацманчука, який 1962 року написав його портрет. Брав участь у виставках з 1956 року, 1964-го вступив до Спілки художників. 1962 року показав пейзаж «Берег Аркадії» на республіканській виставці маринистів."
       },
       {
-        "en": "After a rift with his teacher, he found his own path in the studio of Oleksandr Atsmanchuk — also represented in this collection. His landscapes of the 1960s to early 1970s are powerful and elemental; the piece in this collection belongs to that period.",
-        "ua": "Не порозумівшись із вчителькою, знайшов свій шлях у майстерні Олександра Ацманчука — також представленого в нашій колекції. Його пейзажі 1960-х — початку 1970-х потужні, стихійні, сповнені живописної енергії; саме до цього періоду належить робота в нашій колекції."
+        "en": "He spent five years (1969–1974) on his main painting, You Are With Us, You Are With Us, Though You Are Not in the Columns, also known as Funeral in Madrid. According to the journalist Yevhen Holubovskyi, it was conceived as a requiem for the victims of Stalin's repressions, his father among them. Accused of formalism, the work was not admitted to the republican exhibition in Kyiv. The large canvas is now in a private collection in the USA, and the Museum of Odesa Modern Art holds a study for it. After 1974 he exhibited less and turned to the series Windows and Man and Bird and to portraits.",
+        "ua": "П'ять років (1969–1974) працював над головною своєю картиною «Ви з нами, ви з нами, хоч немає вас у колонах», відомою також як «Похорон у Мадриді». За словами журналіста Євгена Голубовського, вона була задумана як реквієм жертвам сталінських репресій, серед яких був і батько художника. Через звинувачення у формалізмі роботу не допустили на республіканську виставку в Києві. Велике полотно нині в приватній колекції у США, а ескіз до нього зберігається в Музеї сучасного мистецтва Одеси. Після 1974 року Фрейдін рідше виставлявся, працював над серіями «Вікна» і «Людина і птах», писав портрети."
       },
       {
-        "en": "He spent five years on \"Funeral in Madrid\" (1969–1974), a requiem for the victims of Stalin's repressions that alluded to his own father's fate. The work was banned from exhibition in Kyiv. Today his paintings are held in the Odesa Museum of Modern Art and the Norton Dodge Collection (USA), alongside Yegorov and Mezhberg.",
-        "ua": "П'ять років працював над картиною «Похорони в Мадриді» (1969–1974) — реквіємом жертвам сталінських репресій з натяком на долю батька художника. Роботу заборонили показати в Києві. Сьогодні картини Фрейдіна зберігаються в Музеї сучасного мистецтва Одеси і в колекції Нортона Доджа (США) — поруч із Єгоровим і Межбергом."
+        "en": "Freidin died in Odesa on 19 December 1984. The Odesa Art Museum held exhibitions of his work in 1986, 1996 and 2001. His paintings are in the Odesa National Art Museum, the Museum of Odesa Modern Art and the Norton and Nancy Dodge Collection at the Zimmerli Art Museum (USA). Holubovskyi placed him alongside Oleksandr Atsmanchuk, Yuriy Yegorov and Lev Mezhberg as one of the forerunners of contemporary art in Odesa.",
+        "ua": "Помер в Одесі 19 грудня 1984 року. Одеський художній музей влаштовував його виставки в 1986, 1996 і 2001 роках. Картини Фрейдіна зберігаються в Одеському національному художньому музеї, Музеї сучасного мистецтва Одеси та в колекції Нортона і Ненсі Додж у Художньому музеї Зіммерлі (США). Євген Голубовський ставив його в один ряд з Олександром Ацманчуком, Юрієм Єгоровим і Левом Межбергом як провісників сучасного мистецтва в Одесі."
       }
     ],
     "sources": [
+      "viknaodessa.od.ua",
       "odessa-memory.info",
-      "Oknasocrealisma",
-      "Zimmerli Art Museum / Dodge Collection"
+      "dodge.zimmerli.rutgers.edu",
+      "msmo.com.ua",
+      "uk.wikipedia.org"
     ]
   },
   {
     "id": "popov",
     "name": {
       "en": "Oleksii Popov",
-      "ua": "Олексій Олексійович Попов"
+      "ua": "Олексій Попов"
     },
     "years": "1916–1988",
-    "title": null,
-    "photo": null,
+    "title": {
+      "en": "Honoured Artist of the Ukrainian SSR",
+      "ua": "Заслужений художник УРСР"
+    },
+    "photo": "images/artists/popov.jpg",
     "hue": [
       "#8797b0",
       "#3f4a5c",
@@ -400,17 +477,34 @@
     ],
     "bio": [
       {
-        "en": "Born in Hailar, China; in Odesa from 1934. Member of the Union of Artists from 1948; Honoured Artist of the Ukrainian SSR (1975).",
-        "ua": "Народився в Хайларі (Китай), з 1934 року — в Одесі. Член Спілки художників з 1948 року; заслужений художник УРСР (1975)."
+        "en": "Oleksii Popov (1916–1988) was an Odesa painter and watercolourist and an Honoured Artist of the Ukrainian SSR (1975). He was born on 24 May 1916 at Hailar station in Manchuria (now China). In 1934 he moved with his family to Odesa, where he lived for the rest of his life; he died there in 1988.",
+        "ua": "Олексій Попов (1916–1988) — одеський живописець і аквареліст, заслужений художник УРСР (1975). Народився 24 травня 1916 року на станції Хайлар у Маньчжурії (нині Китай). 1934 року переїхав із родиною до Одеси, де прожив до кінця життя; помер 1988 року."
+      },
+      {
+        "en": "In 1941 he graduated from the architecture faculty of the Odesa Engineering-Construction Institute, where he studied painting under Yuliy Bershadskyi and Teofil Fraerman. He went to the front immediately afterwards and received combat awards. He exhibited from 1934 and joined the Union of Artists in 1948. From 1949 he sat on the board of its Odesa branch.",
+        "ua": "1941 року закінчив архітектурний факультет Одеського інженерно-будівельного інституту, де живопису навчався в Юлія Бершадського й Теофіла Фраєрмана. Одразу після цього пішов на фронт, мав бойові нагороди. Брав участь у виставках з 1934 року, 1948-го вступив до Спілки художників, з 1949 року входив до правління її Одеської організації."
+      },
+      {
+        "en": "His main subjects were Odesa, its port and its seafarers, as in Dockers, The New Pier and April in Peresyp (1960). From 1950 he painted the construction of the Kakhovka hydroelectric station, and from 1955 landscapes of the Urals. He was known above all as a master of watercolour and also painted cities he visited in Poland and Bulgaria.",
+        "ua": "Головні теми — Одеса, її порт і моряки: «Портовики», «Новий пірс», «Квітень на Пересипі» (1960). З 1950 року писав будівництво Каховської ГЕС, з 1955-го — пейзажі Уралу. Насамперед відомий як майстер акварелі; писав також міста Польщі та Болгарії, які відвідав."
+      },
+      {
+        "en": "He had solo exhibitions in Odesa (1966), Varna (1967), Chișinău (1968), Izmail (1974), Kyiv (1977) and Moscow (1984). A posthumous exhibition was held in Odesa in 1990, with a catalogue by the art historian Oleksandr Tiuriumin. In 1998 a memorial plaque was placed on the Odesa house where he lived and worked.",
+        "ua": "Персональні виставки відбулися в Одесі (1966), Варні (1967), Кишиневі (1968), Ізмаїлі (1974), Києві (1977) і Москві (1984). 1990 року в Одесі пройшла посмертна виставка з каталогом мистецтвознавця Олександра Тюрюміна. 1998 року на одеському будинку, де він жив і працював, встановили меморіальну дошку."
       }
     ],
-    "sources": []
+    "sources": [
+      "esu.com.ua",
+      "uk.wikipedia.org",
+      "socrealizm.com.ua",
+      "gallerynika.com"
+    ]
   },
   {
     "id": "zhurakivskiy",
     "name": {
-      "en": "Viktor Zhurakivskyi",
-      "ua": "Віктор Петрович Жураківський"
+      "en": "Viktor Zhurakovskyi",
+      "ua": "Віктор Жураковський"
     },
     "years": "1928–2001",
     "title": null,
@@ -422,15 +516,24 @@
     ],
     "bio": [
       {
-        "en": "Represented in the collection with a figurative study, \"Bather.\"",
-        "ua": "У колекції представлений фігуративним етюдом «Купальниця»."
+        "en": "Viktor Zhurakovskyi (1928–2001) was an Odesa painter of landscapes and seascapes. He was born on 29 May 1928 in Harbin, China, and died in Odesa on 19 September 2001.",
+        "ua": "Віктор Жураковський (1928–2001) — одеський живописець, майстер пейзажу та марини. Народився 29 травня 1928 року в Харбіні (Китай), помер в Одесі 19 вересня 2001 року."
       },
       {
-        "en": "Born 29 May 1928 in Harbin; died 19 September 2001 in Odesa. He graduated from the Odesa Art School in 1955 and was a member of the Union of Artists of Ukraine from 1958.",
-        "ua": "Народився 29.05.1928 у Харбіні, помер 19.09.2001 в Одесі. Закінчив Одеське художнє училище 1955 року; член Спілки художників України з 1958 року."
+        "en": "He came to painting relatively late: at twenty-five he was working as a loader and a driver. From 1952 to 1955 he studied at the Odesa Art School, where his teachers included Dina Frumina and Mykhailo Todorov; the art historian Olha Tarasenko also names Oleksandr Atsmanchuk among those who shaped his early painting. Lev Mezhberg graduated in the same class. Zhurakovskyi exhibited from the mid-1950s and joined the Union of Artists in 1958.",
+        "ua": "До живопису прийшов порівняно пізно: у двадцять п'ять років працював вантажником і шофером. У 1952–1955 роках навчався в Одеському художньому училищі, серед його викладачів — Діна Фруміна та Михайло Тодоров; мистецтвознавиця Ольга Тарасенко називає також Олександра Ацманчука серед тих, хто вплинув на його ранній живопис. В одному випуску з ним училище закінчив Лев Межберг. Брав участь у виставках із середини 1950-х років, у 1958 році вступив до Спілки художників."
+      },
+      {
+        "en": "He worked mainly in the open air, and water, above all the sea, appears in almost all of his paintings. Tarasenko describes his palette as a restrained \"silvery-golden, mother-of-pearl\" range. He had a solo exhibition in 1993. His works were acquired by museums in Odesa, Donetsk and Mykolaiv; the Kherson Art Museum holds his \"Partisan Khadzhibey\" (1977).",
+        "ua": "Працював переважно на пленері; майже в кожній його картині є вода, насамперед море. Ольга Тарасенко характеризує його палітру як стриману «сріблясто-золотисту „перламутрову“ гаму». У 1993 році відбулася його персональна виставка. Його роботи придбали музеї Одеси, Донецька та Миколаєва; у Херсонському художньому музеї зберігається картина «Партизанський Хаджибей» (1977)."
       }
     ],
-    "sources": []
+    "sources": [
+      "artstudies.pdpu.edu.ua",
+      "xoxm.art",
+      "adamovskiy.foundation",
+      "arthive.com"
+    ]
   },
   {
     "id": "lyubimov",
@@ -438,9 +541,9 @@
       "en": "Oleksandr Lyubimov",
       "ua": "Олександр Любімов"
     },
-    "years": "",
+    "years": "1879–1955",
     "title": null,
-    "photo": null,
+    "photo": "images/artists/lyubimov.jpg",
     "hue": [
       "#a3a37a",
       "#54543a",
@@ -448,10 +551,27 @@
     ],
     "bio": [
       {
-        "en": "Represented in the collection with an early-20th-century genre scene, \"Peasant Women Gossiping.\"",
-        "ua": "У колекції представлений жанровою сценою початку XX сторіччя «Селянки-пліткарки»."
+        "en": "Oleksandr Lyubimov (1879–1955) was a painter, graphic artist and teacher, known above all for his portraits and satirical drawings. He was born on 25 February 1879 in the village of Paltsevo in the Kursk province and died in Leningrad on 19 December 1955.",
+        "ua": "Олександр Любимов (1879–1955) — живописець, графік і педагог, відомий насамперед портретами й сатиричними рисунками. Народився 25 лютого 1879 року в селі Пальцево Курської губернії, помер у Ленінграді 19 грудня 1955 року."
+      },
+      {
+        "en": "He studied at the Stieglitz School of Technical Drawing in St Petersburg and, from 1901, in Ilya Repin's studio at the Imperial Academy of Arts, receiving the title of artist in 1909. In these years he also drew caricatures for St Petersburg magazines.",
+        "ua": "Навчався в Центральному училищі технічного рисування барона Штігліца в Петербурзі, а з 1901 року — у майстерні Іллі Рєпіна в Імператорській академії мистецтв; звання художника отримав у 1909 році. У ці роки малював також шаржі для петербурзьких журналів."
+      },
+      {
+        "en": "In 1912, on Repin's recommendation, he was appointed director of the newly founded Kharkiv Art School, and he worked in Kharkiv until 1919; Oleksandr Deineka was among his pupils there. The auction house MacDougall's, which sold the panel in this collection in 2013, catalogued it as signed and dated 1919, from his Kharkiv years.",
+        "ua": "У 1912 році за рекомендацією Рєпіна його призначили директором щойно заснованого Харківського художнього училища; у Харкові він працював до 1919 року. Серед його учнів там був Олександр Дейнека. Аукціонний дім MacDougall's, який у 2013 році продав картину з цієї колекції, описав її як підписану й датовану 1919 роком, тобто харківським періодом."
+      },
+      {
+        "en": "In 1927 he returned to Leningrad. He taught painting at the Institute of Painting, Sculpture and Architecture from 1934 to 1941, becoming a professor in 1939, and at the Mukhina Higher School of Art and Industry from 1949 until his death. His works are in the State Russian Museum and the State Tretyakov Gallery.",
+        "ua": "У 1927 році повернувся до Ленінграда. Викладав живопис в Інституті живопису, скульптури та архітектури (1934–1941, професор із 1939 року) і у Вищому художньо-промисловому училищі імені Мухіної (з 1949 року до кінця життя). Його роботи зберігаються в Державному Російському музеї та Державній Третяковській галереї."
       }
     ],
-    "sources": []
+    "sources": [
+      "ru.wikipedia.org",
+      "en.wikipedia.org",
+      "visnik.org.ua",
+      "macdougallauction.com"
+    ]
   }
 ]

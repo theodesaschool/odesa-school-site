@@ -4790,7 +4790,12 @@
       "en": "Excellent condition",
       "ua": "Відмінний стан"
     },
-    "provenance": [],
+    "provenance": [
+      {
+        "en": "MacDougall's, Russian Art auction, 5 June 2013, lot 10",
+        "ua": "Аукціон MacDougall's, торги російського мистецтва, 5 червня 2013 року, лот 10"
+      }
+    ],
     "documents": [
       {
         "en": "Certificate of authenticity included",
