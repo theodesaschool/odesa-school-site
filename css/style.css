@@ -13,6 +13,7 @@
   --sea-dark: #3d5c59;
   --sea-soft: #8aa59d;
   --sea-mist: #e9efec;
+  --mat: #f1ece2; /* светлое поле-паспарту вокруг картины в карточках */
 
   --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --font-sans: "Jost", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
@@ -257,6 +258,21 @@ section.bordered { border-bottom: 1px solid var(--line); }
   overflow: hidden;
   background: var(--sea-mist);
 }
+
+.canvas.has-photo,
+.thumb-item.has-photo { background: var(--mat); }
+
+/* Картина показывается целиком (contain), с полями-паспарту — без обрезки краёв */
+.canvas img,
+.thumb-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 16px;
+  display: block;
+}
+
+.thumb-item img { padding: 10px; }
 
 .canvas img { transition: transform 0.35s ease; }
 
@@ -602,7 +618,11 @@ section.bordered { border-bottom: 1px solid var(--line); }
 }
 
 .pg-gallery-main {
-  aspect-ratio: 4 / 5;
+  /* Высота подстраивается под форму картины (пропорцию задаёт скрипт по главному фото) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
   overflow: hidden;
   border: 1px solid var(--line);
   cursor: zoom-in;
@@ -612,8 +632,9 @@ section.bordered { border-bottom: 1px solid var(--line); }
 
 .pg-gallery-main img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: calc(78vh - 40px);
+  object-fit: contain;
   display: block;
   transition: opacity 0.18s ease;
 }
@@ -638,11 +659,14 @@ section.bordered { border-bottom: 1px solid var(--line); }
 .pg-thumb.active { border-color: var(--sea); }
 
 .pg-thumb-img {
+  display: block;
   aspect-ratio: 4 / 3;
   overflow: hidden;
+  position: relative;
 }
 
-.pg-thumb-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* absolute — чтобы размер фото не растягивал превью и рамка держала 4:3 */
+.pg-thumb-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
 
 .pg-thumb-label {
   display: block;
@@ -1263,3 +1287,75 @@ footer.site-footer a { color: var(--sea); text-decoration: underline; }
 .pg-related-section { padding: 48px 6vw; border-top: 1px solid var(--line); }
 
 .pg-related-section + .pg-related-section { border-top: 1px solid var(--line); }
+
+/* ---------- Sold works ---------- */
+
+.status-badge.status-sold,
+.pg-status-badge.status-sold {
+  background: var(--ink);
+  color: #faf8f4;
+  border-color: var(--ink);
+}
+
+.status-badge.status-sold::before,
+.pg-status-badge.status-sold::before,
+.thumb-sold::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: #c0392b;
+  vertical-align: 1px;
+}
+
+.sold-note {
+  margin: 14px 0 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.inquire-btn--similar {
+  background: transparent;
+  color: var(--sea);
+  border: 1px solid var(--sea);
+}
+
+.inquire-btn--similar:hover {
+  background: var(--sea);
+  color: #fff;
+}
+
+.thumb-sold {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  background: var(--ink);
+  color: #faf8f4;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 4px 8px;
+  pointer-events: none;
+}
+
+.filter-toggle {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 0;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.filter-toggle input { accent-color: var(--accent); width: 16px; height: 16px; margin: 0; }

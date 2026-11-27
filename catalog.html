@@ -62,6 +62,10 @@
       <label for="filter-medium" data-i18n="filter_medium">Technique</label>
       <select id="filter-medium"></select>
     </div>
+    <label class="filter-toggle" id="sold-toggle-wrap" style="display:none;">
+      <input type="checkbox" id="filter-show-sold" checked>
+      <span data-i18n="filter_show_sold">Show sold works</span>
+    </label>
     <button class="filter-reset" id="filter-reset" data-i18n="filter_reset">Reset filters</button>
   </div>
 
@@ -88,7 +92,8 @@
       filter_medium: "Technique",
       filter_reset: "Reset filters",
       filter_all: "All",
-      filter_empty: "No paintings match these filters."
+      filter_empty: "No paintings match these filters.",
+      filter_show_sold: "Show sold works"
     },
     ua: {
       catalog_label: "Каталог",
@@ -98,12 +103,14 @@
       filter_medium: "Техніка",
       filter_reset: "Скинути фільтри",
       filter_all: "Усі",
-      filter_empty: "За цими фільтрами картин не знайдено."
+      filter_empty: "За цими фільтрами картин не знайдено.",
+      filter_show_sold: "Показувати продані"
     }
   };
 
   let currentLang = "en";
   let activeFilters = { artist: "", year: "", medium: "" };
+  let showSold = true;
 
   function populateFilters(lang) {
     const t = Object.assign({}, I18N_COMMON[lang], window.PAGE_I18N[lang]);
@@ -133,7 +140,11 @@
     currentLang = lang;
     populateFilters(lang);
 
-    const filtered = PAINTINGS.filter(p => {
+    document.getElementById("sold-toggle-wrap").style.display = PAINTINGS.some(isSold) ? "" : "none";
+    document.getElementById("filter-show-sold").checked = showSold;
+
+    const filtered = availableFirst(PAINTINGS).filter(p => {
+      if (!showSold && isSold(p)) return false;
       if (activeFilters.artist && p.artistId !== activeFilters.artist) return false;
       if (activeFilters.year && String(p.year) !== String(activeFilters.year)) return false;
       if (activeFilters.medium && p.medium.en !== activeFilters.medium) return false;
@@ -164,8 +175,13 @@
     activeFilters.medium = e.target.value;
     renderCatalog(currentLang);
   });
+  document.getElementById("filter-show-sold").addEventListener("change", e => {
+    showSold = e.target.checked;
+    renderCatalog(currentLang);
+  });
   document.getElementById("filter-reset").addEventListener("click", () => {
     activeFilters = { artist: "", year: "", medium: "" };
+    showSold = true;
     renderCatalog(currentLang);
   });
 

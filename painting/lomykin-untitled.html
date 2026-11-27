@@ -87,6 +87,7 @@
       <h2 id="pg-title"></h2>
       <div class="pg-status-badge" id="pg-status"></div>
       <div class="pg-meta" id="pg-meta"></div>
+      <p class="sold-note" id="pg-sold-note" style="display:none;"></p>
       <a class="inquire-btn" id="pg-inquire"></a>
       <div class="pg-reassurance" id="pg-reassurance"></div>
       <p class="inquire-email-hint" id="pg-email-hint"></p>
@@ -179,6 +180,14 @@
     const img = document.getElementById("pg-main-img");
     const alt = `${currentPainting.title[lang]} — ${t[photo.captionKey]}`;
 
+    // Рамка берёт пропорции первого фото (обычно front) — картина видна целиком,
+    // а при переключении на другие фото блок не меняет высоту.
+    if (index === 0 && !img.style.aspectRatio) {
+      img.addEventListener("load", () => {
+        if (img.naturalWidth) img.style.aspectRatio = `${img.naturalWidth} / ${img.naturalHeight}`;
+      }, { once: true });
+    }
+
     if (animate) {
       img.classList.add("fading");
       setTimeout(() => {
@@ -244,7 +253,10 @@
     artistLink.href = `artist/${p.artistId}.html`;
     document.getElementById("pg-artist-years").textContent = artist.years || "";
 
-    document.getElementById("pg-status").textContent = statusLabel(p.status, t);
+    const sold = isSold(p);
+    const statusEl = document.getElementById("pg-status");
+    statusEl.textContent = statusLabel(p.status, t);
+    statusEl.className = `pg-status-badge status-${p.status}`;
 
     const metaRows = [
       [t.medium_field, p.medium[lang]],
@@ -252,18 +264,24 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, t.price_on_request]
+      [t.price_field, sold ? "" : t.price_on_request]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
       .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");
-    inquireBtn.textContent = t.inquire;
-    inquireBtn.href = inquireMailtoHref(p, lang);
+    inquireBtn.textContent = sold ? t.ask_similar : t.inquire;
+    inquireBtn.href = sold ? similarMailtoHref(p, lang) : inquireMailtoHref(p, lang);
+    inquireBtn.classList.toggle("inquire-btn--similar", sold);
+    const soldNote = document.getElementById("pg-sold-note");
+    soldNote.textContent = sold ? t.sold_note : "";
+    soldNote.style.display = sold ? "block" : "none";
     document.getElementById("pg-email-hint").innerHTML =
       `${t.enquire_email_hint} <a href="mailto:${GALLERY_EMAIL}">${GALLERY_EMAIL}</a>`;
-    document.getElementById("pg-reassurance").textContent = t.enquire_reassurance;
+    const reassurance = document.getElementById("pg-reassurance");
+    reassurance.textContent = t.enquire_reassurance;
+    reassurance.style.display = sold ? "none" : "";
 
     renderAccordions(p, artist, lang, t);
     renderDetailsSection(p, lang, t);
@@ -342,7 +360,7 @@
 
   function renderRelated(p, lang, t) {
     const moreSection = document.getElementById("pg-more-section");
-    const more = getPaintingsByArtist(p.artistId).filter(x => x.id !== p.id).slice(0, 4);
+    const more = availableFirst(getPaintingsByArtist(p.artistId).filter(x => x.id !== p.id)).slice(0, 4);
     if (more.length) {
       moreSection.style.display = "block";
       document.getElementById("pg-more-grid").innerHTML = more.map((x, i) => paintingCardHtml(x, lang, i)).join("");
@@ -351,7 +369,7 @@
     }
 
     const alsoSection = document.getElementById("pg-also-section");
-    const pool = PAINTINGS.filter(x => x.id !== p.id && x.artistId !== p.artistId);
+    const pool = PAINTINGS.filter(x => x.id !== p.id && x.artistId !== p.artistId && !isSold(x));
     const shuffled = pool.slice().sort(() => Math.random() - 0.5).slice(0, 3);
     if (shuffled.length) {
       alsoSection.style.display = "block";

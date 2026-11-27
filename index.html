@@ -132,6 +132,7 @@
     const seenArtists = new Set();
     const featured = [];
     for (const p of PAINTINGS) {
+      if (isSold(p)) continue;
       if (!seenArtists.has(p.artistId)) {
         seenArtists.add(p.artistId);
         featured.push(p);

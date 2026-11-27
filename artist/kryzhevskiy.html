@@ -155,7 +155,7 @@
       sourcesEl.textContent = "";
     }
 
-    const works = getPaintingsByArtist(a.id);
+    const works = availableFirst(getPaintingsByArtist(a.id));
     const grid = document.getElementById("thumb-grid");
     grid.innerHTML = works.map((p, i) => paintingThumbHtml(p, lang, i)).join("");
   }

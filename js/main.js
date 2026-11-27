@@ -46,6 +46,22 @@ function inquireMailtoHref(p, lang) {
   return `mailto:${GALLERY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
+function isSold(p) {
+  return p.status === "sold";
+}
+
+// Проданные работы — в конце списка, порядок остальных не меняется.
+function availableFirst(list) {
+  return list.filter(p => !isSold(p)).concat(list.filter(isSold));
+}
+
+function similarMailtoHref(p, lang) {
+  const artist = getArtist(p.artistId);
+  const subject = `Similar works: ${p.title[lang]} (${p.id})`;
+  const body = `Hello,\n\nI saw that "${p.title[lang]}" by ${artist.name[lang]} has been sold. Do you have similar works?\nhttps://theodesaschool.com/painting/${p.id}.html\n\n`;
+  return `mailto:${GALLERY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 function inquireEmailHintHtml(t) {
   return `<p class="inquire-email-hint">${t.enquire_email_hint} <a href="mailto:${GALLERY_EMAIL}">${GALLERY_EMAIL}</a></p>`;
 }
@@ -124,16 +140,16 @@ function paintingCardHtml(p, lang, seed) {
   const gradientStyle = `background: linear-gradient(135deg, ${gA}, ${gC});`;
   const frontPhoto = p.photos && p.photos.front;
   const media = frontPhoto
-    ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">`
+    ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" onerror="this.style.display='none'">`
     : brushSvg(p.hue, seed);
   const lifeRow = artist.years
     ? `<div class="meta-row"><span>${t.life_field}</span><span>${artist.years}</span></div>`
     : "";
   return `
-    <article class="painting-card">
-      <a class="canvas" style="${gradientStyle}" href="${paintingHref}">
+    <article class="painting-card${isSold(p) ? " is-sold" : ""}">
+      <a class="canvas${frontPhoto ? " has-photo" : ""}" style="${frontPhoto ? "" : gradientStyle}" href="${paintingHref}">
         ${media}
-        <span class="status-badge">${statusLabel(p.status, t)}</span>
+        <span class="status-badge status-${p.status}">${statusLabel(p.status, t)}</span>
       </a>
       <div class="card-body">
         <a href="${paintingHref}" class="painting-title-link"><h3 class="painting-title">${p.title[lang]}, ${yearText}</h3></a>
@@ -143,8 +159,11 @@ function paintingCardHtml(p, lang, seed) {
         <div class="meta-row"><span>${t.year_field}</span><span>${yearText}</span></div>
         <div class="meta-row"><span>${t.medium_field}</span><span>${p.medium[lang]}</span></div>
         <div class="meta-row"><span>${t.size_field}</span><span>${p.size}</span></div>
+        ${isSold(p) ? `
+        <p class="sold-note">${t.sold_note}</p>
+        <a class="inquire-btn inquire-btn--similar" title="${p.id}" href="${similarMailtoHref(p, lang)}">${t.ask_similar}</a>` : `
         <div class="meta-row"><span>${t.price_field}</span><span>${t.price_on_request}</span></div>
-        <a class="inquire-btn" title="${p.id}" href="${inquireMailtoHref(p, lang)}">${t.inquire}</a>
+        <a class="inquire-btn" title="${p.id}" href="${inquireMailtoHref(p, lang)}">${t.inquire}</a>`}
         ${inquireEmailHintHtml(t)}
       </div>
     </article>
@@ -155,11 +174,12 @@ function paintingThumbHtml(p, lang, seed) {
   const [gA, , gC] = p.hue;
   const frontPhoto = p.photos && p.photos.front;
   const media = frontPhoto
-    ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">`
+    ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" onerror="this.style.display='none'">`
     : brushSvg(p.hue, seed);
   return `
-    <a class="thumb-item" href="painting/${p.id}.html" style="background: linear-gradient(135deg, ${gA}, ${gC});">
+    <a class="thumb-item${frontPhoto ? " has-photo" : ""}" href="painting/${p.id}.html" style="${frontPhoto ? "" : `background: linear-gradient(135deg, ${gA}, ${gC});`}">
       ${media}
+      ${isSold(p) ? `<span class="thumb-sold">${statusLabel(p.status, I18N_COMMON[lang])}</span>` : ""}
       <span class="thumb-title">${p.title[lang]}, ${yearLabel(p, lang)}</span>
     </a>
   `;
