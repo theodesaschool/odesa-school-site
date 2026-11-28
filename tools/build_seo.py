@@ -54,7 +54,7 @@ STATIC_PAGES = {
     "artists.html": ("artists.html", "{a} Odesa School painters, 1930s–1980s: biographies and their works in the collection."),
     "how-to-buy.html": ("how-to-buy.html", "How to buy a painting from {site}: six steps from enquiry to delivery, with payment and shipping options."),
     "about.html": ("about.html", "{site}: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner."),
-    "contact.html": ("contact.html", "Contact {site}: email, phone and Instagram. We reply within 2 hours."),
+    "contact.html": ("contact.html", "Contact {site}: email, phone and Instagram. We reply within 24 hours."),
 }
 INDEX_DESC = ("A small, privately held collection of original Odesa School paintings, 1930s–1980s: "
               "luminous color, free brushwork, the light and sea of Odesa.")
@@ -69,7 +69,7 @@ STATIC_DESC_UA = {
     "how-to-buy.html": "Як купити картину в {site}: шість кроків від запиту до доставки, способи оплати й доставки.",
     "about.html": "{site} — приватна колекція одеського живопису 1930–1980-х: кожну роботу відібрано, досліджено "
                   "й задокументовано.",
-    "contact.html": "Зв'яжіться з {site}: пошта, телефон та Instagram. Відповідаємо протягом 2 годин.",
+    "contact.html": "Зв'яжіться з {site}: пошта, телефон та Instagram. Відповідаємо протягом 24 годин.",
 }
 # Тип страницы для разметки schema.org
 STATIC_SCHEMA = {"index.html": "WebPage", "catalog.html": "CollectionPage", "artists.html": "CollectionPage",

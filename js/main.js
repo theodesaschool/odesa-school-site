@@ -42,7 +42,7 @@ const GALLERY_EMAIL = "nataliiavas.uk@gmail.com";
 function inquireMailtoHref(p, lang) {
   const artist = getArtist(p.artistId);
   const subject = `Inquiry: ${p.title[lang]} (${p.id})`;
-  const body = `Hello,\n\nI'm interested in "${p.title[lang]}" by ${artist.name[lang]}.\nhttps://theodesaschool.com/painting/${p.id}.html\n\n`;
+  const body = `Hello,\n\nI'm interested in "${p.title[lang]}" by ${artist.name[lang]}.\nhttps://theodesaschool.com/painting/${p.id}.html\n\nMy country (for the delivery quote): \n\n`;
   return `mailto:${GALLERY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 

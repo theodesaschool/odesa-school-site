@@ -33,7 +33,7 @@
 <header class="site-header">
   <div class="brand">
     <a class="brand-link" href="index.html"><h1 data-i18n="site_title">The Odesa School</h1></a>
-    <p data-i18n="tagline">Light, sea and color — Odesa painting, 1930s–1980s</p>
+    <p data-i18n="tagline">Paintings by Odesa artists, 1930s–1980s, from a private collection</p>
   </div>
   <div class="header-right">
     <nav class="main-nav">
@@ -54,39 +54,47 @@
 
 <section class="bordered">
   <h2 class="section-label" data-i18n="howtobuy_label">How to Buy</h2>
-  <p class="lede" data-i18n="howtobuy_intro">Simple, fast, reliable — 6 steps from enquiry to painting on your wall. We don't process payments online; every purchase is arranged directly by email.</p>
+  <p class="lede" data-i18n="howtobuy_intro">Each acquisition is handled personally, from first enquiry to delivery. We provide full details on the work, a delivery quote for your country and an invoice in your preferred currency.</p>
   <ol class="steps" id="steps-list"></ol>
 </section>
 
 <section class="bordered">
   <h2 class="section-label" data-i18n="delivery_label">Delivery</h2>
-  <p class="lede" data-i18n="delivery_text">Paintings are shipped from Ukraine to anywhere in the world. Before you pay, we will tell you how much delivery to your country costs and how long it takes.</p>
+  <p class="lede" data-i18n="delivery_text">Paintings are shipped from Ukraine worldwide. The delivery cost and timing for your country are confirmed before payment.</p>
 </section>
 
 <section class="bordered">
   <h2 class="section-label" data-i18n="payment_label">Payment</h2>
-  <p class="lede" data-i18n="payment_intro">Payment. Safe and simple.</p>
+  <p class="lede" data-i18n="payment_intro">We accept payment from the US, the UK, Europe, Ukraine and worldwide. Prices are listed in US dollars; invoices can be issued in US dollars, pounds, euros or hryvnia.</p>
   <div class="method-grid">
     <div class="method-card dark">
+      <h3 data-i18n="method_bank_title">Bank transfer</h3>
+      <p data-i18n="method_bank">US, UK, European and Ukrainian accounts, including Ukrainian bank cards.</p>
+    </div>
+    <div class="method-card">
+      <h3>Revolut</h3>
+      <p data-i18n="method_revolut">Fast transfers between Revolut accounts.</p>
+    </div>
+    <div class="method-card">
       <h3>Wise</h3>
-      <p data-i18n="method_wise">Best exchange rate for international transfers.</p>
+      <p data-i18n="method_wise">Competitive rates for cross-currency payments.</p>
     </div>
     <div class="method-card">
       <h3>PayPal</h3>
-      <p data-i18n="method_paypal">Familiar and secure for most buyers.</p>
-    </div>
-    <div class="method-card">
-      <h3 data-i18n="method_bank_title">Bank transfer</h3>
-      <p data-i18n="method_bank">For larger amounts, on request.</p>
+      <p data-i18n="method_paypal">Widely used and convenient internationally.</p>
     </div>
   </div>
-  <p class="lede" style="margin-top:20px; font-size:0.95rem;" data-i18n="payment_confirmed">Payment is confirmed before shipping.</p>
+  <ul class="pay-notes">
+    <li data-i18n="payment_note_email">Payment details are provided exclusively in our invoice.</li>
+    <li data-i18n="payment_note_card">We do not request card details or passwords at any stage.</li>
+    <li data-i18n="payment_note_ship">Paintings are dispatched once payment is received.</li>
+  </ul>
 </section>
 
 <section class="bordered">
   <h2 class="section-label" data-i18n="questions_label">Any Questions?</h2>
-  <p class="lede" data-i18n="questions_p1">Write to us by email — we reply within 2 hours.</p>
-  <p class="lede" data-i18n="questions_p2">We guide you through every step: from choosing a painting to safe delivery.</p>
+  <p class="lede" data-i18n="questions_p1">Write to us by email — we reply within 24 hours.</p>
+  <p class="lede" data-i18n="questions_p2">We accompany you through every step, from selecting a painting to confirmed delivery.</p>
   <div class="hero-actions" style="margin-top: 26px;">
     <a class="btn btn-primary" href="mailto:nataliiavas.uk@gmail.com" data-i18n="send_email">Email us · nataliiavas.uk@gmail.com</a>
   </div>
@@ -105,48 +113,54 @@
   window.PAGE_I18N = {
     en: {
       howtobuy_label: "How to Buy",
-      howtobuy_intro: "Simple, fast, reliable — 6 steps from enquiry to painting on your wall. We don't process payments online; every purchase is arranged directly by email.",
-      step1: "Write to us at <a href=\"mailto:nataliiavas.uk@gmail.com\">nataliiavas.uk@gmail.com</a> — or press \"Enquire\" on the page of the painting you like.",
-      step2: "Tell us which painting caught your eye (its title or a link to its page) — we reply within 2 hours and send the PDF catalogue with photos, sizes and all the details right away.",
-      step3: "Receive a detailed invoice for the painting.",
-      step4: "Pay via Wise, PayPal, or bank transfer for larger amounts — see payment options below.",
-      step5: "We pack the painting in protective paper and bubble wrap inside a rigid cardboard box, photograph the packaging before shipment, and send you the tracking number immediately after. Insurance is available on request.",
-      step6: "Track your shipment and confirm safe delivery — the painting arrives in perfect condition, exactly as we sent it.",
+      howtobuy_intro: "Each acquisition is handled personally, from first enquiry to delivery. We provide full details on the work, a delivery quote for your country and an invoice in your preferred currency.",
+      step1: "<strong>Enquiry.</strong> Contact us at <a href=\"mailto:nataliiavas.uk@gmail.com\">nataliiavas.uk@gmail.com</a> or use the “Enquire” button on the painting’s page. Please mention your country so we can include delivery in our reply.",
+      step2: "<strong>Details.</strong> We respond within 24 hours with additional photographs, full documentation and a delivery quote. A video viewing can be arranged on request.",
+      step3: "<strong>Invoice.</strong> Once you confirm, we issue an invoice in USD, GBP, EUR or UAH.",
+      step4: "<strong>Payment.</strong> Settle the invoice by bank transfer, Revolut, Wise, PayPal or another method agreed with us.",
+      step5: "<strong>Shipping.</strong> The painting is professionally packed, photographed before dispatch and sent with tracking. Insurance is available on request.",
+      step6: "<strong>Delivery.</strong> Follow your shipment and confirm safe receipt.",
       delivery_label: "Delivery",
-      delivery_text: "Paintings are shipped from Ukraine to anywhere in the world. Before you pay, we will tell you how much delivery to your country costs and how long it takes.",
+      delivery_text: "Paintings are shipped from Ukraine worldwide. The delivery cost and timing for your country are confirmed before payment.",
       payment_label: "Payment",
-      payment_intro: "Payment. Safe and simple.",
-      method_wise: "Best exchange rate for international transfers.",
-      method_paypal: "Familiar and secure for most buyers.",
+      payment_intro: "We accept payment from the US, the UK, Europe, Ukraine and worldwide. Prices are listed in US dollars; invoices can be issued in US dollars, pounds, euros or hryvnia.",
       method_bank_title: "Bank transfer",
-      method_bank: "For larger amounts, on request.",
-      payment_confirmed: "Payment is confirmed before shipping.",
+      method_bank: "US, UK, European and Ukrainian accounts, including Ukrainian bank cards.",
+      method_revolut: "Fast transfers between Revolut accounts.",
+      method_wise: "Competitive rates for cross-currency payments.",
+      method_paypal: "Widely used and convenient internationally.",
+      payment_note_email: "Payment details are provided exclusively in our invoice.",
+      payment_note_card: "We do not request card details or passwords at any stage.",
+      payment_note_ship: "Paintings are dispatched once payment is received.",
       questions_label: "Any Questions?",
-      questions_p1: "Write to us by email — we reply within 2 hours.",
-      questions_p2: "We guide you through every step: from choosing a painting to safe delivery.",
+      questions_p1: "Write to us by email — we reply within 24 hours.",
+      questions_p2: "We accompany you through every step, from selecting a painting to confirmed delivery.",
       send_email: "Email us · nataliiavas.uk@gmail.com"
     },
     ua: {
       howtobuy_label: "Як купити",
-      howtobuy_intro: "Просто. Швидко. Надійно. 6 кроків від запиту до картини на вашій стіні. Ми не приймаємо оплату онлайн — кожна купівля узгоджується напряму електронною поштою.",
-      step1: "Напишіть нам на <a href=\"mailto:nataliiavas.uk@gmail.com\">nataliiavas.uk@gmail.com</a> — або натисніть «Enquire» на сторінці картини, яка вам сподобалася.",
-      step2: "Вкажіть, яка картина вас зацікавила (назва або посилання на її сторінку) — відповідаємо протягом 2 годин і одразу надсилаємо PDF-каталог із фото, розмірами та всіма деталями.",
-      step3: "Отримайте детальний рахунок на картину.",
-      step4: "Оплатіть через Wise, PayPal або банківський переказ для великих сум — див. способи оплати нижче.",
-      step5: "Ми пакуємо картину в захисний папір і бульбашкову плівку в жорсткій картонній коробці, фотографуємо пакування до відправки та надсилаємо трекінг-номер одразу після. Страхування — за запитом.",
-      step6: "Відстежте доставку і підтвердьте отримання — картина приходить в ідеальному стані, саме такою, як ми відправляємо.",
+      howtobuy_intro: "Кожне придбання ми супроводжуємо особисто — від першого запиту до доставки. Надаємо повну інформацію про роботу, розрахунок доставки до вашої країни та рахунок у зручній для вас валюті.",
+      step1: "<strong>Запит.</strong> Напишіть нам на <a href=\"mailto:nataliiavas.uk@gmail.com\">nataliiavas.uk@gmail.com</a> або скористайтеся кнопкою «Enquire» на сторінці картини. Вкажіть, будь ласка, вашу країну — ми одразу розрахуємо доставку.",
+      step2: "<strong>Деталі.</strong> Відповідаємо протягом 24 годин: додаткові фото, повна документація та вартість доставки. На запит можемо організувати відеоперегляд картини.",
+      step3: "<strong>Рахунок.</strong> Після вашого підтвердження виставляємо рахунок у USD, GBP, EUR або UAH.",
+      step4: "<strong>Оплата.</strong> Сплатіть рахунок банківським переказом, через Revolut, Wise, PayPal або іншим погодженим способом.",
+      step5: "<strong>Відправка.</strong> Картину професійно пакуємо, фотографуємо перед відправкою та надсилаємо з трекінг-номером. Страхування — за запитом.",
+      step6: "<strong>Доставка.</strong> Відстежуйте відправлення та підтвердьте отримання.",
       delivery_label: "Доставка",
-      delivery_text: "Картини відправляємо з України в будь-яку країну світу. Скільки коштує доставка до вашої країни і скільки вона триває — повідомимо до оплати.",
+      delivery_text: "Картини відправляємо з України по всьому світу. Вартість і терміни доставки до вашої країни узгоджуємо до оплати.",
       payment_label: "Оплата",
-      payment_intro: "Оплата. Безпечно і просто.",
-      method_wise: "Найвигідніший курс для міжнародних переказів.",
-      method_paypal: "Знайомий і безпечний для більшості покупців.",
+      payment_intro: "Приймаємо оплату зі США, Великої Британії, Європи, України та інших країн. Ціни на сайті — у доларах США; рахунок можемо виставити в доларах, фунтах, євро або гривнях.",
       method_bank_title: "Банківський переказ",
-      method_bank: "Для великих сум — за запитом.",
-      payment_confirmed: "Оплата підтверджується до відправки.",
+      method_bank: "Рахунки у США, Великій Британії, Європі та Україні, зокрема на українську банківську картку.",
+      method_revolut: "Швидкі перекази між рахунками Revolut.",
+      method_wise: "Вигідний курс для оплати з іншої валюти.",
+      method_paypal: "Поширений і зручний для міжнародних платежів.",
+      payment_note_email: "Реквізити для оплати ми надаємо лише в нашому рахунку.",
+      payment_note_card: "Ми ніколи не запитуємо дані картки чи паролі.",
+      payment_note_ship: "Картину відправляємо після надходження оплати.",
       questions_label: "Питання?",
-      questions_p1: "Пишіть нам на пошту — відповідаємо протягом 2 годин.",
-      questions_p2: "Ми проведемо вас через кожен крок: від вибору картини до підтвердження отримання.",
+      questions_p1: "Пишіть нам на пошту — відповідаємо протягом 24 годин.",
+      questions_p2: "Ми супроводжуємо вас на кожному кроці — від вибору картини до підтвердженої доставки.",
       send_email: "Написати нам · nataliiavas.uk@gmail.com"
     }
   };

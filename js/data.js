@@ -14,7 +14,7 @@ const SITE_NAME = "The Odesa School";
 const I18N_COMMON = {
   en: {
     site_title: SITE_NAME,
-    tagline: "Light, sea and color — Odesa painting, 1930s–1980s",
+    tagline: "Paintings by Odesa artists, 1930s–1980s, from a private collection",
     nav_home: "Home",
     nav_catalog: "Catalog",
     nav_artists: "Artists",
@@ -47,7 +47,7 @@ const I18N_COMMON = {
     inscription_field: "Inscription",
     condition_field: "Condition",
     certificate_field: "Certificate of authenticity",
-    enquire_reassurance: "Reply within 2 hours · Worldwide delivery · Certificate of authenticity",
+    enquire_reassurance: "Reply within 24 hours · Worldwide delivery · Certificate of authenticity",
     enquire_email_hint: "Button not opening your mail app? Write directly to",
     details_label: "Details",
     provenance_label: "Provenance",
@@ -68,7 +68,7 @@ const I18N_COMMON = {
   },
   ua: {
     site_title: SITE_NAME,
-    tagline: "Світло, море і колір — одеський живопис, 1930–1980-ті",
+    tagline: "Картини одеських художників 1930–1980-х з приватної колекції",
     nav_home: "Головна",
     nav_catalog: "Каталог",
     nav_artists: "Художники",
@@ -101,7 +101,7 @@ const I18N_COMMON = {
     inscription_field: "Напис",
     condition_field: "Стан",
     certificate_field: "Сертифікат автентичності",
-    enquire_reassurance: "Відповідаємо протягом 2 годин · Доставка по всьому світу · Сертифікат автентичності",
+    enquire_reassurance: "Відповідаємо протягом 24 годин · Доставка по всьому світу · Сертифікат автентичності",
     enquire_email_hint: "Кнопка не відкриває пошту? Напишіть напряму на",
     details_label: "Деталі",
     provenance_label: "Походження",
