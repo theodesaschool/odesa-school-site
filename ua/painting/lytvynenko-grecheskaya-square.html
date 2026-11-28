@@ -65,7 +65,6 @@
     <li><b>Напис:</b> Зворот: «Одесса Литвиненко В.Н. Греческая площадь»</li>
     <li><b>Стан:</b> Відмінний стан</li>
     <li><b>Статус:</b> Продано</li>
-    <li><b>Умови придбання:</b> за запитом</li>
   </ul>
   <p>Одеса. Грецька площа в сизо-синій зимовій гамі.</p>
   <p><a href="ua/catalog.html">← До каталогу</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Hretska%20Square">Написати листом</a></p>
@@ -271,10 +270,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

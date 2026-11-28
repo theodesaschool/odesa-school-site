@@ -10,7 +10,8 @@
   - есть llms.txt, sitemap.xml, robots.txt;
   - все фото из paintings.json / artists.json / places.json существуют;
   - places.json ссылается только на существующие картины;
-  - в данных и страницах нет ничего похожего на цену;
+  - у каждой непроданной картины есть цена (целое число долларов в поле price), и она показана на её странице;
+  - в текстах данных (описания, провенанс и т. п.) нет цен — цена хранится только в поле price;
   - в шапке, подвале и заголовках нет старых названий сайта;
   - нет файлов с подозрительными именами (инвойсы, копии, бэкапы), пробелами в имени или больше 25 МБ.
 """
@@ -84,21 +85,29 @@ def main():
             if pid not in painting_ids:
                 problems.append(f"places.json {pl['id']}: нет картины {pid}")
 
+    # Цена хранится только числом в поле price; в текстах данных цен быть не должно
     for name in DATA_FILES:
         for m in PRICE_RX.finditer(read(name)):
-            problems.append(f"{name}: похоже на цену: {m.group(0)!r}")
+            problems.append(f"{name}: цена в тексте: {m.group(0)!r} (цена — только в поле price)")
+    for p in paintings:
+        price = p.get("price")
+        if price is None:
+            if p.get("status") != "sold":
+                warnings.append(f"{p['id']}: нет цены (на сайте будет «по запросу»)")
+            continue
+        if not isinstance(price, int) or isinstance(price, bool) or price <= 0:
+            problems.append(f"{p['id']}: цена должна быть целым числом долларов больше нуля, сейчас {price!r}")
+            continue
+        if p.get("status") != "sold" and exists(f"painting/{p['id']}.html"):
+            shown = f"${price:,}"
+            if shown not in read(f"painting/{p['id']}.html"):
+                problems.append(f"painting/{p['id']}.html: не показана цена {shown}: запустите tools/build_seo.py")
 
     pages = TEMPLATES + ["ua/" + n for n in UA_PAGES if exists("ua/" + n)] + [
         f"{d}/{f}" for d in ("painting", "artist", "ua/painting", "ua/artist") if os.path.isdir(os.path.join(ROOT, d))
         for f in sorted(os.listdir(os.path.join(ROOT, d))) if f.endswith(".html")]
-    if exists("llms.txt"):
-        for m in PRICE_RX.finditer(read("llms.txt")):
-            problems.append(f"llms.txt: похоже на цену: {m.group(0)!r}")
     for rel in pages:
         text = read(rel)
-        visible = re.sub(r"<script.*?</script>|<style.*?</style>", "", text, flags=re.S)
-        for m in PRICE_RX.finditer(visible):
-            problems.append(f"{rel}: похоже на цену: {m.group(0)!r}")
         branded = " ".join(re.findall(r"<header.*?</header>|<footer.*?</footer>|<title>.*?</title>"
                                       r"|og:site_name\" content=\"[^\"]*", text, flags=re.S))
         for old in OLD_SITE_NAMES:

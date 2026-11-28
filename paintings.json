@@ -13,6 +13,7 @@
     },
     "size": "50 × 80 cm (19.7 × 31.5 in)",
     "status": "available",
+    "price": 6000,
     "description": {
       "en": "",
       "ua": ""
@@ -84,6 +85,7 @@
     },
     "size": "63 × 49 cm (24.8 × 19.3 in)",
     "status": "available",
+    "price": 5000,
     "description": {
       "en": "",
       "ua": ""
@@ -130,6 +132,7 @@
     },
     "size": "—",
     "status": "available",
+    "price": 5000,
     "description": {
       "en": "",
       "ua": ""
@@ -185,6 +188,7 @@
     },
     "size": "24.3 × 30.8 cm (9.6 × 12.1 in)",
     "status": "available",
+    "price": 1600,
     "description": {
       "en": "",
       "ua": ""
@@ -231,6 +235,7 @@
     },
     "size": "28.5 × 37.5 cm (11.2 × 14.8 in)",
     "status": "available",
+    "price": 1800,
     "description": {
       "en": "",
       "ua": ""
@@ -277,6 +282,7 @@
     },
     "size": "16 × 33 cm (6.3 × 13 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "",
       "ua": ""
@@ -323,6 +329,7 @@
     },
     "size": "34 × 47 cm (13.4 × 18.5 in)",
     "status": "available",
+    "price": 2300,
     "description": {
       "en": "",
       "ua": ""
@@ -369,6 +376,7 @@
     },
     "size": "25 × 35 cm (9.8 × 13.8 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "",
       "ua": ""
@@ -420,6 +428,7 @@
     },
     "size": "23 × 42.5 cm (9.1 × 16.7 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "",
       "ua": ""
@@ -466,6 +475,7 @@
     },
     "size": "35 × 48.5 cm (13.8 × 19.1 in)",
     "status": "available",
+    "price": 1500,
     "description": {
       "en": "",
       "ua": ""
@@ -521,6 +531,7 @@
     },
     "size": "33 × 43.5 cm (13 × 17.1 in)",
     "status": "available",
+    "price": 1600,
     "description": {
       "en": "",
       "ua": ""
@@ -576,6 +587,7 @@
     },
     "size": "14 × 21.7 cm (5.5 × 8.5 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -622,6 +634,7 @@
     },
     "size": "21.7 × 26 cm (8.5 × 10.2 in)",
     "status": "available",
+    "price": 1400,
     "description": {
       "en": "",
       "ua": ""
@@ -668,6 +681,7 @@
     },
     "size": "26.5 × 53 cm (10.4 × 20.9 in)",
     "status": "available",
+    "price": 1500,
     "description": {
       "en": "",
       "ua": ""
@@ -714,6 +728,7 @@
     },
     "size": "18.3 × 23.3 cm (7.2 × 9.2 in)",
     "status": "available",
+    "price": 1000,
     "description": {
       "en": "A spring Crimean landscape in a small format, in a soft, delicate palette.",
       "ua": "Весняний кримський краєвид у камерному форматі, у м'якій, ніжній палітрі."
@@ -774,6 +789,7 @@
     },
     "size": "13.7 × 22.5 cm (5.4 × 8.9 in)",
     "status": "available",
+    "price": 600,
     "description": {
       "en": "A small landscape of 1940: the edge of a wood, the boundary between open space and woodland.",
       "ua": "Невеликий пейзаж 1940 року: узлісся — межа між відкритим простором і лісом."
@@ -834,6 +850,7 @@
     },
     "size": "35 × 48.5 cm (13.8 × 19.1 in)",
     "status": "available",
+    "price": 2500,
     "description": {
       "en": "Odesa's coastline seen from above: a cliff, a sandy beach, bathers and the blue sea. A lively, sunny scene with figures.",
       "ua": "Одеське узбережжя з висоти: обрив, піщаний берег, купальники, морська синь. Жвава, сонячна сцена з фігурами."
@@ -890,6 +907,7 @@
     },
     "size": "34 × 48 cm (13.4 × 18.9 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "Odesa's rocky shores, 1941: ochre-grey cliffs and a restless sea.",
       "ua": "Скелясті береги Одеси, 1941 рік: охристо-сірі скелі й неспокійне море."
@@ -946,6 +964,7 @@
     },
     "size": "15.5 × 25.5 cm (6.1 × 10.0 in)",
     "status": "available",
+    "price": 700,
     "description": {
       "en": "A study in the port: a quick, lively notation of an impression.",
       "ua": "Етюд у порту: швидкий, живий запис враження."
@@ -1006,6 +1025,7 @@
     },
     "size": "16.5 × 34.5 cm (6.5 × 13.6 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "A horizontal panorama of fields in an elongated format: broad open space and restrained colour.",
       "ua": "Горизонтальна панорама полів у видовженому форматі: широкий відкритий простір, стриманий колір."
@@ -1066,6 +1086,7 @@
     },
     "size": "26 × 33.5 cm (10.2 × 13.2 in)",
     "status": "available",
+    "price": 2200,
     "description": {
       "en": "A coastal scene: several fishermen against a sparkling sea, painted in broad impasto strokes.",
       "ua": "Прибережна сцена: кілька постатей рибалок на тлі іскристого моря, широкий пастозний мазок."
@@ -1122,6 +1143,7 @@
     },
     "size": "25 × 29 cm (9.8 × 11.4 in)",
     "status": "available",
+    "price": 1800,
     "description": {
       "en": "A shore scene with boats in a restrained grey-brown palette, painted on plywood in 1940.",
       "ua": "Берегова сцена з човнами у стриманій сіро-коричневій гамі; фанера, 1940 рік."
@@ -1182,6 +1204,7 @@
     },
     "size": "29 × 36 cm (11.4 × 14.2 in)",
     "status": "available",
+    "price": 900,
     "description": {
       "en": "An autumn landscape of 1946, painted in a warm ochre palette with lively brushwork.",
       "ua": "Осінній пейзаж 1946 року в теплій охристій гамі, живий мазок."
@@ -1242,6 +1265,7 @@
     },
     "size": "34.5 × 48.5 cm (13.6 × 19.1 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "A summer village landscape with a telegraph pole: rich greenery, an open ochre field and a wide sky.",
       "ua": "Літній сільський пейзаж із телеграфним стовпом: соковита зелень, відкрите охристе поле, вільне небо."
@@ -1298,6 +1322,7 @@
     },
     "size": "35.5 × 47.5 cm (14.0 × 18.7 in)",
     "status": "available",
+    "price": 1600,
     "description": {
       "en": "Sedniv is an ancient town in the Chernihiv region, a favourite haunt of artists. A winter view of slopes, snow and buildings.",
       "ua": "Седнів — старовинне містечко на Чернігівщині, улюблене місце художників. Зимовий вид: схили, сніг, будівлі."
@@ -1358,6 +1383,7 @@
     },
     "size": "34.3 × 48 cm (13.5 × 18.9 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "A second winter scene of Sedniv: a woman with a child on the street, snow-covered buildings and a church. A warm, gentle palette despite the winter theme.",
       "ua": "Друга зимова сцена Седніва: жінка з дитиною на вулиці, засніжені будівлі, церква. Тепла, ніжна гама попри зимову тему."
@@ -1414,6 +1440,7 @@
     },
     "size": "17 × 30.5 cm (6.7 × 12.0 in)",
     "status": "available",
+    "price": 1000,
     "description": {
       "en": "An elongated miniature winter landscape: snow-covered huts, trees and a quiet village space, in a restrained grey-white palette with an impasto sky.",
       "ua": "Видовжений мініатюрний зимовий пейзаж: хати в снігу, дерева, тихий сільський простір; стримана сіро-біла гама, пастозне небо."
@@ -1470,6 +1497,7 @@
     },
     "size": "30 × 44 cm (11.8 × 17.3 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "A preparatory sketch for a larger painting, 1948.",
       "ua": "Підготовчий ескіз до більшої картини, 1948 рік."
@@ -1530,6 +1558,7 @@
     },
     "size": "34 × 33.5 cm (13.4 × 13.2 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "A summer dacha in a square format: flowers, greenery and shade.",
       "ua": "Літня дача в квадратному форматі: квіти, зелень, тінь."
@@ -1590,6 +1619,7 @@
     },
     "size": "31 × 46 cm (12.2 × 18.1 in)",
     "status": "available",
+    "price": 1400,
     "description": {
       "en": "An Odesa storm: red-brown rocks, white wave crests and a turbulent sea.",
       "ua": "Одеська буря: червоно-коричневі скелі, білі гребені хвиль, неспокійне море."
@@ -1646,6 +1676,7 @@
     },
     "size": "12.2 × 24.7 cm (4.8 × 9.7 in)",
     "status": "available",
+    "price": 900,
     "description": {
       "en": "A miniature autumn panorama on plywood: a deserted floodplain landscape in an ochre-grey palette.",
       "ua": "Мініатюрна осіння панорама на фанері: безлюдний заплавний краєвид в охристо-сірій гамі."
@@ -1702,6 +1733,7 @@
     },
     "size": "31.5 × 53 cm (12.4 × 20.9 in)",
     "status": "available",
+    "price": 2000,
     "description": {
       "en": "",
       "ua": ""
@@ -1757,6 +1789,7 @@
     },
     "size": "14.5 × 21 cm (5.7 × 8.3 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -1803,6 +1836,7 @@
     },
     "size": "80.2 × 109.2 cm (31.6 × 43.0 in)",
     "status": "available",
+    "price": 6000,
     "description": {
       "en": "",
       "ua": ""
@@ -1849,6 +1883,7 @@
     },
     "size": "50 × 80 cm (19.7 × 31.5 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "",
       "ua": ""
@@ -1904,6 +1939,7 @@
     },
     "size": "25.5 × 30 cm (10.0 × 11.8 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -1959,6 +1995,7 @@
     },
     "size": "18.2 × 23 cm (7.2 × 9.1 in)",
     "status": "available",
+    "price": 850,
     "description": {
       "en": "",
       "ua": ""
@@ -2005,6 +2042,7 @@
     },
     "size": "44 × 37.5 cm (17.3 × 14.8 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -2060,6 +2098,7 @@
     },
     "size": "35 × 24.3 cm (13.8 × 9.6 in)",
     "status": "available",
+    "price": 1500,
     "description": {
       "en": "",
       "ua": ""
@@ -2115,6 +2154,7 @@
     },
     "size": "38 × 50 cm (15.0 × 19.7 in)",
     "status": "available",
+    "price": 1800,
     "description": {
       "en": "",
       "ua": ""
@@ -2161,6 +2201,7 @@
     },
     "size": "26 × 36.5 cm (10.2 × 14.4 in)",
     "status": "available",
+    "price": 1400,
     "description": {
       "en": "",
       "ua": ""
@@ -2207,6 +2248,7 @@
     },
     "size": "22.7 × 31.5 cm (8.9 × 12.4 in)",
     "status": "available",
+    "price": 900,
     "description": {
       "en": "",
       "ua": ""
@@ -2253,6 +2295,7 @@
     },
     "size": "19.6 × 34.6 cm (7.7 × 13.6 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "",
       "ua": ""
@@ -2299,6 +2342,7 @@
     },
     "size": "34.5 × 48.5 cm (13.6 × 19.1 in)",
     "status": "available",
+    "price": 2500,
     "description": {
       "en": "",
       "ua": ""
@@ -2345,6 +2389,7 @@
     },
     "size": "32 × 49.8 cm (12.6 × 19.6 in)",
     "status": "available",
+    "price": 2500,
     "description": {
       "en": "",
       "ua": ""
@@ -2391,6 +2436,7 @@
     },
     "size": "50 × 34.5 cm (19.7 × 13.6 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -2446,6 +2492,7 @@
     },
     "size": "50 × 70 cm (19.7 × 27.6 in)",
     "status": "available",
+    "price": 2500,
     "description": {
       "en": "",
       "ua": ""
@@ -2497,6 +2544,7 @@
     },
     "size": "44 × 37.5 cm (17.3 × 14.8 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "",
       "ua": ""
@@ -2547,6 +2595,7 @@
     },
     "size": "60 × 70 cm (23.6 × 27.6 in)",
     "status": "available",
+    "price": 3500,
     "description": {
       "en": "",
       "ua": ""
@@ -2597,6 +2646,7 @@
     },
     "size": "90 × 80 cm (35.4 × 31.5 in)",
     "status": "available",
+    "price": 3000,
     "description": {
       "en": "",
       "ua": ""
@@ -2647,6 +2697,7 @@
     },
     "size": "40 × 50 cm (15.7 × 19.7 in)",
     "status": "available",
+    "price": 2500,
     "description": {
       "en": "",
       "ua": ""
@@ -2702,6 +2753,7 @@
     },
     "size": "50 × 70 cm (19.7 × 27.6 in)",
     "status": "available",
+    "price": 3000,
     "description": {
       "en": "",
       "ua": ""
@@ -2748,6 +2800,7 @@
     },
     "size": "33.5 × 45.5 cm (13.2 × 17.9 in)",
     "status": "available",
+    "price": 2000,
     "description": {
       "en": "",
       "ua": ""
@@ -2798,6 +2851,7 @@
     },
     "size": "26 × 42.5 cm (10.2 × 16.7 in)",
     "status": "available",
+    "price": 1500,
     "description": {
       "en": "Winter at the sea: two figures on a cliff above the grey Black Sea.",
       "ua": "Зима біля моря: двоє людей на скелі над сірим Чорним морем."
@@ -2857,6 +2911,7 @@
     },
     "size": "33.5 × 32 cm (13.2 × 12.6 in)",
     "status": "available",
+    "price": 1700,
     "description": {
       "en": "Autumn: burning orange and yellow foliage.",
       "ua": "Осінь: оранжеве й жовте полум'я листя."
@@ -2916,6 +2971,7 @@
     },
     "size": "27.5 × 30.8 cm (10.8 × 12.1 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "Winter has come, 1955 — the year the artist graduated from the Odesa Art School.",
       "ua": "Зима прийшла, 1955 рік — рік закінчення художником Одеського художнього училища."
@@ -2967,6 +3023,7 @@
     },
     "size": "34 × 46 cm (13.4 × 18.1 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "Crimea in late autumn: a bare tree against the mountains.",
       "ua": "Крим пізньої осені: голе дерево на тлі гір."
@@ -3022,6 +3079,7 @@
     },
     "size": "70 × 80 cm (27.6 × 31.5 in)",
     "status": "sold",
+    "price": 1100,
     "description": {
       "en": "Odesa. Autumn trees in bright turquoise and pink tones.",
       "ua": "Одеса. Осінні дерева в яскравих бірюзово-рожевих тонах."
@@ -3073,6 +3131,7 @@
     },
     "size": "57 × 75 cm (22.4 × 29.5 in)",
     "status": "sold",
+    "price": 2200,
     "description": {
       "en": "Odesa. Hretska Square in a blue-grey winter palette.",
       "ua": "Одеса. Грецька площа в сизо-синій зимовій гамі."
@@ -3128,6 +3187,7 @@
     },
     "size": "56.5 × 82 cm (22.2 × 32.3 in)",
     "status": "available",
+    "price": 3000,
     "description": {
       "en": "Odesa. A street with a cathedral dome on a pink spring day, with a lone figure.",
       "ua": "Одеса. Вулиця з куполом собору рожевого весняного дня, самотня постать."
@@ -3183,6 +3243,7 @@
     },
     "size": "68 × 84 cm (26.8 × 33.1 in)",
     "status": "available",
+    "price": 1100,
     "description": {
       "en": "Odesa, 1994. Winter in the alley of the Botanical Garden: between the trunks, through the snow, a sail.",
       "ua": "Одеса, 1994. Зима, алея ботанічного саду: між стовбурами, крізь сніг — вітрило."
@@ -3234,6 +3295,7 @@
     },
     "size": "29 × 51 cm (11.4 × 20.1 in)",
     "status": "available",
+    "price": 1100,
     "description": {
       "en": "Odesa. The railway station square.",
       "ua": "Одеса. Привокзальна площа."
@@ -3289,6 +3351,7 @@
     },
     "size": "71 × 81.5 cm (28.0 × 32.1 in)",
     "status": "available",
+    "price": 4000,
     "description": {
       "en": "",
       "ua": ""
@@ -3340,6 +3403,7 @@
     },
     "size": "32 × 77 cm (12.6 × 30.3 in)",
     "status": "available",
+    "price": 1500,
     "description": {
       "en": "Autumn, a river and a solitary figure on the bank.",
       "ua": "Осінь, річка й самотня постать на березі."
@@ -3391,6 +3455,7 @@
     },
     "size": "67.5 × 85 cm (26.6 × 33.5 in)",
     "status": "available",
+    "price": 3000,
     "description": {
       "en": "Odesa. The staircases: people, parasols and the shade of acacias. From the «Odesa Staircases» series.",
       "ua": "Одеса. Сходи: люди, парасолі, тінь акацій. З серії «Одеські сходи»."
@@ -3442,6 +3507,7 @@
     },
     "size": "57 × 63 cm (22.4 × 24.8 in)",
     "status": "available",
+    "price": 1800,
     "description": {
       "en": "Odesa. The port: crane masts and a liner in the dock.",
       "ua": "Одеса. Порт: щогли кранів, лайнер у доці."
@@ -3493,6 +3559,7 @@
     },
     "size": "52 × 61 cm (20.5 × 24 in)",
     "status": "available",
+    "price": 1000,
     "description": {
       "en": "A winter landscape with chickens.",
       "ua": "Зимовий пейзаж із птахами."
@@ -3553,6 +3620,7 @@
     },
     "size": "39 × 49 cm (15.4 × 19.3 in)",
     "status": "available",
+    "price": 3000,
     "description": {
       "en": "",
       "ua": ""
@@ -3603,6 +3671,7 @@
     },
     "size": "30 × 36 cm (11.8 × 14.2 in)",
     "status": "available",
+    "price": 1600,
     "description": {
       "en": "",
       "ua": ""
@@ -3653,6 +3722,7 @@
     },
     "size": "68 × 84 cm (26.8 × 33.1 in)",
     "status": "available",
+    "price": 3000,
     "description": {
       "en": "",
       "ua": ""
@@ -3704,6 +3774,7 @@
     },
     "size": "73 × 98 cm (28.7 × 38.6 in)",
     "status": "available",
+    "price": 2000,
     "description": {
       "en": "Odesa, 2005. The Lermontovsky Sanatorium: old trees and a pink facade.",
       "ua": "Одеса, 2005. Лермонтовський санаторій: віковічні дерева, рожевий фасад."
@@ -3755,6 +3826,7 @@
     },
     "size": "50 × 70 cm (19.7 × 27.6 in)",
     "status": "available",
+    "price": 1800,
     "description": {
       "en": "",
       "ua": ""
@@ -3810,6 +3882,7 @@
     },
     "size": "25 × 34.5 cm (9.8 × 13.6 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "",
       "ua": ""
@@ -3861,6 +3934,7 @@
     },
     "size": "23 × 18 cm (9.1 × 7.1 in)",
     "status": "available",
+    "price": 900,
     "description": {
       "en": "",
       "ua": ""
@@ -3916,6 +3990,7 @@
     },
     "size": "33.5 × 23.5 cm (13.2 × 9.3 in)",
     "status": "available",
+    "price": 2500,
     "description": {
       "en": "",
       "ua": ""
@@ -3967,6 +4042,7 @@
     },
     "size": "13 × 18.5 cm (5.1 × 7.3 in)",
     "status": "available",
+    "price": 700,
     "description": {
       "en": "",
       "ua": ""
@@ -4022,6 +4098,7 @@
     },
     "size": "23 × 16 cm (9.1 × 6.3 in)",
     "status": "available",
+    "price": 700,
     "description": {
       "en": "",
       "ua": ""
@@ -4072,6 +4149,7 @@
     },
     "size": "25 × 34 cm (9.8 × 13.4 in)",
     "status": "available",
+    "price": 1100,
     "description": {
       "en": "",
       "ua": ""
@@ -4123,6 +4201,7 @@
     },
     "size": "22 × 30.5 cm (8.7 × 12.0 in)",
     "status": "available",
+    "price": 1400,
     "description": {
       "en": "",
       "ua": ""
@@ -4182,6 +4261,7 @@
     },
     "size": "25 × 34 cm (9.8 × 13.4 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "",
       "ua": ""
@@ -4228,6 +4308,7 @@
     },
     "size": "50 × 50 cm (19.7 × 19.7 in)",
     "status": "available",
+    "price": 1100,
     "description": {
       "en": "",
       "ua": ""
@@ -4283,6 +4364,7 @@
     },
     "size": "50 × 35 cm (19.7 × 13.8 in)",
     "status": "available",
+    "price": 1000,
     "description": {
       "en": "",
       "ua": ""
@@ -4338,6 +4420,7 @@
     },
     "size": "25 × 95 cm (9.8 × 37.4 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -4394,6 +4477,7 @@
     },
     "size": "23.5 × 37 cm (9.3 × 14.6 in)",
     "status": "available",
+    "price": 700,
     "description": {
       "en": "",
       "ua": ""
@@ -4449,6 +4533,7 @@
     },
     "size": "22 × 78 cm (8.7 × 30.7 in)",
     "status": "available",
+    "price": 1000,
     "description": {
       "en": "",
       "ua": ""
@@ -4505,6 +4590,7 @@
     },
     "size": "24 × 53.5 cm (9.4 × 21.1 in)",
     "status": "available",
+    "price": 900,
     "description": {
       "en": "",
       "ua": ""
@@ -4556,6 +4642,7 @@
     },
     "size": "27 × 47 cm (10.6 × 18.5 in)",
     "status": "available",
+    "price": 800,
     "description": {
       "en": "",
       "ua": ""
@@ -4607,6 +4694,7 @@
     },
     "size": "42.2 × 34.0 cm (16.6 × 13.4 in)",
     "status": "available",
+    "price": 1900,
     "description": {
       "en": "",
       "ua": ""
@@ -4662,6 +4750,7 @@
     },
     "size": "31.5 × 39.5 cm (12.4 × 15.6 in)",
     "status": "available",
+    "price": 2000,
     "description": {
       "en": "",
       "ua": ""
@@ -4712,6 +4801,7 @@
     },
     "size": "118 × 90 cm (46.5 × 35.4 in)",
     "status": "available",
+    "price": 5000,
     "description": {
       "en": "",
       "ua": ""
@@ -4758,6 +4848,7 @@
     },
     "size": "20 × 15.5 cm (7.9 × 6.1 in)",
     "status": "available",
+    "price": 1200,
     "description": {
       "en": "",
       "ua": ""

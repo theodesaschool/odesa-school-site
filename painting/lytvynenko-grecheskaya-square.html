@@ -65,7 +65,6 @@
     <li><b>Inscription:</b> Reverse: «Одесса Литвиненко В.Н. Греческая площадь»</li>
     <li><b>Condition:</b> Excellent condition</li>
     <li><b>Status:</b> Sold</li>
-    <li><b>Price:</b> Price on request</li>
   </ul>
   <p>Odesa. Hretska Square in a blue-grey winter palette.</p>
   <p><a href="catalog.html">← Back to Catalog</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Hretska%20Square">Enquire by email</a></p>
@@ -271,10 +270,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

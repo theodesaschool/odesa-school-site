@@ -25,7 +25,7 @@
 <script>document.documentElement.className+=" js"</script>
 <script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/lytvynenko-lermontovsky-sanatorium.html"+location.hash)}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html#artwork", "name": "Lermontovsky Sanatorium", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Volodymyr Lytvynenko", "url": "https://theodesaschool.com/artist/lytvynenko.html"}, "description": "Odesa, 2005. The Lermontovsky Sanatorium: old trees and a pink facade.", "url": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html", "inLanguage": "en", "dateCreated": "2005", "height": {"@type": "QuantitativeValue", "value": 73.0, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 98.0, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/front.jpg", "https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Volodymyr Lytvynenko", "item": "https://theodesaschool.com/artist/lytvynenko.html"}, {"@type": "ListItem", "position": 4, "name": "Lermontovsky Sanatorium", "item": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html#artwork", "name": "Lermontovsky Sanatorium", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Volodymyr Lytvynenko", "url": "https://theodesaschool.com/artist/lytvynenko.html"}, "description": "Odesa, 2005. The Lermontovsky Sanatorium: old trees and a pink facade.", "url": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html", "inLanguage": "en", "dateCreated": "2005", "height": {"@type": "QuantitativeValue", "value": 73.0, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 98.0, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/front.jpg", "https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/framed.jpg"], "offers": {"@type": "Offer", "price": 2000, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/UsedCondition", "url": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Volodymyr Lytvynenko", "item": "https://theodesaschool.com/artist/lytvynenko.html"}, {"@type": "ListItem", "position": 4, "name": "Lermontovsky Sanatorium", "item": "https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"}]}]}</script>
 <!-- seo:end -->
 </head>
 <body data-page="catalog">
@@ -65,7 +65,7 @@
     <li><b>Inscription:</b> Reverse: «Литвиненко В.Н. Лермонтовский санаторий х/м 73×98 2005»</li>
     <li><b>Condition:</b> Excellent condition</li>
     <li><b>Status:</b> Available</li>
-    <li><b>Price:</b> Price on request</li>
+    <li><b>Price:</b> $2,000</li>
   </ul>
   <p>Odesa, 2005. The Lermontovsky Sanatorium: old trees and a pink facade.</p>
   <p><a href="catalog.html">← Back to Catalog</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Lermontovsky%20Sanatorium">Enquire by email</a></p>
@@ -271,10 +271,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

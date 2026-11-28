@@ -234,10 +234,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

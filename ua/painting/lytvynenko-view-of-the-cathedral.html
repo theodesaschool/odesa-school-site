@@ -25,7 +25,7 @@
 <script>document.documentElement.className+=" js"</script>
 <script>window.PAGE_LANG="ua";try{var l=localStorage.getItem("lang");if(l&&l!=="ua")location.replace("/painting/lytvynenko-view-of-the-cathedral.html"+location.hash)}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html#artwork", "name": "Вид на собор", "artform": "Painting", "artMedium": "Полотно, олія", "creator": {"@type": "Person", "name": "Володимир Литвиненко", "url": "https://theodesaschool.com/ua/artist/lytvynenko.html"}, "description": "Одеса. Вулиця з куполом собору рожевого весняного дня, самотня постать.", "url": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html", "inLanguage": "uk", "height": {"@type": "QuantitativeValue", "value": 56.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 82.0, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/front.jpg", "https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Головна", "item": "https://theodesaschool.com/ua/"}, {"@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://theodesaschool.com/ua/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Володимир Литвиненко", "item": "https://theodesaschool.com/ua/artist/lytvynenko.html"}, {"@type": "ListItem", "position": 4, "name": "Вид на собор", "item": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html#artwork", "name": "Вид на собор", "artform": "Painting", "artMedium": "Полотно, олія", "creator": {"@type": "Person", "name": "Володимир Литвиненко", "url": "https://theodesaschool.com/ua/artist/lytvynenko.html"}, "description": "Одеса. Вулиця з куполом собору рожевого весняного дня, самотня постать.", "url": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html", "inLanguage": "uk", "height": {"@type": "QuantitativeValue", "value": 56.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 82.0, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/front.jpg", "https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/framed.jpg"], "offers": {"@type": "Offer", "price": 3000, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/UsedCondition", "url": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Головна", "item": "https://theodesaschool.com/ua/"}, {"@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://theodesaschool.com/ua/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Володимир Литвиненко", "item": "https://theodesaschool.com/ua/artist/lytvynenko.html"}, {"@type": "ListItem", "position": 4, "name": "Вид на собор", "item": "https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html"}]}]}</script>
 <!-- seo:end -->
 </head>
 <body data-page="catalog">
@@ -65,7 +65,7 @@
     <li><b>Напис:</b> Зворот: «Одесса Литвиненко В.Н. Вид на собор»</li>
     <li><b>Стан:</b> Відмінний стан</li>
     <li><b>Статус:</b> Доступна</li>
-    <li><b>Умови придбання:</b> за запитом</li>
+    <li><b>Ціна:</b> 3 000 $</li>
   </ul>
   <p>Одеса. Вулиця з куполом собору рожевого весняного дня, самотня постать.</p>
   <p><a href="ua/catalog.html">← До каталогу</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20View%20of%20the%20Cathedral">Написати листом</a></p>
@@ -271,10 +271,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

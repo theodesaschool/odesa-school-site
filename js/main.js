@@ -50,6 +50,15 @@ function isSold(p) {
   return p.status === "sold";
 }
 
+// Цена в долларах США: "$6,000" (EN) / "6 000 $" (UA). Без цены в данных — «по запросу».
+// Тот же формат — в format_price() в tools/build_seo.py.
+function priceLabel(p, lang, t) {
+  if (typeof p.price !== "number") return t.price_on_request;
+  const digits = String(p.price);
+  if (lang === "ua") return `${digits.replace(/\B(?=(\d{3})+(?!\d))/g, " ")} $`;
+  return `$${digits.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`;
+}
+
 // Проданные работы — в конце списка, порядок остальных не меняется.
 function availableFirst(list) {
   return list.filter(p => !isSold(p)).concat(list.filter(isSold));
@@ -208,7 +217,7 @@ function paintingCardHtml(p, lang, seed) {
         ${isSold(p) ? `
         <p class="sold-note">${t.sold_note}</p>
         <a class="inquire-btn inquire-btn--similar" title="${p.id}" href="${similarMailtoHref(p, lang)}">${t.ask_similar}</a>` : `
-        <div class="meta-row"><span>${t.price_field}</span><span>${t.price_on_request}</span></div>
+        <div class="meta-row meta-row--price"><span>${t.price_field}</span><span>${priceLabel(p, lang, t)}</span></div>
         <a class="inquire-btn" title="${p.id}" href="${inquireMailtoHref(p, lang)}">${t.inquire}</a>`}
         ${inquireEmailHintHtml(t)}
       </div>

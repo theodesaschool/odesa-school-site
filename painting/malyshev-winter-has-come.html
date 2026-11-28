@@ -25,7 +25,7 @@
 <script>document.documentElement.className+=" js"</script>
 <script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/malyshev-winter-has-come.html"+location.hash)}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/malyshev-winter-has-come.html#artwork", "name": "Winter has come", "artform": "Painting", "artMedium": "Oil on cardboard", "creator": {"@type": "Person", "name": "Hennadiy Malyshev", "url": "https://theodesaschool.com/artist/malyshev.html"}, "description": "Winter has come, 1955 — the year the artist graduated from the Odesa Art School.", "url": "https://theodesaschool.com/painting/malyshev-winter-has-come.html", "inLanguage": "en", "dateCreated": "1955", "height": {"@type": "QuantitativeValue", "value": 27.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 30.8, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/malyshev-winter-has-come/front.jpg", "https://theodesaschool.com/images/paintings/malyshev-winter-has-come/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Hennadiy Malyshev", "item": "https://theodesaschool.com/artist/malyshev.html"}, {"@type": "ListItem", "position": 4, "name": "Winter has come", "item": "https://theodesaschool.com/painting/malyshev-winter-has-come.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/malyshev-winter-has-come.html#artwork", "name": "Winter has come", "artform": "Painting", "artMedium": "Oil on cardboard", "creator": {"@type": "Person", "name": "Hennadiy Malyshev", "url": "https://theodesaschool.com/artist/malyshev.html"}, "description": "Winter has come, 1955 — the year the artist graduated from the Odesa Art School.", "url": "https://theodesaschool.com/painting/malyshev-winter-has-come.html", "inLanguage": "en", "dateCreated": "1955", "height": {"@type": "QuantitativeValue", "value": 27.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 30.8, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/malyshev-winter-has-come/front.jpg", "https://theodesaschool.com/images/paintings/malyshev-winter-has-come/framed.jpg"], "offers": {"@type": "Offer", "price": 1200, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/UsedCondition", "url": "https://theodesaschool.com/painting/malyshev-winter-has-come.html"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Hennadiy Malyshev", "item": "https://theodesaschool.com/artist/malyshev.html"}, {"@type": "ListItem", "position": 4, "name": "Winter has come", "item": "https://theodesaschool.com/painting/malyshev-winter-has-come.html"}]}]}</script>
 <!-- seo:end -->
 </head>
 <body data-page="catalog">
@@ -64,7 +64,7 @@
     <li><b>Signature:</b> Signed by the artist on the front</li>
     <li><b>Condition:</b> Excellent condition</li>
     <li><b>Status:</b> Available</li>
-    <li><b>Price:</b> Price on request</li>
+    <li><b>Price:</b> $1,200</li>
   </ul>
   <p>Winter has come, 1955 — the year the artist graduated from the Odesa Art School.</p>
   <p><a href="catalog.html">← Back to Catalog</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Winter%20has%20come">Enquire by email</a></p>
@@ -270,10 +270,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

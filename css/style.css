@@ -357,6 +357,13 @@ section.bordered { border-bottom: 1px solid var(--line); }
 
 .meta-row span:first-child { color: #a89f8f; }
 
+.meta-row--price span:last-child {
+  color: var(--ink);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.pg-meta .meta-row--price { font-size: 1rem; }
+
 .inquire-btn {
   display: inline-block;
   text-decoration: none;

@@ -25,7 +25,7 @@
 <script>document.documentElement.className+=" js"</script>
 <script>window.PAGE_LANG="ua";try{var l=localStorage.getItem("lang");if(l&&l!=="ua")location.replace("/painting/malyshev-winter-has-come.html"+location.hash)}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html#artwork", "name": "Зима прийшла", "artform": "Painting", "artMedium": "Картон, олія", "creator": {"@type": "Person", "name": "Геннадій Малишев", "url": "https://theodesaschool.com/ua/artist/malyshev.html"}, "description": "Зима прийшла, 1955 рік — рік закінчення художником Одеського художнього училища.", "url": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html", "inLanguage": "uk", "dateCreated": "1955", "height": {"@type": "QuantitativeValue", "value": 27.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 30.8, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/malyshev-winter-has-come/front.jpg", "https://theodesaschool.com/images/paintings/malyshev-winter-has-come/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Головна", "item": "https://theodesaschool.com/ua/"}, {"@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://theodesaschool.com/ua/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Геннадій Малишев", "item": "https://theodesaschool.com/ua/artist/malyshev.html"}, {"@type": "ListItem", "position": 4, "name": "Зима прийшла", "item": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html#artwork", "name": "Зима прийшла", "artform": "Painting", "artMedium": "Картон, олія", "creator": {"@type": "Person", "name": "Геннадій Малишев", "url": "https://theodesaschool.com/ua/artist/malyshev.html"}, "description": "Зима прийшла, 1955 рік — рік закінчення художником Одеського художнього училища.", "url": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html", "inLanguage": "uk", "dateCreated": "1955", "height": {"@type": "QuantitativeValue", "value": 27.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 30.8, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/malyshev-winter-has-come/front.jpg", "https://theodesaschool.com/images/paintings/malyshev-winter-has-come/framed.jpg"], "offers": {"@type": "Offer", "price": 1200, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/UsedCondition", "url": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Головна", "item": "https://theodesaschool.com/ua/"}, {"@type": "ListItem", "position": 2, "name": "Каталог", "item": "https://theodesaschool.com/ua/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Геннадій Малишев", "item": "https://theodesaschool.com/ua/artist/malyshev.html"}, {"@type": "ListItem", "position": 4, "name": "Зима прийшла", "item": "https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html"}]}]}</script>
 <!-- seo:end -->
 </head>
 <body data-page="catalog">
@@ -64,7 +64,7 @@
     <li><b>Підпис:</b> Авторський підпис на лицьовій стороні</li>
     <li><b>Стан:</b> Відмінний стан</li>
     <li><b>Статус:</b> Доступна</li>
-    <li><b>Умови придбання:</b> за запитом</li>
+    <li><b>Ціна:</b> 1 200 $</li>
   </ul>
   <p>Зима прийшла, 1955 рік — рік закінчення художником Одеського художнього училища.</p>
   <p><a href="ua/catalog.html">← До каталогу</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Winter%20has%20come">Написати листом</a></p>
@@ -270,10 +270,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

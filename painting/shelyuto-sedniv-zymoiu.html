@@ -25,7 +25,7 @@
 <script>document.documentElement.className+=" js"</script>
 <script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/shelyuto-sedniv-zymoiu.html"+location.hash)}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html#artwork", "name": "Sedniv in Winter", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Mykola Shelyuto", "url": "https://theodesaschool.com/artist/shelyuto.html"}, "description": "Sedniv is an ancient town in the Chernihiv region, a favourite haunt of artists. A winter view of slopes, snow and buildings.", "url": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html", "inLanguage": "en", "dateCreated": "1975", "height": {"@type": "QuantitativeValue", "value": 35.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 47.5, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/front.jpg", "https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Mykola Shelyuto", "item": "https://theodesaschool.com/artist/shelyuto.html"}, {"@type": "ListItem", "position": 4, "name": "Sedniv in Winter", "item": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html#artwork", "name": "Sedniv in Winter", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Mykola Shelyuto", "url": "https://theodesaschool.com/artist/shelyuto.html"}, "description": "Sedniv is an ancient town in the Chernihiv region, a favourite haunt of artists. A winter view of slopes, snow and buildings.", "url": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html", "inLanguage": "en", "dateCreated": "1975", "height": {"@type": "QuantitativeValue", "value": 35.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 47.5, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/front.jpg", "https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/framed.jpg"], "offers": {"@type": "Offer", "price": 1600, "priceCurrency": "USD", "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/UsedCondition", "url": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Mykola Shelyuto", "item": "https://theodesaschool.com/artist/shelyuto.html"}, {"@type": "ListItem", "position": 4, "name": "Sedniv in Winter", "item": "https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"}]}]}</script>
 <!-- seo:end -->
 </head>
 <body data-page="catalog">
@@ -65,7 +65,7 @@
     <li><b>Inscription:</b> Reverse: «Седнев зимой», х/м 35,5×47,5, г. исп. 1975; позначка «г. Одесса»</li>
     <li><b>Condition:</b> Excellent condition</li>
     <li><b>Status:</b> Available</li>
-    <li><b>Price:</b> Price on request</li>
+    <li><b>Price:</b> $1,600</li>
   </ul>
   <p>Sedniv is an ancient town in the Chernihiv region, a favourite haunt of artists. A winter view of slopes, snow and buildings.</p>
   <h3>Provenance</h3>
@@ -275,10 +275,10 @@
       [t.signature_field, p.signature && p.signature[lang]],
       [t.inscription_field, p.inscription && p.inscription[lang]],
       [t.condition_field, p.condition && p.condition[lang]],
-      [t.price_field, sold ? "" : t.price_on_request]
+      [t.price_field, sold ? "" : priceLabel(p, lang, t), "meta-row--price"]
     ].filter(([, value]) => value);
     document.getElementById("pg-meta").innerHTML = metaRows
-      .map(([label, value]) => `<div class="meta-row"><span>${label}</span><span>${value}</span></div>`)
+      .map(([label, value, cls]) => `<div class="meta-row${cls ? " " + cls : ""}"><span>${label}</span><span>${value}</span></div>`)
       .join("");
 
     const inquireBtn = document.getElementById("pg-inquire");

@@ -19,9 +19,9 @@ STATIC_PAGES = {
 }
 NAV_ITEMS = ["home", "catalog", "artists", "howtobuy", "about", "contact"]
 OLD_NAMES = ["Odesa Art Gallery", "Odesa Art School"]
-# шаблон «похоже на цену» общий для всего проекта и хранится в tools/check_site.py
+# формат цены общий для всего проекта и хранится в tools/build_seo.py
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
-from check_site import PRICE_RX  # noqa: E402
+from build_seo import format_price  # noqa: E402
 EMAIL = "nataliiavas.uk@gmail.com"
 HTML_LANG = {"en": "en", "ua": "uk"}  # код украинского языка в HTML — uk
 
@@ -177,12 +177,14 @@ def test_ua_catalog_renders(page, paintings):
     assert href.startswith("ua/painting/")
 
 
-def test_llms_txt(page):
+def test_llms_txt(page, paintings):
     r = page.request.get("/llms.txt")
     assert r.ok
     text = r.text()
     assert text.startswith("# ") and "/painting/" in text and "/artist/" in text
-    assert not PRICE_RX.findall(text)
+    for p in paintings:
+        if p["status"] != "sold":
+            assert format_price(p["price"], "en") in text, p["id"]
 
 
 # ---------- Каталог ----------
@@ -268,12 +270,37 @@ def test_mobile_no_horizontal_scroll(browser, base_url, path):
 ALL_CHECK_PAGES = list(STATIC_PAGES) + ["painting/lomykin-winter-morning.html", "artist/shelyuto.html"]
 
 
+PRICE_CELLS = ".meta-row--price span:last-child"
+
+
+@pytest.mark.parametrize("lang", ["en", "ua"])
+def test_catalog_shows_prices(page, paintings, lang):
+    # у каждой непроданной картины на карточке — её цена; у проданных цены нет
+    open_page(page, "/catalog.html", lang)
+    shown = sorted(page.locator("#catalog-grid " + PRICE_CELLS).all_text_contents())
+    expected = sorted(format_price(p["price"], lang) for p in paintings if p["status"] != "sold")
+    assert shown == expected
+    assert page.locator("#catalog-grid .painting-card.is-sold .meta-row--price").count() == 0
+
+
+@pytest.mark.parametrize("lang", ["en", "ua"])
+def test_painting_page_shows_price(page, paintings, lang):
+    available = next(p for p in paintings if p["status"] != "sold")
+    open_page(page, f"/painting/{available['id']}.html", lang)
+    assert page.locator("#pg-meta " + PRICE_CELLS).inner_text() == format_price(available["price"], lang)
+    sold = next((p for p in paintings if p["status"] == "sold"), None)
+    if sold:
+        open_page(page, f"/painting/{sold['id']}.html", lang)
+        assert page.locator("#pg-meta .meta-row--price").count() == 0
+
+
 @pytest.mark.parametrize("lang", ["en", "ua"])
 @pytest.mark.parametrize("path", ALL_CHECK_PAGES)
-def test_no_prices_visible(page, path, lang):
+def test_no_other_currencies(page, path, lang):
+    # все цены — в долларах; гривны, евро и фунты на сайте не должны появиться
     open_page(page, "/" + path, lang)
-    found = PRICE_RX.findall(visible_text(page))
-    assert not found, f"похоже на цену: {found}"
+    found = re.findall(r"[€₴£]\s?\d|\d\s?(?:грн|EUR|UAH|GBP)\b", visible_text(page))
+    assert not found, f"другая валюта: {found}"
 
 
 @pytest.mark.parametrize("lang", ["en", "ua"])

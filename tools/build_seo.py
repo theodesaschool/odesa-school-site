@@ -36,11 +36,21 @@ SITE_NAME = ""
 # Почта для кнопки Enquire в версии страницы для поисковиков (та же, что GALLERY_EMAIL в js/main.js)
 CONTACT_EMAIL = "nataliiavas.uk@gmail.com"
 CSS_LINK = '<link rel="stylesheet" href="css/style.css">'
+# Текст описания картины (description) не должен содержать цену: цена — только в поле price
 PRICE_RX = re.compile(r"[$€₴£]|грн|\b(USD|EUR|UAH|GBP)\b|\bprice\b", re.I)
+PRICE_CURRENCY = "USD"  # все цены в paintings.json (поле price) — в долларах США
+
+
+def format_price(price, lang):
+    """$6,000 (en) / 6 000 $ (ua) — тот же формат, что priceLabel() в js/main.js."""
+    if lang == "ua":
+        return f"{price:,}".replace(",", " ") + " $"
+    return f"${price:,}"
+
 
 STATIC_PAGES = {
     "index.html": ("", None),
-    "catalog.html": ("catalog.html", "Browse {n} original paintings of the Odesa School, 1930s–1980s. Every work is documented, with provenance. Price on request."),
+    "catalog.html": ("catalog.html", "Browse {n} original paintings of the Odesa School, 1930s–1980s. Every work is documented, with provenance. Prices in US dollars."),
     "artists.html": ("artists.html", "{a} Odesa School painters, 1930s–1980s: biographies and their works in the collection."),
     "how-to-buy.html": ("how-to-buy.html", "How to buy a painting from {site}: six steps from enquiry to delivery, with payment and shipping options."),
     "about.html": ("about.html", "{site}: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner."),
@@ -54,7 +64,7 @@ STATIC_DESC_UA = {
     "index.html": "Невелика приватна колекція оригінальних картин одеської школи 1930–1980-х: світлоносний колір, "
                   "вільний мазок, світло й море Одеси.",
     "catalog.html": "{n} оригінальних картин одеської школи 1930–1980-х. Кожна робота задокументована, з провенансом. "
-                    "Умови придбання — за запитом.",
+                    "Ціни в доларах США.",
     "artists.html": "{a} художників одеської школи 1930–1980-х: біографії та їхні роботи в колекції.",
     "how-to-buy.html": "Як купити картину в {site}: шість кроків від запиту до доставки, способи оплати й доставки.",
     "about.html": "{site} — приватна колекція одеського живопису 1930–1980-х: кожну роботу відібрано, досліджено "
@@ -79,14 +89,15 @@ LABELS = {
            "inscription": "Inscription", "condition": "Condition", "price": "Price", "price_val": "Price on request",
            "status": "Status", "provenance": "Provenance", "back": "← Back to Catalog", "enquire": "Enquire by email",
            "works": "Works in the Collection", "home": "Home", "by": "by",
-           "desc": "{title}, {year}. {medium}, {size}, by {artist}. Original Odesa School painting, price on request.",
+           "desc": "{title}, {year}. {medium}, {size}, by {artist}. Original Odesa School painting{price}.",
+           "desc_price": ", {price}", "desc_sold": ", sold",
            "artist_desc": "{name} ({years}), Odesa School painter. Works in the {site} collection."},
     "ua": {"medium": "Техніка", "size": "Розмір", "year": "Рік", "signature": "Підпис",
-           "inscription": "Напис", "condition": "Стан", "price": "Умови придбання", "price_val": "за запитом",
+           "inscription": "Напис", "condition": "Стан", "price": "Ціна", "price_val": "за запитом",
            "status": "Статус", "provenance": "Провенанс", "back": "← До каталогу", "enquire": "Написати листом",
            "works": "Роботи в колекції", "home": "Головна", "by": "автор —",
-           "desc": "{title}, {year}. {medium}, {size}. Автор — {artist}. Оригінальна картина одеської школи, "
-                   "умови придбання — за запитом.",
+           "desc": "{title}, {year}. {medium}, {size}. Автор — {artist}. Оригінальна картина одеської школи{price}.",
+           "desc_price": ", ціна {price}", "desc_sold": ", продана",
            "artist_desc": "{name} ({years}), художник одеської школи. Роботи в колекції {site}."},
 }
 SEO_STATIC_START, SEO_STATIC_END = "<!-- seo-static:start -->", "<!-- seo-static:end -->"
@@ -422,9 +433,25 @@ class Builder:
             desc = ""
         if desc:
             return trim(desc)
-        return trim(LABELS[lang]["desc"].format(title=p["title"][lang], year=self.year_label(p, lang),
-                                                medium=p["medium"][lang], size=p["size"],
-                                                artist=artist["name"][lang]), 200)
+        L = LABELS[lang]
+        if p.get("status") == "sold":
+            price = L["desc_sold"]
+        elif isinstance(p.get("price"), int):
+            price = L["desc_price"].format(price=format_price(p["price"], lang))
+        else:
+            price = ""
+        return trim(L["desc"].format(title=p["title"][lang], year=self.year_label(p, lang),
+                                     medium=p["medium"][lang], size=p["size"],
+                                     artist=artist["name"][lang], price=price), 200)
+
+    @staticmethod
+    def price_text(p, lang):
+        """Цена для страницы: у проданной — ничего (статус «Продано» и так виден)."""
+        if p.get("status") == "sold":
+            return ""
+        if isinstance(p.get("price"), int):
+            return format_price(p["price"], lang)
+        return LABELS[lang]["price_val"]
 
     @staticmethod
     def year_label(p, lang="en"):
@@ -473,6 +500,13 @@ class Builder:
                     art["width"] = {"@type": "QuantitativeValue", "value": hw[1], "unitCode": "CMT"}
                 if imgs:
                     art["image"] = imgs
+                # Предложение о продаже для Google: цена и наличие (у проданных — не указываем)
+                if isinstance(p.get("price"), int) and p.get("status") != "sold":
+                    art["offers"] = {"@type": "Offer", "price": p["price"], "priceCurrency": PRICE_CURRENCY,
+                                     "availability": "https://schema.org/" +
+                                     ("LimitedAvailability" if p.get("status") == "reserved" else "InStock"),
+                                     "itemCondition": "https://schema.org/UsedCondition",
+                                     "url": self.url(lang_path(path, lang))}
                 crumbs = self.breadcrumbs(lang, (self.t(lang, "nav_catalog"), "catalog.html"),
                                           (aname, apath), (title_txt, path))
                 ld = {"@context": "https://schema.org", "@graph": [art, crumbs]}
@@ -482,7 +516,7 @@ class Builder:
                         (L["inscription"], (p.get("inscription") or {}).get(lang)),
                         (L["condition"], (p.get("condition") or {}).get(lang)),
                         (L["status"], self.t(lang, "status_" + p.get("status", "available"))),
-                        (L["price"], L["price_val"])]
+                        (L["price"], self.price_text(p, lang))]
                 rows_html = "\n".join(f"    <li><b>{esc(k)}:</b> {esc(v)}</li>" for k, v in rows if v)
                 full_desc = (p.get("description") or {}).get(lang) or ""
                 prov = [x.get(lang) for x in (p.get("provenance") or []) if x.get(lang)]
@@ -589,10 +623,10 @@ class Builder:
         return len(entries)
 
     def build_llms(self):
-        """llms.txt — краткая справка о сайте для ИИ-ассистентов (формат llmstxt.org). Без цен."""
+        """llms.txt — краткая справка о сайте для ИИ-ассистентов (формат llmstxt.org), с ценами в USD."""
         index_dict = self.page_dict(read(os.path.join(self.root, "index.html")))
         about = re.sub(r"\s+", " ", self.t("en", "about_text", index_dict)).strip()
-        lines = [f"# {SITE_NAME}", "", f"> {INDEX_DESC} Prices are given on request only, by email.", "",
+        lines = [f"# {SITE_NAME}", "", f"> {INDEX_DESC} Prices are listed in US dollars on each painting page.", "",
                  about, "",
                  f"All pages exist in English ({self.url('')}) and Ukrainian ({self.url('ua/')}): "
                  "the Ukrainian version of any page is the same address with /ua/ after the domain.", "",
@@ -615,15 +649,14 @@ class Builder:
             if not ar:
                 continue
             status = self.t("en", "status_" + p.get("status", "available"))
+            price = self.price_text(p, "en")
             lines.append(f"- [{p['title']['en']}]({self.url('painting/' + p['id'] + '.html')}): "
-                         f"{ar['name']['en']}, {self.year_label(p)}. {p['medium']['en']}, {p['size']}. {status}.")
+                         f"{ar['name']['en']}, {self.year_label(p)}. {p['medium']['en']}, {p['size']}. {status}"
+                         + (f", {price}." if price else "."))
         lines += ["", "## Contact", "",
-                  f"- Email: {CONTACT_EMAIL} (enquiries about any painting; prices on request)",
+                  f"- Email: {CONTACT_EMAIL} (enquiries about any painting)",
                   f"- Instagram: {INSTAGRAM}", ""]
-        text = "\n".join(lines)
-        if PRICE_RX.search(re.sub(r"[Pp]rices? (are given )?on request", "", text)):
-            self.warn("llms.txt: похоже на цену, проверьте текст")
-        write(os.path.join(self.root, "llms.txt"), text)
+        write(os.path.join(self.root, "llms.txt"), "\n".join(lines))
 
 
 def main():
