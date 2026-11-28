@@ -6,7 +6,8 @@
 
 Проверяет:
   - задан домен и название сайта (tools/seo.config.json);
-  - у каждой картины и художника есть страница, лишних страниц нет;
+  - у каждой картины и художника есть страница (английская и украинская в ua/), лишних страниц нет;
+  - есть llms.txt, sitemap.xml, robots.txt;
   - все фото из paintings.json / artists.json / places.json существуют;
   - places.json ссылается только на существующие картины;
   - в данных и страницах нет ничего похожего на цену;
@@ -19,10 +20,12 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_DIRS = ["css", "js", "images", "painting", "artist"]
+SITE_DIRS = ["css", "js", "images", "painting", "artist", "ua"]
 DATA_FILES = ["paintings.json", "artists.json", "places.json"]
 TEMPLATES = ["index.html", "catalog.html", "artists.html", "artist.html", "painting.html",
              "about.html", "contact.html", "how-to-buy.html", "404.html"]
+# Украинские версии страниц (создаёт build_seo.py в папке ua/)
+UA_PAGES = ["index.html", "catalog.html", "artists.html", "about.html", "contact.html", "how-to-buy.html"]
 OLD_SITE_NAMES = ["Odesa Art Gallery", "Odesa Art School"]  # «Odesa Art School» в биографиях — училище, это нормально
 PRIVATE_NAME_RX = re.compile(r"invoice|инвойс|цен[ыа]|price|\.pdf$|\.pages$|копия|backup", re.I)
 PRICE_RX = re.compile(r"[$€₴£]\s?\d|\d\s?(грн|USD|EUR|UAH|GBP)\b", re.I)
@@ -49,14 +52,23 @@ def main():
     places = json.loads(read("places.json"))
     painting_ids = {p["id"] for p in paintings}
 
-    for kind, items in (("painting", paintings), ("artist", artists)):
-        ids = {x["id"] for x in items}
-        for i in ids:
-            if not exists(f"{kind}/{i}.html"):
-                problems.append(f"нет страницы {kind}/{i}.html: запустите tools/build_seo.py")
-        for f in os.listdir(os.path.join(ROOT, kind)):
-            if f.endswith(".html") and f[:-5] not in ids:
-                warnings.append(f"лишняя страница {kind}/{f}: такой записи нет в JSON")
+    for prefix in ("", "ua/"):
+        for kind, items in (("painting", paintings), ("artist", artists)):
+            ids = {x["id"] for x in items}
+            folder = prefix + kind
+            for i in ids:
+                if not exists(f"{folder}/{i}.html"):
+                    problems.append(f"нет страницы {folder}/{i}.html: запустите tools/build_seo.py")
+            if os.path.isdir(os.path.join(ROOT, folder)):
+                for f in os.listdir(os.path.join(ROOT, folder)):
+                    if f.endswith(".html") and f[:-5] not in ids:
+                        warnings.append(f"лишняя страница {folder}/{f}: такой записи нет в JSON")
+    for name in UA_PAGES:
+        if not exists("ua/" + name):
+            problems.append(f"нет украинской страницы ua/{name}: запустите tools/build_seo.py")
+    for name in ("llms.txt", "sitemap.xml", "robots.txt"):
+        if not exists(name):
+            problems.append(f"нет файла {name}: запустите tools/build_seo.py")
 
     for p in paintings:
         for k, v in (p.get("photos") or {}).items():
@@ -76,8 +88,12 @@ def main():
         for m in PRICE_RX.finditer(read(name)):
             problems.append(f"{name}: похоже на цену: {m.group(0)!r}")
 
-    pages = TEMPLATES + [f"{d}/{f}" for d in ("painting", "artist")
-                         for f in sorted(os.listdir(os.path.join(ROOT, d))) if f.endswith(".html")]
+    pages = TEMPLATES + ["ua/" + n for n in UA_PAGES if exists("ua/" + n)] + [
+        f"{d}/{f}" for d in ("painting", "artist", "ua/painting", "ua/artist") if os.path.isdir(os.path.join(ROOT, d))
+        for f in sorted(os.listdir(os.path.join(ROOT, d))) if f.endswith(".html")]
+    if exists("llms.txt"):
+        for m in PRICE_RX.finditer(read("llms.txt")):
+            problems.append(f"llms.txt: похоже на цену: {m.group(0)!r}")
     for rel in pages:
         text = read(rel)
         visible = re.sub(r"<script.*?</script>|<style.*?</style>", "", text, flags=re.S)

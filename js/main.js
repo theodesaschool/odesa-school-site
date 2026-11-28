@@ -90,7 +90,11 @@ function statusLabel(status, t) {
   return t["status_" + status] || t.status_available;
 }
 
+/* Язык страницы задаётся её адресом: английские страницы в корне, украинские — в папке ua/.
+   build_seo.py пишет в каждую такую страницу window.PAGE_LANG ("en" или "ua").
+   Шаблоны painting.html / artist.html и 404.html его не имеют — там язык берётся из localStorage. */
 function getLang() {
+  if (window.PAGE_LANG) return window.PAGE_LANG;
   try {
     return localStorage.getItem("lang") || "en";
   } catch (e) {
@@ -130,6 +134,48 @@ function yearLabel(p, lang) {
   return p.year != null ? String(p.year) : "—";
 }
 
+// Адрес той же страницы на другом языке: /catalog.html <-> /ua/catalog.html, / <-> /ua/
+function langCounterpart(lang) {
+  let path = location.pathname;
+  if (path === "/ua" || path.startsWith("/ua/")) path = path.slice(3) || "/";
+  if (path === "/index.html") path = "/";
+  if (lang === "ua") path = path === "/" ? "/ua/" : "/ua" + path;
+  return path + location.search + location.hash;
+}
+
+// На украинских страницах внутренние ссылки ведут на украинские версии (ua/...)
+const PAGE_LINK_RX = /^(?![a-z]+:|#|\/|ua\/)([\w\-\/]+\.html)([?#].*)?$/i;
+const NOT_LOCALIZED = /^(painting|artist|404)\.html$/;
+
+function localizeLink(a) {
+  const href = a.getAttribute("href");
+  const m = href && href.match(PAGE_LINK_RX);
+  if (!m || NOT_LOCALIZED.test(m[1])) return;
+  a.setAttribute("href", (m[1] === "index.html" ? "ua/" : "ua/" + m[1]) + (m[2] || ""));
+}
+
+function localizeLinks(root) {
+  if (window.PAGE_LANG !== "ua" || !root || root.nodeType !== 1) return;
+  if (root.matches("a[href]")) localizeLink(root);
+  root.querySelectorAll("a[href]").forEach(localizeLink);
+}
+
+if (window.PAGE_LANG === "ua") {
+  document.addEventListener("DOMContentLoaded", () => {
+    localizeLinks(document.body);
+    new MutationObserver(mutations => mutations.forEach(m => {
+      if (m.type === "attributes") localizeLinks(m.target);
+      else m.addedNodes.forEach(localizeLinks);
+    })).observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["href"] });
+  });
+}
+
+function paintingAlt(p, lang) {
+  const artist = getArtist(p.artistId);
+  return [p.title[lang], artist.name[lang], yearLabel(p, lang), p.medium[lang]]
+    .filter(x => x && x !== "—").join(", ").replace(/"/g, "&quot;");
+}
+
 function paintingCardHtml(p, lang, seed) {
   const t = Object.assign({}, I18N_COMMON[lang]);
   const artist = getArtist(p.artistId);
@@ -140,7 +186,7 @@ function paintingCardHtml(p, lang, seed) {
   const gradientStyle = `background: linear-gradient(135deg, ${gA}, ${gC});`;
   const frontPhoto = p.photos && p.photos.front;
   const media = frontPhoto
-    ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" onerror="this.style.display='none'">`
+    ? `<img src="${frontPhoto}" alt="${paintingAlt(p, lang)}" loading="lazy" onerror="this.style.display='none'">`
     : brushSvg(p.hue, seed);
   const lifeRow = artist.years
     ? `<div class="meta-row"><span>${t.life_field}</span><span>${artist.years}</span></div>`
@@ -174,7 +220,7 @@ function paintingThumbHtml(p, lang, seed) {
   const [gA, , gC] = p.hue;
   const frontPhoto = p.photos && p.photos.front;
   const media = frontPhoto
-    ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy" onerror="this.style.display='none'">`
+    ? `<img src="${frontPhoto}" alt="${paintingAlt(p, lang)}" loading="lazy" onerror="this.style.display='none'">`
     : brushSvg(p.hue, seed);
   return `
     <a class="thumb-item${frontPhoto ? " has-photo" : ""}" href="painting/${p.id}.html" style="${frontPhoto ? "" : `background: linear-gradient(135deg, ${gA}, ${gC});`}">
@@ -206,12 +252,18 @@ function initLangSwitch(onChange) {
   applyLang(lang, onChange);
   const btnEn = document.getElementById("btn-en");
   const btnUa = document.getElementById("btn-ua");
-  if (btnEn) btnEn.addEventListener("click", () => { storeLang("en"); applyLang("en", onChange); });
-  if (btnUa) btnUa.addEventListener("click", () => { storeLang("ua"); applyLang("ua", onChange); });
+  const choose = l => {
+    storeLang(l);
+    // У страницы есть версия на другом языке — переходим на неё, иначе переводим на месте
+    if (window.PAGE_LANG) { if (l !== window.PAGE_LANG) location.href = langCounterpart(l); }
+    else applyLang(l, onChange);
+  };
+  if (btnEn) btnEn.addEventListener("click", () => choose("en"));
+  if (btnUa) btnUa.addEventListener("click", () => choose("ua"));
 }
 
 function applyLang(lang, onChange) {
-  document.documentElement.lang = lang;
+  document.documentElement.lang = lang === "ua" ? "uk" : "en";  // код украинского языка — uk
   const btnEn = document.getElementById("btn-en");
   const btnUa = document.getElementById("btn-ua");
   if (btnEn) btnEn.classList.toggle("active", lang === "en");

@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Hennadiy Malyshev (1922–1999) was an Odesa painter and graphic artist who worked mainly in landscape and still life. He was born on 6 March 1922 in the…">
 <link rel="canonical" href="https://theodesaschool.com/artist/malyshev.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/malyshev.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/malyshev.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/malyshev.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/artist/malyshev.html">
 <meta property="og:image" content="https://theodesaschool.com/images/artists/malyshev.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Hennadiy Malyshev", "description": "Hennadiy Malyshev (1922–1999) was an Odesa painter and graphic artist who worked mainly in landscape and still life. He was born on 6 March 1922 in the…", "url": "https://theodesaschool.com/artist/malyshev.html", "birthDate": "1922", "deathDate": "1999", "image": "https://theodesaschool.com/images/artists/malyshev.jpg"}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/artist/malyshev.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://theodesaschool.com/artist/malyshev.html#person", "name": "Hennadiy Malyshev", "jobTitle": "Painter", "description": "Hennadiy Malyshev (1922–1999) was an Odesa painter and graphic artist who worked mainly in landscape and still life. He was born on 6 March 1922 in the…", "url": "https://theodesaschool.com/artist/malyshev.html", "alternateName": "Геннадій Малишев", "birthDate": "1922", "deathDate": "1999", "image": "https://theodesaschool.com/images/artists/malyshev.jpg"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Artists", "item": "https://theodesaschool.com/artists.html"}, {"@type": "ListItem", "position": 3, "name": "Hennadiy Malyshev", "item": "https://theodesaschool.com/artist/malyshev.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="artists">
 
@@ -51,6 +55,7 @@
 
 <main id="seo-static" class="bordered">
   <h2>Hennadiy Malyshev</h2>
+  <img src="images/artists/malyshev.jpg" alt="Hennadiy Malyshev, 1922–1999" style="max-width:240px;height:auto;">
   <p>1922–1999 Landscape and still-life painter</p>
   <p>Hennadiy Malyshev (1922–1999) was an Odesa painter and graphic artist who worked mainly in landscape and still life. He was born on 6 March 1922 in the village of Aksai, now in the Volgograd region of Russia, and died in Odesa on 19 April 1999. He fought in the Second World War and received combat awards.</p>
   <p>He settled in Odesa in 1946, where he first worked as a club manager. In 1955 he graduated from the Odesa Art School, where he studied under Mykhailo Zhuk, Moisei Mutselmakher, Leonid Muchnyk and Dina Frumina. He exhibited from 1957 and joined the Union of Artists in 1962. From 1965 until his death he worked for the Odesa branch of the Art Fund of Ukraine.</p>
@@ -139,7 +144,7 @@
     const yearsLine = a.years ? `<p class="artist-years">${a.years}</p>` : "";
 
     document.getElementById("artist-hero").innerHTML = `
-      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}">` : brushSvg(a.hue, 2)}</div>
+      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}, ${a.years || ''}">` : brushSvg(a.hue, 2)}</div>
       <div class="artist-info">
         <h2>${a.name[lang]}</h2>
         ${yearsLine}

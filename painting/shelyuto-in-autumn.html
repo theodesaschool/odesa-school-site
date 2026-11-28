@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="A miniature autumn panorama on plywood: a deserted floodplain landscape in an ochre-grey palette.">
 <link rel="canonical" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-autumn.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/painting/shelyuto-in-autumn.html">
 <meta property="og:image" content="https://theodesaschool.com/images/paintings/shelyuto-in-autumn/front.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VisualArtwork", "name": "In Autumn", "artform": "Painting", "artMedium": "Oil on plywood", "creator": {"@type": "Person", "name": "Mykola Shelyuto"}, "description": "A miniature autumn panorama on plywood: a deserted floodplain landscape in an ochre-grey palette.", "url": "https://theodesaschool.com/painting/shelyuto-in-autumn.html", "dateCreated": "1940", "image": ["https://theodesaschool.com/images/paintings/shelyuto-in-autumn/front.jpg", "https://theodesaschool.com/images/paintings/shelyuto-in-autumn/framed.jpg"]}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/shelyuto-in-autumn.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/shelyuto-in-autumn.html#artwork", "name": "In Autumn", "artform": "Painting", "artMedium": "Oil on plywood", "creator": {"@type": "Person", "name": "Mykola Shelyuto", "url": "https://theodesaschool.com/artist/shelyuto.html"}, "description": "A miniature autumn panorama on plywood: a deserted floodplain landscape in an ochre-grey palette.", "url": "https://theodesaschool.com/painting/shelyuto-in-autumn.html", "inLanguage": "en", "dateCreated": "1940", "height": {"@type": "QuantitativeValue", "value": 12.2, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 24.7, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/shelyuto-in-autumn/front.jpg", "https://theodesaschool.com/images/paintings/shelyuto-in-autumn/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Mykola Shelyuto", "item": "https://theodesaschool.com/artist/shelyuto.html"}, {"@type": "ListItem", "position": 4, "name": "In Autumn", "item": "https://theodesaschool.com/painting/shelyuto-in-autumn.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="catalog">
 
@@ -52,13 +56,14 @@
 <main id="seo-static" class="bordered">
   <h2>In Autumn, 1940</h2>
   <p><a href="artist/shelyuto.html">Mykola Shelyuto</a> 1906–1984</p>
-  <img src="images/paintings/shelyuto-in-autumn/front.jpg" alt="In Autumn" style="max-width:100%;height:auto;">
+  <img src="images/paintings/shelyuto-in-autumn/front.jpg" alt="In Autumn, Mykola Shelyuto, 1940, Oil on plywood" style="max-width:100%;height:auto;">
   <ul>
     <li><b>Medium:</b> Oil on plywood</li>
     <li><b>Size:</b> 12.2 × 24.7 cm (4.8 × 9.7 in)</li>
     <li><b>Year:</b> 1940</li>
     <li><b>Signature:</b> Signed by the artist</li>
     <li><b>Condition:</b> Excellent condition</li>
+    <li><b>Status:</b> Available</li>
     <li><b>Price:</b> Price on request</li>
   </ul>
   <p>A miniature autumn panorama on plywood: a deserted floodplain landscape in an ochre-grey palette.</p>
@@ -183,7 +188,7 @@
     const t = Object.assign({}, I18N_COMMON[lang]);
     const photo = photoList[index];
     const img = document.getElementById("pg-main-img");
-    const alt = `${currentPainting.title[lang]} — ${t[photo.captionKey]}`;
+    const alt = `${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}`;
 
     // Рамка берёт пропорции первого фото (обычно front) — картина видна целиком,
     // а при переключении на другие фото блок не меняет высоту.
@@ -226,7 +231,7 @@
     wrap.style.display = "flex";
     wrap.innerHTML = photoList.map((photo, i) => `
       <button class="pg-thumb ${i === currentIndex ? "active" : ""}" data-index="${i}" type="button">
-        <span class="pg-thumb-img"><img src="${photo.src}" alt="${currentPainting.title[lang]} — ${t[photo.captionKey]}" loading="lazy"></span>
+        <span class="pg-thumb-img"><img src="${photo.src}" alt="${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}" loading="lazy"></span>
         <span class="pg-thumb-label">${t[photo.captionKey]}</span>
       </button>
     `).join("");

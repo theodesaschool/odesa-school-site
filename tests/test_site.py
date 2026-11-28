@@ -23,6 +23,7 @@ OLD_NAMES = ["Odesa Art Gallery", "Odesa Art School"]
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 from check_site import PRICE_RX  # noqa: E402
 EMAIL = "nataliiavas.uk@gmail.com"
+HTML_LANG = {"en": "en", "ua": "uk"}  # код украинского языка в HTML — uk
 
 
 class Watcher:
@@ -74,7 +75,9 @@ def test_static_page_loads_cleanly(page, path, lang):
     open_page(page, "/" + path, lang)
     assert w.take() == [], "ошибки на странице"
     assert broken_images(page) == []
-    assert page.evaluate("document.documentElement.lang") == lang
+    # язык выбран раньше кнопкой -> сайт сам открывает версию на этом языке (украинские — в папке ua/)
+    assert page.evaluate("document.documentElement.lang") == HTML_LANG[lang]
+    assert ("/ua/" in page.url) == (lang == "ua")
 
 
 @pytest.mark.parametrize("path,active", list(STATIC_PAGES.items()))
@@ -92,13 +95,94 @@ def test_language_switch_is_remembered(page):
     open_page(page, "/catalog.html", "en")
     assert page.locator("nav.main-nav a[data-nav=catalog]").inner_text().strip().lower() == "catalog"
     page.click("#btn-ua")
-    assert page.evaluate("document.documentElement.lang") == "ua"
+    page.wait_for_url("**/ua/catalog.html")
+    page.wait_for_load_state("networkidle")
+    assert page.evaluate("document.documentElement.lang") == "uk"
     ua_text = page.locator("nav.main-nav a[data-nav=catalog]").inner_text().strip()
     assert ua_text.lower() != "catalog"
     page.click("nav.main-nav a[data-nav=home]")
+    page.wait_for_url("**/ua/")
     page.wait_for_load_state("networkidle")
-    assert page.evaluate("document.documentElement.lang") == "ua"
+    assert page.evaluate("document.documentElement.lang") == "uk"
     assert page.locator("#btn-ua").get_attribute("class") == "active"
+    # назад на английский — та же страница без /ua/
+    page.click("#btn-en")
+    page.wait_for_url(lambda u: "/ua/" not in u)
+    page.wait_for_load_state("networkidle")
+    assert page.evaluate("document.documentElement.lang") == "en"
+
+
+# ---------- Украинская версия (папка ua/) ----------
+
+UA_STATIC = [p for p in STATIC_PAGES]
+
+
+def ua_path(path):
+    return "/ua/" if path == "index.html" else "/ua/" + path
+
+
+@pytest.mark.parametrize("path", UA_STATIC)
+def test_ua_html_has_ukrainian_without_js(page, path):
+    """Поисковики и ИИ часто не запускают JavaScript: украинский текст должен быть в самом файле."""
+    raw = page.request.get(ua_path(path)).text()
+    assert '<html lang="uk">' in raw
+    assert ">Каталог</a>" in raw, "меню не переведено заранее"
+    assert 'hreflang="uk"' in raw and 'hreflang="en"' in raw and 'hreflang="x-default"' in raw
+    canonical = re.search(r'<link rel="canonical" href="([^"]+)"', raw).group(1)
+    assert "/ua/" in canonical
+    assert not re.search(r'<a [^>]*href="(?!ua/|https?:|mailto:|#)[\w\-/]+\.html"', raw), \
+        "ссылка с украинской страницы ведёт на английскую"
+
+
+def test_en_html_points_to_ua_version(page):
+    raw = page.request.get("/painting/lomykin-winter-morning.html").text()
+    assert 'hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-winter-morning.html"' in raw
+
+
+def test_every_ua_painting_and_artist_page(page, paintings, artists):
+    w = Watcher(page)
+    page.add_init_script("localStorage.removeItem('lang')")
+    failures = []
+    for p in paintings:
+        page.goto(f"/ua/painting/{p['id']}.html", wait_until="networkidle")
+        errs = w.take()
+        title = page.locator("#pg-title").inner_text().strip()
+        if errs:
+            failures.append(f"ua {p['id']}: {errs}")
+        if p["title"]["ua"] not in title:
+            failures.append(f"ua {p['id']}: нет украинского названия (видно {title!r})")
+        bad = page.evaluate("() => [...document.querySelectorAll('a[href]')].map(a => a.getAttribute('href'))"
+                            ".filter(h => /^(painting|artist|catalog|how-to-buy)[\\w\\-\\/]*\\.html/.test(h))")
+        if bad:
+            failures.append(f"ua {p['id']}: ссылки на английские страницы {bad[:3]}")
+    for a in artists:
+        page.goto(f"/ua/artist/{a['id']}.html", wait_until="networkidle")
+        errs = w.take()
+        if errs:
+            failures.append(f"ua {a['id']}: {errs}")
+        if a["name"]["ua"] not in page.locator("#artist-hero").inner_text():
+            failures.append(f"ua {a['id']}: нет украинского имени")
+        hrefs = page.evaluate("() => [...document.querySelectorAll('#thumb-grid a')].map(a => a.getAttribute('href'))")
+        if any(not h.startswith("ua/painting/") for h in hrefs):
+            failures.append(f"ua {a['id']}: ссылки на работы не ведут в ua/: {hrefs[:2]}")
+    assert failures == []
+
+
+def test_ua_catalog_renders(page, paintings):
+    page.add_init_script("localStorage.removeItem('lang')")
+    page.goto("/ua/catalog.html", wait_until="networkidle")
+    assert page.locator("#catalog-grid .painting-card").count() == len(paintings)
+    assert not page.locator("#seo-static").is_visible()
+    href = page.locator("#catalog-grid .painting-card a.canvas").first.get_attribute("href")
+    assert href.startswith("ua/painting/")
+
+
+def test_llms_txt(page):
+    r = page.request.get("/llms.txt")
+    assert r.ok
+    text = r.text()
+    assert text.startswith("# ") and "/painting/" in text and "/artist/" in text
+    assert not PRICE_RX.findall(text)
 
 
 # ---------- Каталог ----------

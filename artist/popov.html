@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Oleksii Popov (1916–1988) was an Odesa painter and watercolourist and an Honoured Artist of the Ukrainian SSR (1975). He was born on 24 May 1916 at Hailar…">
 <link rel="canonical" href="https://theodesaschool.com/artist/popov.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/popov.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/popov.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/popov.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/artist/popov.html">
 <meta property="og:image" content="https://theodesaschool.com/images/artists/popov.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Oleksii Popov", "description": "Oleksii Popov (1916–1988) was an Odesa painter and watercolourist and an Honoured Artist of the Ukrainian SSR (1975). He was born on 24 May 1916 at Hailar…", "url": "https://theodesaschool.com/artist/popov.html", "birthDate": "1916", "deathDate": "1988", "image": "https://theodesaschool.com/images/artists/popov.jpg"}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/artist/popov.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://theodesaschool.com/artist/popov.html#person", "name": "Oleksii Popov", "jobTitle": "Painter", "description": "Oleksii Popov (1916–1988) was an Odesa painter and watercolourist and an Honoured Artist of the Ukrainian SSR (1975). He was born on 24 May 1916 at Hailar…", "url": "https://theodesaschool.com/artist/popov.html", "alternateName": "Олексій Попов", "birthDate": "1916", "deathDate": "1988", "image": "https://theodesaschool.com/images/artists/popov.jpg"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Artists", "item": "https://theodesaschool.com/artists.html"}, {"@type": "ListItem", "position": 3, "name": "Oleksii Popov", "item": "https://theodesaschool.com/artist/popov.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="artists">
 
@@ -51,6 +55,7 @@
 
 <main id="seo-static" class="bordered">
   <h2>Oleksii Popov</h2>
+  <img src="images/artists/popov.jpg" alt="Oleksii Popov, 1916–1988" style="max-width:240px;height:auto;">
   <p>1916–1988 Honoured Artist of the Ukrainian SSR</p>
   <p>Oleksii Popov (1916–1988) was an Odesa painter and watercolourist and an Honoured Artist of the Ukrainian SSR (1975). He was born on 24 May 1916 at Hailar station in Manchuria (now China). In 1934 he moved with his family to Odesa, where he lived for the rest of his life; he died there in 1988.</p>
   <p>In 1941 he graduated from the architecture faculty of the Odesa Engineering-Construction Institute, where he studied painting under Yuliy Bershadskyi and Teofil Fraerman. He went to the front immediately afterwards and received combat awards. He exhibited from 1934 and joined the Union of Artists in 1948. From 1949 he sat on the board of its Odesa branch.</p>
@@ -136,7 +141,7 @@
     const yearsLine = a.years ? `<p class="artist-years">${a.years}</p>` : "";
 
     document.getElementById("artist-hero").innerHTML = `
-      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}">` : brushSvg(a.hue, 2)}</div>
+      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}, ${a.years || ''}">` : brushSvg(a.hue, 2)}</div>
       <div class="artist-info">
         <h2>${a.name[lang]}</h2>
         ${yearsLine}

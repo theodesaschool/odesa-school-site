@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Twilight, 1953. Oil on canvas, 14.5 × 21 cm (5.7 × 8.3 in), by Mykola Shelyuto. Original Odesa School painting, price on request.">
 <link rel="canonical" href="https://theodesaschool.com/painting/shelyuto-twilight.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-twilight.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-twilight.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-twilight.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/painting/shelyuto-twilight.html">
 <meta property="og:image" content="https://theodesaschool.com/images/paintings/shelyuto-twilight/front.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VisualArtwork", "name": "Twilight", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Mykola Shelyuto"}, "description": "Twilight, 1953. Oil on canvas, 14.5 × 21 cm (5.7 × 8.3 in), by Mykola Shelyuto. Original Odesa School painting, price on request.", "url": "https://theodesaschool.com/painting/shelyuto-twilight.html", "dateCreated": "1953", "image": ["https://theodesaschool.com/images/paintings/shelyuto-twilight/front.jpg", "https://theodesaschool.com/images/paintings/shelyuto-twilight/framed.jpg"]}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/shelyuto-twilight.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/shelyuto-twilight.html#artwork", "name": "Twilight", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Mykola Shelyuto", "url": "https://theodesaschool.com/artist/shelyuto.html"}, "description": "Twilight, 1953. Oil on canvas, 14.5 × 21 cm (5.7 × 8.3 in), by Mykola Shelyuto. Original Odesa School painting, price on request.", "url": "https://theodesaschool.com/painting/shelyuto-twilight.html", "inLanguage": "en", "dateCreated": "1953", "height": {"@type": "QuantitativeValue", "value": 14.5, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 21.0, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/shelyuto-twilight/front.jpg", "https://theodesaschool.com/images/paintings/shelyuto-twilight/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Mykola Shelyuto", "item": "https://theodesaschool.com/artist/shelyuto.html"}, {"@type": "ListItem", "position": 4, "name": "Twilight", "item": "https://theodesaschool.com/painting/shelyuto-twilight.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="catalog">
 
@@ -52,12 +56,13 @@
 <main id="seo-static" class="bordered">
   <h2>Twilight, 1953</h2>
   <p><a href="artist/shelyuto.html">Mykola Shelyuto</a> 1906–1984</p>
-  <img src="images/paintings/shelyuto-twilight/front.jpg" alt="Twilight" style="max-width:100%;height:auto;">
+  <img src="images/paintings/shelyuto-twilight/front.jpg" alt="Twilight, Mykola Shelyuto, 1953, Oil on canvas" style="max-width:100%;height:auto;">
   <ul>
     <li><b>Medium:</b> Oil on canvas</li>
     <li><b>Size:</b> 14.5 × 21 cm (5.7 × 8.3 in)</li>
     <li><b>Year:</b> 1953</li>
     <li><b>Condition:</b> Excellent condition</li>
+    <li><b>Status:</b> Available</li>
     <li><b>Price:</b> Price on request</li>
   </ul>
   <p><a href="catalog.html">← Back to Catalog</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20Twilight">Enquire by email</a></p>
@@ -177,7 +182,7 @@
     const t = Object.assign({}, I18N_COMMON[lang]);
     const photo = photoList[index];
     const img = document.getElementById("pg-main-img");
-    const alt = `${currentPainting.title[lang]} — ${t[photo.captionKey]}`;
+    const alt = `${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}`;
 
     // Рамка берёт пропорции первого фото (обычно front) — картина видна целиком,
     // а при переключении на другие фото блок не меняет высоту.
@@ -220,7 +225,7 @@
     wrap.style.display = "flex";
     wrap.innerHTML = photoList.map((photo, i) => `
       <button class="pg-thumb ${i === currentIndex ? "active" : ""}" data-index="${i}" type="button">
-        <span class="pg-thumb-img"><img src="${photo.src}" alt="${currentPainting.title[lang]} — ${t[photo.captionKey]}" loading="lazy"></span>
+        <span class="pg-thumb-img"><img src="${photo.src}" alt="${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}" loading="lazy"></span>
         <span class="pg-thumb-label">${t[photo.captionKey]}</span>
       </button>
     `).join("");

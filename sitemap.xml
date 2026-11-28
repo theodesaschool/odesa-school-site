@@ -1,114 +1,1729 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://theodesaschool.com/</loc></url>
-  <url><loc>https://theodesaschool.com/catalog.html</loc></url>
-  <url><loc>https://theodesaschool.com/artists.html</loc></url>
-  <url><loc>https://theodesaschool.com/how-to-buy.html</loc></url>
-  <url><loc>https://theodesaschool.com/about.html</loc></url>
-  <url><loc>https://theodesaschool.com/contact.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/shelyuto.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/lomykin.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/gavdzinskiy.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/malyshev.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/lytvynenko.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/kryzhevskiy.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/mezhberg.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/atsmanchuk.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/pavliuk.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/pliss.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/freidin.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/popov.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/zhurakivskiy.html</loc></url>
-  <url><loc>https://theodesaschool.com/artist/lyubimov.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lomykin-winter-morning.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lomykin-nude.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lomykin-untitled.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-odesa-the-coast.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-on-the-boulevard.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-on-the-beach.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-at-the-pier-in-yalta.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-still-life-at-the-dacha.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-above-the-dnipro.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-sedniv-in-winter.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-autumn-empty-beach.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-crimean-stud.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-sanatorium-study.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-on-the-threshing-floor.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-crimea-spring.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-forest-edge.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-odesa-shores.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-sea-odesa.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-in-the-port-study.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-fields.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-fishermen.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-boats-on-the-shore.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-autumn-study.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-outskirts-of-the-village.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-sedniv-in-winter-2.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-huts-in-winter.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-veranda-at-the-dacha.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-old-shores-odesa.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-in-autumn.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-in-dyukivsky-park.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-twilight.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-gurzuf-apple-tree.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-boathouse-study.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-figure-in-the-open-air.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-crimea-shores.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-museum-courtyard.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-gate.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-house-with-a-tree.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-apricots-in-bloom.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-study-for-the-painting-dnipro-distances.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-still-life-with-roses.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-village-of-sledy.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/shelyuto-pine-trees.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-station-square-view-from-the-marine-station.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-winter-landscape-ice-skaters.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-otrada-beach.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-puppet-theatre-lutheran-church.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-sedniv.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/gavdzinskiy-sedniv-2.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/malyshev-winter-at-the-sea.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/malyshev-autumn-landscape-golden-autumn.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/malyshev-winter-has-come.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/malyshev-late-autumn-in-crimea.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-autumn-landscape.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-grecheskaya-square.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-view-of-the-cathedral.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-winter-botanical-garden-alley.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-untitled.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-kolodezny-pereulok.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-autumn.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-winter-landscape-with-chickens.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-untitled-2.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-study.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-summer-in-odesa.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/kryzhevskiy-crimea-in-october.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/kryzhevskiy-gurzuf-red-boat.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/mezhberg-port-street-odesa.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/mezhberg-untitled-seashore-with-figures.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/mezhberg-steppe-landscape-with-figures.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/mezhberg-study-urban-landscape.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/atsmanchuk-on-the-massif.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/atsmanchuk-boats.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pavliuk-at-the-dacha.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pavliuk-young-poplars.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pliss-untitled.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pliss-fontanka.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pliss-the-return.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pliss-on-sketches.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/pliss-nude-weston.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/freidin-arcadia.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/popov-winter-city-landscape.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/zhurakivskiy-bather.html</loc></url>
-  <url><loc>https://theodesaschool.com/painting/lyubimov-peasant-women-gossiping.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://theodesaschool.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/catalog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/catalog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/catalog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/catalog.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artists.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artists.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artists.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artists.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artists.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artists.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artists.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artists.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/how-to-buy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/how-to-buy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/how-to-buy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/how-to-buy.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/how-to-buy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/how-to-buy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/how-to-buy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/how-to-buy.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/about.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/contact.html"/>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lomykin-winter-morning.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lomykin-winter-morning.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-winter-morning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lomykin-winter-morning.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-winter-morning/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-winter-morning/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lomykin-winter-morning.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lomykin-winter-morning.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-winter-morning.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lomykin-winter-morning.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-winter-morning/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-winter-morning/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lomykin-nude.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lomykin-nude.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-nude.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lomykin-nude.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-nude/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-nude/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lomykin-nude.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lomykin-nude.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-nude.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lomykin-nude.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-nude/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-nude/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lomykin-untitled.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lomykin-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lomykin-untitled.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-untitled/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-untitled/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lomykin-untitled.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lomykin-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lomykin-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lomykin-untitled.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-untitled/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lomykin-untitled/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-odesa-the-coast.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-odesa-the-coast.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-odesa-the-coast.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-odesa-the-coast.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-the-coast/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-the-coast/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-odesa-the-coast.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-odesa-the-coast.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-odesa-the-coast.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-odesa-the-coast.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-the-coast/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-the-coast/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-on-the-boulevard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-on-the-boulevard.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-on-the-boulevard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-on-the-boulevard.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-boulevard/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-boulevard/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-on-the-boulevard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-on-the-boulevard.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-on-the-boulevard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-on-the-boulevard.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-boulevard/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-boulevard/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-on-the-beach.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-on-the-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-on-the-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-on-the-beach.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-beach/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-beach/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-on-the-beach.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-on-the-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-on-the-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-on-the-beach.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-beach/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-beach/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-at-the-pier-in-yalta.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-at-the-pier-in-yalta.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-at-the-pier-in-yalta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-at-the-pier-in-yalta.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-at-the-pier-in-yalta/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-at-the-pier-in-yalta/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-at-the-pier-in-yalta.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-at-the-pier-in-yalta.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-at-the-pier-in-yalta.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-at-the-pier-in-yalta.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-at-the-pier-in-yalta/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-at-the-pier-in-yalta/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-still-life-at-the-dacha.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-still-life-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-still-life-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-still-life-at-the-dacha.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-at-the-dacha/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-at-the-dacha/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-still-life-at-the-dacha.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-still-life-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-still-life-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-still-life-at-the-dacha.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-at-the-dacha/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-at-the-dacha/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-above-the-dnipro.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-above-the-dnipro.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-above-the-dnipro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-above-the-dnipro.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-above-the-dnipro/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-above-the-dnipro/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-above-the-dnipro.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-above-the-dnipro.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-above-the-dnipro.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-above-the-dnipro.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-above-the-dnipro/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-above-the-dnipro/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-sedniv-in-winter.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sedniv-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-sedniv-in-winter.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sedniv-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-autumn-empty-beach.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-autumn-empty-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-autumn-empty-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-autumn-empty-beach.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-empty-beach/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-empty-beach/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-autumn-empty-beach.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-autumn-empty-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-autumn-empty-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-autumn-empty-beach.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-empty-beach/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-empty-beach/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-crimean-stud.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-crimean-stud.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-crimean-stud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-crimean-stud.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimean-stud/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimean-stud/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-crimean-stud.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-crimean-stud.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-crimean-stud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-crimean-stud.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimean-stud/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimean-stud/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-sanatorium-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sanatorium-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sanatorium-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sanatorium-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sanatorium-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sanatorium-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-sanatorium-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sanatorium-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sanatorium-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sanatorium-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sanatorium-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sanatorium-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-on-the-threshing-floor.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-on-the-threshing-floor.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-on-the-threshing-floor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-on-the-threshing-floor.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-threshing-floor/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-threshing-floor/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-on-the-threshing-floor.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-on-the-threshing-floor.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-on-the-threshing-floor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-on-the-threshing-floor.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-threshing-floor/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-on-the-threshing-floor/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-crimea-spring.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-crimea-spring.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-crimea-spring.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-crimea-spring.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-spring/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-spring/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-crimea-spring.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-crimea-spring.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-crimea-spring.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-crimea-spring.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-spring/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-spring/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-forest-edge.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-forest-edge.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-forest-edge.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-forest-edge.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-forest-edge/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-forest-edge/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-forest-edge.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-forest-edge.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-forest-edge.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-forest-edge.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-forest-edge/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-forest-edge/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-odesa-shores.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-odesa-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-odesa-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-odesa-shores.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-shores/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-shores/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-odesa-shores.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-odesa-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-odesa-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-odesa-shores.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-shores/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-odesa-shores/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-sea-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sea-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sea-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sea-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sea-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sea-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-sea-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sea-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sea-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sea-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sea-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sea-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-in-the-port-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-the-port-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-the-port-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-the-port-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-the-port-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-the-port-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-in-the-port-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-the-port-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-the-port-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-the-port-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-the-port-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-the-port-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-fields.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-fields.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-fields.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-fields.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fields/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fields/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-fields.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-fields.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-fields.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-fields.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fields/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fields/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-fishermen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-fishermen.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-fishermen.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-fishermen.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fishermen/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fishermen/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-fishermen.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-fishermen.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-fishermen.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-fishermen.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fishermen/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-fishermen/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-boats-on-the-shore.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-boats-on-the-shore.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-boats-on-the-shore.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-boats-on-the-shore.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boats-on-the-shore/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boats-on-the-shore/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-boats-on-the-shore.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-boats-on-the-shore.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-boats-on-the-shore.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-boats-on-the-shore.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boats-on-the-shore/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boats-on-the-shore/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-autumn-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-autumn-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-autumn-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-autumn-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-autumn-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-autumn-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-autumn-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-autumn-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-autumn-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-outskirts-of-the-village.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-outskirts-of-the-village.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-outskirts-of-the-village.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-outskirts-of-the-village.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-outskirts-of-the-village/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-outskirts-of-the-village/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-outskirts-of-the-village.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-outskirts-of-the-village.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-outskirts-of-the-village.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-outskirts-of-the-village.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-outskirts-of-the-village/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-outskirts-of-the-village/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sedniv-zymoiu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-sedniv-zymoiu.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sedniv-zymoiu.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sedniv-zymoiu.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-zymoiu/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-sedniv-in-winter-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter-2.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sedniv-in-winter-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter-2.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter-2/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter-2/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-sedniv-in-winter-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter-2.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-sedniv-in-winter-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-sedniv-in-winter-2.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter-2/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-sedniv-in-winter-2/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-huts-in-winter.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-huts-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-huts-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-huts-in-winter.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-huts-in-winter/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-huts-in-winter/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-huts-in-winter.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-huts-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-huts-in-winter.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-huts-in-winter.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-huts-in-winter/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-huts-in-winter/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-the-grain-is-ripe-sketch-for-a-painting.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-the-grain-is-ripe-sketch-for-a-painting/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-veranda-at-the-dacha.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-veranda-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-veranda-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-veranda-at-the-dacha.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-veranda-at-the-dacha/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-veranda-at-the-dacha/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-veranda-at-the-dacha.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-veranda-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-veranda-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-veranda-at-the-dacha.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-veranda-at-the-dacha/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-veranda-at-the-dacha/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-old-shores-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-old-shores-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-old-shores-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-old-shores-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-old-shores-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-old-shores-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-old-shores-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-old-shores-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-old-shores-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-old-shores-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-old-shores-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-old-shores-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-in-autumn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-autumn/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-autumn/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-in-autumn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-autumn.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-autumn/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-autumn/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-in-dyukivsky-park.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-dyukivsky-park.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-dyukivsky-park.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-dyukivsky-park.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-dyukivsky-park/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-dyukivsky-park/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-in-dyukivsky-park.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-in-dyukivsky-park.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-in-dyukivsky-park.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-in-dyukivsky-park.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-dyukivsky-park/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-in-dyukivsky-park/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-twilight.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-twilight.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-twilight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-twilight.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-twilight/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-twilight/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-twilight.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-twilight.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-twilight.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-twilight.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-twilight/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-twilight/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-gurzuf-apple-tree.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-gurzuf-apple-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-gurzuf-apple-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-gurzuf-apple-tree.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gurzuf-apple-tree/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gurzuf-apple-tree/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-gurzuf-apple-tree.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-gurzuf-apple-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-gurzuf-apple-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-gurzuf-apple-tree.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gurzuf-apple-tree/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gurzuf-apple-tree/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-boathouse-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-boathouse-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-boathouse-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-boathouse-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boathouse-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boathouse-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-boathouse-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-boathouse-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-boathouse-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-boathouse-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boathouse-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-boathouse-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-figure-in-the-open-air.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-figure-in-the-open-air.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-figure-in-the-open-air.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-figure-in-the-open-air.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-figure-in-the-open-air/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-figure-in-the-open-air/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-figure-in-the-open-air.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-figure-in-the-open-air.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-figure-in-the-open-air.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-figure-in-the-open-air.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-figure-in-the-open-air/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-figure-in-the-open-air/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-crimea-shores.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-crimea-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-crimea-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-crimea-shores.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-shores/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-shores/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-crimea-shores.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-crimea-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-crimea-shores.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-crimea-shores.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-shores/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-crimea-shores/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-museum-courtyard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-museum-courtyard.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-museum-courtyard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-museum-courtyard.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-museum-courtyard/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-museum-courtyard/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-museum-courtyard.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-museum-courtyard.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-museum-courtyard.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-museum-courtyard.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-museum-courtyard/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-museum-courtyard/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-woman-in-sunlight-study-for-a-painting.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-woman-in-sunlight-study-for-a-painting/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-gate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-gate.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-gate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-gate.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gate/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gate/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-gate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-gate.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-gate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-gate.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gate/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-gate/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-house-with-a-tree.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-house-with-a-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-house-with-a-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-house-with-a-tree.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-house-with-a-tree/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-house-with-a-tree/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-house-with-a-tree.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-house-with-a-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-house-with-a-tree.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-house-with-a-tree.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-house-with-a-tree/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-house-with-a-tree/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-apricots-in-bloom.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-apricots-in-bloom.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-apricots-in-bloom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-apricots-in-bloom.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-apricots-in-bloom/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-apricots-in-bloom/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-apricots-in-bloom.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-apricots-in-bloom.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-apricots-in-bloom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-apricots-in-bloom.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-apricots-in-bloom/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-apricots-in-bloom/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-study-for-the-painting-dnipro-distances.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-study-for-the-painting-dnipro-distances.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-study-for-the-painting-dnipro-distances.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-study-for-the-painting-dnipro-distances.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-study-for-the-painting-dnipro-distances/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-study-for-the-painting-dnipro-distances/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-study-for-the-painting-dnipro-distances.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-study-for-the-painting-dnipro-distances.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-study-for-the-painting-dnipro-distances.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-study-for-the-painting-dnipro-distances.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-study-for-the-painting-dnipro-distances/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-study-for-the-painting-dnipro-distances/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-still-life-with-roses.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-still-life-with-roses.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-still-life-with-roses.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-still-life-with-roses.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-with-roses/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-with-roses/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-still-life-with-roses.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-still-life-with-roses.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-still-life-with-roses.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-still-life-with-roses.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-with-roses/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-still-life-with-roses/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-village-of-sledy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-village-of-sledy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-village-of-sledy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-village-of-sledy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-village-of-sledy/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-village-of-sledy/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-village-of-sledy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-village-of-sledy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-village-of-sledy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-village-of-sledy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-village-of-sledy/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-village-of-sledy/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/shelyuto-pine-trees.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-pine-trees.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-pine-trees.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-pine-trees.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-pine-trees/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-pine-trees/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/shelyuto-pine-trees.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/shelyuto-pine-trees.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/shelyuto-pine-trees.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/shelyuto-pine-trees.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-pine-trees/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/shelyuto-pine-trees/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-station-square-view-from-the-marine-station.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-station-square-view-from-the-marine-station.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-station-square-view-from-the-marine-station.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-station-square-view-from-the-marine-station.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-station-square-view-from-the-marine-station.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-station-square-view-from-the-marine-station.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-station-square-view-from-the-marine-station.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-station-square-view-from-the-marine-station.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-station-square-view-from-the-marine-station/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-winter-landscape-ice-skaters.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-winter-landscape-ice-skaters.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-winter-landscape-ice-skaters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-winter-landscape-ice-skaters.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-winter-landscape-ice-skaters/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-winter-landscape-ice-skaters/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-winter-landscape-ice-skaters.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-winter-landscape-ice-skaters.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-winter-landscape-ice-skaters.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-winter-landscape-ice-skaters.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-winter-landscape-ice-skaters/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-winter-landscape-ice-skaters/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-the-odesa-opera-and-ballet-theatre/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-the-odesa-opera-and-ballet-theatre/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-the-odesa-opera-and-ballet-theatre.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-the-odesa-opera-and-ballet-theatre/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-the-odesa-opera-and-ballet-theatre/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-otrada-beach.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-otrada-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-otrada-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-otrada-beach.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-otrada-beach/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-otrada-beach/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-otrada-beach.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-otrada-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-otrada-beach.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-otrada-beach.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-otrada-beach/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-otrada-beach/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-puppet-theatre-lutheran-church.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-puppet-theatre-lutheran-church.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-puppet-theatre-lutheran-church.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-puppet-theatre-lutheran-church.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-puppet-theatre-lutheran-church.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-puppet-theatre-lutheran-church.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-puppet-theatre-lutheran-church.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-puppet-theatre-lutheran-church.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-puppet-theatre-lutheran-church/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-sedniv.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-sedniv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-sedniv.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-sedniv.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/gavdzinskiy-sedniv-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv-2.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-sedniv-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv-2.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv-2/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv-2/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/gavdzinskiy-sedniv-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv-2.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/gavdzinskiy-sedniv-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/gavdzinskiy-sedniv-2.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv-2/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/gavdzinskiy-sedniv-2/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/malyshev-winter-at-the-sea.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-winter-at-the-sea.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-winter-at-the-sea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-winter-at-the-sea.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-at-the-sea/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-at-the-sea/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/malyshev-winter-at-the-sea.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-winter-at-the-sea.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-winter-at-the-sea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-winter-at-the-sea.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-at-the-sea/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-at-the-sea/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/malyshev-autumn-landscape-golden-autumn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-autumn-landscape-golden-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-autumn-landscape-golden-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-autumn-landscape-golden-autumn.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-autumn-landscape-golden-autumn/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-autumn-landscape-golden-autumn/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/malyshev-autumn-landscape-golden-autumn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-autumn-landscape-golden-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-autumn-landscape-golden-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-autumn-landscape-golden-autumn.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-autumn-landscape-golden-autumn/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-autumn-landscape-golden-autumn/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/malyshev-winter-has-come.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-winter-has-come.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-winter-has-come.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-has-come/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-has-come/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-winter-has-come.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-winter-has-come.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-winter-has-come.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-has-come/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-winter-has-come/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/malyshev-late-autumn-in-crimea.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-late-autumn-in-crimea.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-late-autumn-in-crimea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-late-autumn-in-crimea.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-late-autumn-in-crimea/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-late-autumn-in-crimea/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/malyshev-late-autumn-in-crimea.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/malyshev-late-autumn-in-crimea.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/malyshev-late-autumn-in-crimea.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/malyshev-late-autumn-in-crimea.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-late-autumn-in-crimea/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/malyshev-late-autumn-in-crimea/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-autumn-landscape.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-autumn-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-autumn-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-autumn-landscape.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn-landscape/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn-landscape/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-autumn-landscape.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-autumn-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-autumn-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-autumn-landscape.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn-landscape/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn-landscape/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-grecheskaya-square.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-grecheskaya-square.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-grecheskaya-square.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-grecheskaya-square.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-grecheskaya-square/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-grecheskaya-square/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-grecheskaya-square.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-grecheskaya-square.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-grecheskaya-square.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-grecheskaya-square.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-grecheskaya-square/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-grecheskaya-square/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-view-of-the-cathedral.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-view-of-the-cathedral.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-view-of-the-cathedral.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-view-of-the-cathedral.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-view-of-the-cathedral.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-view-of-the-cathedral.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-view-of-the-cathedral/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-winter-botanical-garden-alley.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-winter-botanical-garden-alley.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-winter-botanical-garden-alley.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-winter-botanical-garden-alley.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-botanical-garden-alley/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-botanical-garden-alley/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-winter-botanical-garden-alley.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-winter-botanical-garden-alley.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-winter-botanical-garden-alley.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-winter-botanical-garden-alley.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-botanical-garden-alley/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-botanical-garden-alley/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-untitled.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-untitled.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-untitled.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-untitled.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-kolodezny-pereulok.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-kolodezny-pereulok.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-kolodezny-pereulok.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-kolodezny-pereulok.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-kolodezny-pereulok/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-kolodezny-pereulok/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-kolodezny-pereulok.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-kolodezny-pereulok.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-kolodezny-pereulok.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-kolodezny-pereulok.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-kolodezny-pereulok/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-kolodezny-pereulok/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-autumn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-autumn.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-autumn.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-autumn.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-autumn.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-autumn/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-sunny-day-from-the-odesa-staircases-series.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-sunny-day-from-the-odesa-staircases-series/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-the-port-of-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-the-port-of-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-the-port-of-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-winter-landscape-with-chickens.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-winter-landscape-with-chickens.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-winter-landscape-with-chickens.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-winter-landscape-with-chickens.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-landscape-with-chickens/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-landscape-with-chickens/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-winter-landscape-with-chickens.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-winter-landscape-with-chickens.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-winter-landscape-with-chickens.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-winter-landscape-with-chickens.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-landscape-with-chickens/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-winter-landscape-with-chickens/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-untitled-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-untitled-2.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-untitled-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-untitled-2.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled-2/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled-2/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-untitled-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-untitled-2.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-untitled-2.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-untitled-2.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled-2/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-untitled-2/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-study.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-study.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-study.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-study.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-study/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-study/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-summer-in-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-summer-in-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-summer-in-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-summer-in-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-summer-in-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-summer-in-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-summer-in-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-summer-in-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-summer-in-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-summer-in-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-summer-in-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-summer-in-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-lermontovsky-sanatorium.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lytvynenko-lermontovsky-sanatorium.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-lermontovsky-sanatorium.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-lermontovsky-sanatorium.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lytvynenko-lermontovsky-sanatorium/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/kryzhevskiy-crimea-in-october.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/kryzhevskiy-crimea-in-october.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/kryzhevskiy-crimea-in-october.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/kryzhevskiy-crimea-in-october.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-crimea-in-october/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-crimea-in-october/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/kryzhevskiy-crimea-in-october.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/kryzhevskiy-crimea-in-october.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/kryzhevskiy-crimea-in-october.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/kryzhevskiy-crimea-in-october.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-crimea-in-october/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-crimea-in-october/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/kryzhevskiy-gurzuf-red-boat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/kryzhevskiy-gurzuf-red-boat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/kryzhevskiy-gurzuf-red-boat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/kryzhevskiy-gurzuf-red-boat.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-gurzuf-red-boat/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-gurzuf-red-boat/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/kryzhevskiy-gurzuf-red-boat.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/kryzhevskiy-gurzuf-red-boat.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/kryzhevskiy-gurzuf-red-boat.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/kryzhevskiy-gurzuf-red-boat.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-gurzuf-red-boat/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/kryzhevskiy-gurzuf-red-boat/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/mezhberg-port-street-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-port-street-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-port-street-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-port-street-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-port-street-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-port-street-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/mezhberg-port-street-odesa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-port-street-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-port-street-odesa.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-port-street-odesa.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-port-street-odesa/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-port-street-odesa/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/mezhberg-untitled-seashore-with-figures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-untitled-seashore-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-untitled-seashore-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-untitled-seashore-with-figures.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-untitled-seashore-with-figures/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-untitled-seashore-with-figures/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/mezhberg-untitled-seashore-with-figures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-untitled-seashore-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-untitled-seashore-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-untitled-seashore-with-figures.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-untitled-seashore-with-figures/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-untitled-seashore-with-figures/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/mezhberg-steppe-landscape-with-figures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-steppe-landscape-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-steppe-landscape-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-steppe-landscape-with-figures.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-steppe-landscape-with-figures/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-steppe-landscape-with-figures/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/mezhberg-steppe-landscape-with-figures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-steppe-landscape-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-steppe-landscape-with-figures.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-steppe-landscape-with-figures.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-steppe-landscape-with-figures/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-steppe-landscape-with-figures/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/mezhberg-study-urban-landscape.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-study-urban-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-study-urban-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-study-urban-landscape.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-study-urban-landscape/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-study-urban-landscape/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/mezhberg-study-urban-landscape.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/mezhberg-study-urban-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/mezhberg-study-urban-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/mezhberg-study-urban-landscape.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-study-urban-landscape/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/mezhberg-study-urban-landscape/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/atsmanchuk-on-the-massif.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/atsmanchuk-on-the-massif.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/atsmanchuk-on-the-massif.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/atsmanchuk-on-the-massif.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-on-the-massif/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-on-the-massif/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/atsmanchuk-on-the-massif.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/atsmanchuk-on-the-massif.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/atsmanchuk-on-the-massif.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/atsmanchuk-on-the-massif.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-on-the-massif/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-on-the-massif/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/atsmanchuk-boats.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/atsmanchuk-boats.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/atsmanchuk-boats.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/atsmanchuk-boats.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boats/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boats/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/atsmanchuk-boats.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/atsmanchuk-boats.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/atsmanchuk-boats.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/atsmanchuk-boats.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boats/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boats/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/atsmanchuk-boat-on-the-shore-of-the-estuary.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/atsmanchuk-boat-on-the-shore-of-the-estuary/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pavliuk-at-the-dacha.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pavliuk-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pavliuk-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pavliuk-at-the-dacha.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-at-the-dacha/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-at-the-dacha/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pavliuk-at-the-dacha.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pavliuk-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pavliuk-at-the-dacha.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pavliuk-at-the-dacha.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-at-the-dacha/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-at-the-dacha/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pavliuk-young-poplars.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pavliuk-young-poplars.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pavliuk-young-poplars.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pavliuk-young-poplars.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-young-poplars/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-young-poplars/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pavliuk-young-poplars.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pavliuk-young-poplars.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pavliuk-young-poplars.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pavliuk-young-poplars.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-young-poplars/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pavliuk-young-poplars/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pliss-untitled.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-untitled.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-untitled/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-untitled/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pliss-untitled.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-untitled.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-untitled.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-untitled/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-untitled/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pliss-fontanka.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-fontanka.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-fontanka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-fontanka.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-fontanka/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-fontanka/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pliss-fontanka.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-fontanka.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-fontanka.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-fontanka.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-fontanka/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-fontanka/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pliss-the-return.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-the-return.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-the-return.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-the-return.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-the-return/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-the-return/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pliss-the-return.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-the-return.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-the-return.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-the-return.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-the-return/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-the-return/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pliss-on-sketches.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-on-sketches.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-on-sketches.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-on-sketches.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-on-sketches/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-on-sketches/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pliss-on-sketches.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-on-sketches.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-on-sketches.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-on-sketches.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-on-sketches/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-on-sketches/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/pliss-nude-weston.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-nude-weston.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-nude-weston.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-nude-weston.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-nude-weston/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-nude-weston/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/pliss-nude-weston.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-nude-weston.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-nude-weston.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-nude-weston.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-nude-weston/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/pliss-nude-weston/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/freidin-arcadia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/freidin-arcadia.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/freidin-arcadia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/freidin-arcadia.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/freidin-arcadia/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/freidin-arcadia/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/freidin-arcadia.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/freidin-arcadia.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/freidin-arcadia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/freidin-arcadia.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/freidin-arcadia/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/freidin-arcadia/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/popov-winter-city-landscape.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/popov-winter-city-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/popov-winter-city-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/popov-winter-city-landscape.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/popov-winter-city-landscape/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/popov-winter-city-landscape/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/popov-winter-city-landscape.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/popov-winter-city-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/popov-winter-city-landscape.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/popov-winter-city-landscape.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/popov-winter-city-landscape/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/popov-winter-city-landscape/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/zhurakivskiy-bather.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/zhurakivskiy-bather.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/zhurakivskiy-bather.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/zhurakivskiy-bather.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/zhurakivskiy-bather/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/zhurakivskiy-bather/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/zhurakivskiy-bather.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/zhurakivskiy-bather.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/zhurakivskiy-bather.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/zhurakivskiy-bather.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/zhurakivskiy-bather/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/zhurakivskiy-bather/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/painting/lyubimov-peasant-women-gossiping.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lyubimov-peasant-women-gossiping.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lyubimov-peasant-women-gossiping.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lyubimov-peasant-women-gossiping.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lyubimov-peasant-women-gossiping/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lyubimov-peasant-women-gossiping/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/painting/lyubimov-peasant-women-gossiping.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lyubimov-peasant-women-gossiping.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lyubimov-peasant-women-gossiping.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lyubimov-peasant-women-gossiping.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lyubimov-peasant-women-gossiping/front.jpg</image:loc></image:image>
+    <image:image><image:loc>https://theodesaschool.com/images/paintings/lyubimov-peasant-women-gossiping/framed.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/shelyuto.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/shelyuto.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/shelyuto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/shelyuto.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/shelyuto.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/shelyuto.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/shelyuto.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/shelyuto.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/shelyuto.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/shelyuto.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/lomykin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lomykin.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lomykin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lomykin.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/lomykin.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/lomykin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lomykin.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lomykin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lomykin.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/lomykin.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/gavdzinskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/gavdzinskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/gavdzinskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/gavdzinskiy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/gavdzinskiy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/gavdzinskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/gavdzinskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/gavdzinskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/gavdzinskiy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/gavdzinskiy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/malyshev.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/malyshev.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/malyshev.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/malyshev.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/malyshev.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/malyshev.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/malyshev.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/malyshev.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/malyshev.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/malyshev.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/lytvynenko.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lytvynenko.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lytvynenko.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lytvynenko.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/lytvynenko.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/lytvynenko.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lytvynenko.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lytvynenko.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lytvynenko.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/lytvynenko.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/kryzhevskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/kryzhevskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/kryzhevskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/kryzhevskiy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/kryzhevskiy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/kryzhevskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/kryzhevskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/kryzhevskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/kryzhevskiy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/kryzhevskiy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/mezhberg.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/mezhberg.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/mezhberg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/mezhberg.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/mezhberg.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/mezhberg.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/mezhberg.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/mezhberg.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/mezhberg.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/mezhberg.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/atsmanchuk.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/atsmanchuk.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/atsmanchuk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/atsmanchuk.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/atsmanchuk.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/atsmanchuk.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/atsmanchuk.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/atsmanchuk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/atsmanchuk.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/atsmanchuk.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/pavliuk.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/pavliuk.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/pavliuk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/pavliuk.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/pavliuk.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/pavliuk.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/pavliuk.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/pavliuk.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/pavliuk.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/pavliuk.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/pliss.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/pliss.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/pliss.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/pliss.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/pliss.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/pliss.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/pliss.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/pliss.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/pliss.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/pliss.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/freidin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/freidin.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/freidin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/freidin.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/freidin.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/freidin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/freidin.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/freidin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/freidin.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/freidin.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/popov.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/popov.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/popov.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/popov.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/popov.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/popov.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/popov.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/popov.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/popov.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/popov.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/zhurakivskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/zhurakivskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/zhurakivskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/zhurakivskiy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/zhurakivskiy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/zhurakivskiy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/zhurakivskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/zhurakivskiy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/zhurakivskiy.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/zhurakivskiy.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/artist/lyubimov.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lyubimov.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lyubimov.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lyubimov.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/lyubimov.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://theodesaschool.com/ua/artist/lyubimov.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lyubimov.html"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lyubimov.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lyubimov.html"/>
+    <image:image><image:loc>https://theodesaschool.com/images/artists/lyubimov.jpg</image:loc></image:image>
+  </url>
 </urlset>

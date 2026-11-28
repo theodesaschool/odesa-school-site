@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="After a Study, 2002. Oil on wood, 24 × 53.5 cm (9.4 × 21.1 in), by Yuriy Pliss. Original Odesa School painting, price on request.">
 <link rel="canonical" href="https://theodesaschool.com/painting/pliss-on-sketches.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/pliss-on-sketches.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/pliss-on-sketches.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/pliss-on-sketches.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/painting/pliss-on-sketches.html">
 <meta property="og:image" content="https://theodesaschool.com/images/paintings/pliss-on-sketches/front.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VisualArtwork", "name": "After a Study", "artform": "Painting", "artMedium": "Oil on wood", "creator": {"@type": "Person", "name": "Yuriy Pliss"}, "description": "After a Study, 2002. Oil on wood, 24 × 53.5 cm (9.4 × 21.1 in), by Yuriy Pliss. Original Odesa School painting, price on request.", "url": "https://theodesaschool.com/painting/pliss-on-sketches.html", "dateCreated": "2002", "image": ["https://theodesaschool.com/images/paintings/pliss-on-sketches/front.jpg", "https://theodesaschool.com/images/paintings/pliss-on-sketches/framed.jpg"]}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/pliss-on-sketches.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/pliss-on-sketches.html#artwork", "name": "After a Study", "artform": "Painting", "artMedium": "Oil on wood", "creator": {"@type": "Person", "name": "Yuriy Pliss", "url": "https://theodesaschool.com/artist/pliss.html"}, "description": "After a Study, 2002. Oil on wood, 24 × 53.5 cm (9.4 × 21.1 in), by Yuriy Pliss. Original Odesa School painting, price on request.", "url": "https://theodesaschool.com/painting/pliss-on-sketches.html", "inLanguage": "en", "dateCreated": "2002", "height": {"@type": "QuantitativeValue", "value": 24.0, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 53.5, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/pliss-on-sketches/front.jpg", "https://theodesaschool.com/images/paintings/pliss-on-sketches/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Yuriy Pliss", "item": "https://theodesaschool.com/artist/pliss.html"}, {"@type": "ListItem", "position": 4, "name": "After a Study", "item": "https://theodesaschool.com/painting/pliss-on-sketches.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="catalog">
 
@@ -52,7 +56,7 @@
 <main id="seo-static" class="bordered">
   <h2>After a Study, 2002</h2>
   <p><a href="artist/pliss.html">Yuriy Pliss</a> 1954–2026</p>
-  <img src="images/paintings/pliss-on-sketches/front.jpg" alt="After a Study" style="max-width:100%;height:auto;">
+  <img src="images/paintings/pliss-on-sketches/front.jpg" alt="After a Study, Yuriy Pliss, 2002, Oil on wood" style="max-width:100%;height:auto;">
   <ul>
     <li><b>Medium:</b> Oil on wood</li>
     <li><b>Size:</b> 24 × 53.5 cm (9.4 × 21.1 in)</li>
@@ -60,6 +64,7 @@
     <li><b>Signature:</b> Signed on the reverse, 2002</li>
     <li><b>Inscription:</b> Reverse: pencil «Юрий Плисс 2002 г., «По этюду»»; signature in red «Юрий Плисс 2002 г.»</li>
     <li><b>Condition:</b> Excellent condition</li>
+    <li><b>Status:</b> Available</li>
     <li><b>Price:</b> Price on request</li>
   </ul>
   <p><a href="catalog.html">← Back to Catalog</a> · <a href="mailto:nataliiavas.uk@gmail.com?subject=Enquiry%3A%20After%20a%20Study">Enquire by email</a></p>
@@ -179,7 +184,7 @@
     const t = Object.assign({}, I18N_COMMON[lang]);
     const photo = photoList[index];
     const img = document.getElementById("pg-main-img");
-    const alt = `${currentPainting.title[lang]} — ${t[photo.captionKey]}`;
+    const alt = `${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}`;
 
     // Рамка берёт пропорции первого фото (обычно front) — картина видна целиком,
     // а при переключении на другие фото блок не меняет высоту.
@@ -222,7 +227,7 @@
     wrap.style.display = "flex";
     wrap.innerHTML = photoList.map((photo, i) => `
       <button class="pg-thumb ${i === currentIndex ? "active" : ""}" data-index="${i}" type="button">
-        <span class="pg-thumb-img"><img src="${photo.src}" alt="${currentPainting.title[lang]} — ${t[photo.captionKey]}" loading="lazy"></span>
+        <span class="pg-thumb-img"><img src="${photo.src}" alt="${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}" loading="lazy"></span>
         <span class="pg-thumb-label">${t[photo.captionKey]}</span>
       </button>
     `).join("");

@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Kostiantyn Lomykin (1924–1993) was an Odesa painter of portraits, landscapes, still lifes and thematic pictures, and a People&#x27;s Artist of the Ukrainian…">
 <link rel="canonical" href="https://theodesaschool.com/artist/lomykin.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/lomykin.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/lomykin.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/lomykin.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/artist/lomykin.html">
 <meta property="og:image" content="https://theodesaschool.com/images/artists/lomykin.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Kostiantyn Lomykin", "description": "Kostiantyn Lomykin (1924–1993) was an Odesa painter of portraits, landscapes, still lifes and thematic pictures, and a People's Artist of the Ukrainian…", "url": "https://theodesaschool.com/artist/lomykin.html", "birthDate": "1924", "deathDate": "1993", "image": "https://theodesaschool.com/images/artists/lomykin.jpg"}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/artist/lomykin.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://theodesaschool.com/artist/lomykin.html#person", "name": "Kostiantyn Lomykin", "jobTitle": "Painter", "description": "Kostiantyn Lomykin (1924–1993) was an Odesa painter of portraits, landscapes, still lifes and thematic pictures, and a People's Artist of the Ukrainian…", "url": "https://theodesaschool.com/artist/lomykin.html", "alternateName": "Костянтин Ломикін", "birthDate": "1924", "deathDate": "1993", "image": "https://theodesaschool.com/images/artists/lomykin.jpg"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Artists", "item": "https://theodesaschool.com/artists.html"}, {"@type": "ListItem", "position": 3, "name": "Kostiantyn Lomykin", "item": "https://theodesaschool.com/artist/lomykin.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="artists">
 
@@ -51,6 +55,7 @@
 
 <main id="seo-static" class="bordered">
   <h2>Kostiantyn Lomykin</h2>
+  <img src="images/artists/lomykin.jpg" alt="Kostiantyn Lomykin, 1924–1993" style="max-width:240px;height:auto;">
   <p>1924–1993 People&#x27;s Artist of the Ukrainian SSR</p>
   <p>Kostiantyn Lomykin (1924–1993) was an Odesa painter of portraits, landscapes, still lifes and thematic pictures, and a People&#x27;s Artist of the Ukrainian SSR. He was born on 19 August 1924 in Hlukhiv (now Sumy region) and served in the Second World War. He died in Odesa on 9 July 1993.</p>
   <p>From 1946 to 1951 he studied at the Odesa Art School under Leonid Muchnyk, Mykola Pavliuk and Mykola Shelyuto; Shelyuto is also represented in this collection. He exhibited from 1951 and joined the Union of Artists in 1953. From 1972 to 1976 he chaired its Odesa branch. He was named Honoured Art Worker of the Ukrainian SSR in 1971 and People&#x27;s Artist of the Ukrainian SSR in 1984.</p>
@@ -138,7 +143,7 @@
     const yearsLine = a.years ? `<p class="artist-years">${a.years}</p>` : "";
 
     document.getElementById("artist-hero").innerHTML = `
-      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}">` : brushSvg(a.hue, 2)}</div>
+      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}, ${a.years || ''}">` : brushSvg(a.hue, 2)}</div>
       <div class="artist-info">
         <h2>${a.name[lang]}</h2>
         ${yearsLine}

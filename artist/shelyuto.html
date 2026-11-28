@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Mykola Shelyuto (1906–1984) was a Ukrainian landscape painter and Honoured Figure of Arts of Ukraine. He was born on 22 February 1906 in the village of…">
 <link rel="canonical" href="https://theodesaschool.com/artist/shelyuto.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/shelyuto.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/shelyuto.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/shelyuto.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/artist/shelyuto.html">
 <meta property="og:image" content="https://theodesaschool.com/images/artists/shelyuto.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Mykola Shelyuto", "description": "Mykola Shelyuto (1906–1984) was a Ukrainian landscape painter and Honoured Figure of Arts of Ukraine. He was born on 22 February 1906 in the village of…", "url": "https://theodesaschool.com/artist/shelyuto.html", "birthDate": "1906", "deathDate": "1984", "image": "https://theodesaschool.com/images/artists/shelyuto.jpg"}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/artist/shelyuto.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://theodesaschool.com/artist/shelyuto.html#person", "name": "Mykola Shelyuto", "jobTitle": "Painter", "description": "Mykola Shelyuto (1906–1984) was a Ukrainian landscape painter and Honoured Figure of Arts of Ukraine. He was born on 22 February 1906 in the village of…", "url": "https://theodesaschool.com/artist/shelyuto.html", "alternateName": "Микола Шелюто", "birthDate": "1906", "deathDate": "1984", "image": "https://theodesaschool.com/images/artists/shelyuto.jpg"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Artists", "item": "https://theodesaschool.com/artists.html"}, {"@type": "ListItem", "position": 3, "name": "Mykola Shelyuto", "item": "https://theodesaschool.com/artist/shelyuto.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="artists">
 
@@ -51,6 +55,7 @@
 
 <main id="seo-static" class="bordered">
   <h2>Mykola Shelyuto</h2>
+  <img src="images/artists/shelyuto.jpg" alt="Mykola Shelyuto, 1906–1984" style="max-width:240px;height:auto;">
   <p>1906–1984 Honoured Figure of Arts of Ukraine</p>
   <p>Mykola Shelyuto (1906–1984) was a Ukrainian landscape painter and Honoured Figure of Arts of Ukraine. He was born on 22 February 1906 in the village of Glukhovka (now Gomel region, Belarus) and died in Odesa on 6 February 1984.</p>
   <p>From 1925 to 1931 he studied at the Odesa Art Institute under Pavlo Volokidin, Teofil Fraerman and Mykhailo Zhuk. He exhibited from 1936 and joined the Union of Artists in 1938. During the Second World War he took part in the defence of Odesa and returned to the city in 1944.</p>
@@ -178,7 +183,7 @@
     const yearsLine = a.years ? `<p class="artist-years">${a.years}</p>` : "";
 
     document.getElementById("artist-hero").innerHTML = `
-      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}">` : brushSvg(a.hue, 2)}</div>
+      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}, ${a.years || ''}">` : brushSvg(a.hue, 2)}</div>
       <div class="artist-info">
         <h2>${a.name[lang]}</h2>
         ${yearsLine}

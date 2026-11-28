@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Odesa. The port: crane masts and a liner in the dock.">
 <link rel="canonical" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/painting/lytvynenko-the-port-of-odesa.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html">
 <meta property="og:image" content="https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/front.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VisualArtwork", "name": "The Port of Odesa", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Volodymyr Lytvynenko"}, "description": "Odesa. The port: crane masts and a liner in the dock.", "url": "https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html", "dateCreated": "1953", "image": ["https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/front.jpg", "https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/framed.jpg"]}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/painting/lytvynenko-the-port-of-odesa.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "VisualArtwork", "@id": "https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html#artwork", "name": "The Port of Odesa", "artform": "Painting", "artMedium": "Oil on canvas", "creator": {"@type": "Person", "name": "Volodymyr Lytvynenko", "url": "https://theodesaschool.com/artist/lytvynenko.html"}, "description": "Odesa. The port: crane masts and a liner in the dock.", "url": "https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html", "inLanguage": "en", "dateCreated": "1953", "height": {"@type": "QuantitativeValue", "value": 57.0, "unitCode": "CMT"}, "width": {"@type": "QuantitativeValue", "value": 63.0, "unitCode": "CMT"}, "image": ["https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/front.jpg", "https://theodesaschool.com/images/paintings/lytvynenko-the-port-of-odesa/framed.jpg"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Catalog", "item": "https://theodesaschool.com/catalog.html"}, {"@type": "ListItem", "position": 3, "name": "Volodymyr Lytvynenko", "item": "https://theodesaschool.com/artist/lytvynenko.html"}, {"@type": "ListItem", "position": 4, "name": "The Port of Odesa", "item": "https://theodesaschool.com/painting/lytvynenko-the-port-of-odesa.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="catalog">
 
@@ -52,7 +56,7 @@
 <main id="seo-static" class="bordered">
   <h2>The Port of Odesa, 1953</h2>
   <p><a href="artist/lytvynenko.html">Volodymyr Lytvynenko</a> 1930–2011</p>
-  <img src="images/paintings/lytvynenko-the-port-of-odesa/front.jpg" alt="The Port of Odesa" style="max-width:100%;height:auto;">
+  <img src="images/paintings/lytvynenko-the-port-of-odesa/front.jpg" alt="The Port of Odesa, Volodymyr Lytvynenko, 1953, Oil on canvas" style="max-width:100%;height:auto;">
   <ul>
     <li><b>Medium:</b> Oil on canvas</li>
     <li><b>Size:</b> 57 × 63 cm (22.4 × 24.8 in)</li>
@@ -60,6 +64,7 @@
     <li><b>Signature:</b> Signed by the artist on the front and on the stretcher bar</li>
     <li><b>Inscription:</b> On the stretcher bar: «Литвиненко Владимир Николаевич 1930 Одесский порт 57×63 х.м»</li>
     <li><b>Condition:</b> Excellent condition</li>
+    <li><b>Status:</b> Available</li>
     <li><b>Price:</b> Price on request</li>
   </ul>
   <p>Odesa. The port: crane masts and a liner in the dock.</p>
@@ -180,7 +185,7 @@
     const t = Object.assign({}, I18N_COMMON[lang]);
     const photo = photoList[index];
     const img = document.getElementById("pg-main-img");
-    const alt = `${currentPainting.title[lang]} — ${t[photo.captionKey]}`;
+    const alt = `${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}`;
 
     // Рамка берёт пропорции первого фото (обычно front) — картина видна целиком,
     // а при переключении на другие фото блок не меняет высоту.
@@ -223,7 +228,7 @@
     wrap.style.display = "flex";
     wrap.innerHTML = photoList.map((photo, i) => `
       <button class="pg-thumb ${i === currentIndex ? "active" : ""}" data-index="${i}" type="button">
-        <span class="pg-thumb-img"><img src="${photo.src}" alt="${currentPainting.title[lang]} — ${t[photo.captionKey]}" loading="lazy"></span>
+        <span class="pg-thumb-img"><img src="${photo.src}" alt="${paintingAlt(currentPainting, lang)} — ${t[photo.captionKey]}" loading="lazy"></span>
         <span class="pg-thumb-label">${t[photo.captionKey]}</span>
       </button>
     `).join("");

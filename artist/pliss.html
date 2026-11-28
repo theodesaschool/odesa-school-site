@@ -9,6 +9,9 @@
 <!-- seo:start -->
 <meta name="description" content="Yuriy Pliss (1954–2026) was an Odesa avant-garde painter, graphic artist, photographer and puppet-theatre designer. He was born in Odesa in 1954, lived…">
 <link rel="canonical" href="https://theodesaschool.com/artist/pliss.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/artist/pliss.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/artist/pliss.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/artist/pliss.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -18,11 +21,12 @@
 <meta property="og:url" content="https://theodesaschool.com/artist/pliss.html">
 <meta property="og:image" content="https://theodesaschool.com/images/artists/pliss.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Yuriy Pliss", "description": "Yuriy Pliss (1954–2026) was an Odesa avant-garde painter, graphic artist, photographer and puppet-theatre designer. He was born in Odesa in 1954, lived…", "url": "https://theodesaschool.com/artist/pliss.html", "birthDate": "1954", "deathDate": "2026", "image": "https://theodesaschool.com/images/artists/pliss.jpg"}</script>
-<!-- seo:end -->
 <style>html.js #seo-static{display:none}</style>
 <script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/artist/pliss.html"+location.hash)}catch(e){}</script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://theodesaschool.com/artist/pliss.html#person", "name": "Yuriy Pliss", "jobTitle": "Painter", "description": "Yuriy Pliss (1954–2026) was an Odesa avant-garde painter, graphic artist, photographer and puppet-theatre designer. He was born in Odesa in 1954, lived…", "url": "https://theodesaschool.com/artist/pliss.html", "alternateName": "Юрій Плісс", "birthDate": "1954", "deathDate": "2026", "image": "https://theodesaschool.com/images/artists/pliss.jpg"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://theodesaschool.com/"}, {"@type": "ListItem", "position": 2, "name": "Artists", "item": "https://theodesaschool.com/artists.html"}, {"@type": "ListItem", "position": 3, "name": "Yuriy Pliss", "item": "https://theodesaschool.com/artist/pliss.html"}]}]}</script>
+<!-- seo:end -->
 </head>
 <body data-page="artists">
 
@@ -51,6 +55,7 @@
 
 <main id="seo-static" class="bordered">
   <h2>Yuriy Pliss</h2>
+  <img src="images/artists/pliss.jpg" alt="Yuriy Pliss, 1954–2026" style="max-width:240px;height:auto;">
   <p>1954–2026 Odesa avant-garde painter</p>
   <p>Yuriy Pliss (1954–2026) was an Odesa avant-garde painter, graphic artist, photographer and puppet-theatre designer. He was born in Odesa in 1954, lived there all his life and died there in October 2026.</p>
   <p>In 1981 he graduated from the Odesa Theatre and Art School as a puppet-theatre designer. His work was shaped by the Odesa modernists of the 1960s and 1970s, Valentyn Khrushch and Stanislav Sychov. From 1989 to 1994 he worked with the Moscow group Belyaevo. In 1989 he had his first solo exhibition, &quot;The Garden&quot;, in Moscow, and with the group he showed in Moscow and in Gothenburg, Sweden.</p>
@@ -140,7 +145,7 @@
     const yearsLine = a.years ? `<p class="artist-years">${a.years}</p>` : "";
 
     document.getElementById("artist-hero").innerHTML = `
-      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}">` : brushSvg(a.hue, 2)}</div>
+      <div class="artist-portrait">${a.photo ? `<img src="${a.photo}" alt="${a.name[lang]}, ${a.years || ''}">` : brushSvg(a.hue, 2)}</div>
       <div class="artist-info">
         <h2>${a.name[lang]}</h2>
         ${yearsLine}

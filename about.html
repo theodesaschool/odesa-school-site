@@ -8,6 +8,9 @@
 <!-- seo:start -->
 <meta name="description" content="The Odesa School: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.">
 <link rel="canonical" href="https://theodesaschool.com/about.html">
+<link rel="alternate" hreflang="en" href="https://theodesaschool.com/about.html">
+<link rel="alternate" hreflang="uk" href="https://theodesaschool.com/ua/about.html">
+<link rel="alternate" hreflang="x-default" href="https://theodesaschool.com/about.html">
 <meta property="og:site_name" content="The Odesa School">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
@@ -17,7 +20,11 @@
 <meta property="og:url" content="https://theodesaschool.com/about.html">
 <meta property="og:image" content="https://theodesaschool.com/images/hero-odesa-opera.jpg">
 <meta name="twitter:card" content="summary_large_image">
+<style>html.js #seo-static{display:none}</style>
+<script>document.documentElement.className+=" js"</script>
+<script>window.PAGE_LANG="en";try{var l=localStorage.getItem("lang");if(l&&l!=="en")location.replace("/ua/about.html"+location.hash)}catch(e){}</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "AboutPage", "name": "About — The Odesa School", "description": "The Odesa School: a privately held collection of Odesa painting from the 1930s–1980s, selected, researched and documented by its owner.", "url": "https://theodesaschool.com/about.html", "inLanguage": "en", "isPartOf": {"@id": "https://theodesaschool.com/#website"}}]}</script>
 <!-- seo:end -->
 </head>
 <body data-page="about">
@@ -202,7 +209,7 @@
       const artist = getArtist(p.artistId);
       const frontPhoto = p.photos && p.photos.front;
       const media = frontPhoto
-        ? `<img src="${frontPhoto}" alt="${p.title[lang]}" loading="lazy">`
+        ? `<img src="${frontPhoto}" alt="${paintingAlt(p, lang)}" loading="lazy">`
         : brushSvg(p.hue, i);
       return `
         <a class="place-panel-item" href="painting/${p.id}.html">
